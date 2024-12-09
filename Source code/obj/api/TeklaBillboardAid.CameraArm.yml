@@ -1,0 +1,1242 @@
+### YamlMime:ManagedReference
+items:
+- uid: TeklaBillboardAid.CameraArm
+  commentId: T:TeklaBillboardAid.CameraArm
+  id: CameraArm
+  parent: TeklaBillboardAid
+  children:
+  - TeklaBillboardAid.CameraArm.#ctor(System.String,System.String,TeklaBillboardAid.ModelParameters)
+  - TeklaBillboardAid.CameraArm.Alpha
+  - TeklaBillboardAid.CameraArm.BasePlateLower
+  - TeklaBillboardAid.CameraArm.BasePlateUpper
+  - TeklaBillboardAid.CameraArm.BeamDepth
+  - TeklaBillboardAid.CameraArm.BeamThicccness
+  - TeklaBillboardAid.CameraArm.BeamWidth
+  - TeklaBillboardAid.CameraArm.Beta
+  - TeklaBillboardAid.CameraArm.ExtraSupPlateLeft
+  - TeklaBillboardAid.CameraArm.ExtraSupPlateRight
+  - TeklaBillboardAid.CameraArm.Height
+  - TeklaBillboardAid.CameraArm.M
+  - TeklaBillboardAid.CameraArm.Material
+  - TeklaBillboardAid.CameraArm.modelParameters
+  - TeklaBillboardAid.CameraArm.Mult
+  - TeklaBillboardAid.CameraArm.N
+  - TeklaBillboardAid.CameraArm.PlateThickness
+  - TeklaBillboardAid.CameraArm.Profile
+  - TeklaBillboardAid.CameraArm.SupPlateLeft
+  - TeklaBillboardAid.CameraArm.SupPlateRight
+  langs:
+  - csharp
+  - vb
+  name: CameraArm
+  nameWithType: CameraArm
+  fullName: TeklaBillboardAid.CameraArm
+  type: Class
+  source:
+    remote:
+      path: CameraArm.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: CameraArm
+    path: CameraArm.cs
+    startLine: 13
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  summary: "\nThe class for the camera arm, containing its attributes and functions to generate a camera arm for the structure\n"
+  example: []
+  syntax:
+    content: public class CameraArm
+    content.vb: Public Class CameraArm
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: TeklaBillboardAid.CameraArm.Profile
+  commentId: P:TeklaBillboardAid.CameraArm.Profile
+  id: Profile
+  parent: TeklaBillboardAid.CameraArm
+  langs:
+  - csharp
+  - vb
+  name: Profile
+  nameWithType: CameraArm.Profile
+  fullName: TeklaBillboardAid.CameraArm.Profile
+  type: Property
+  source:
+    remote:
+      path: CameraArm.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: Profile
+    path: CameraArm.cs
+    startLine: 18
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  example: []
+  syntax:
+    content: public string Profile { get; set; }
+    parameters: []
+    return:
+      type: System.String
+      description: "\nString indicating the profile of the arms\n"
+    content.vb: Public Property Profile As String
+  overload: TeklaBillboardAid.CameraArm.Profile*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TeklaBillboardAid.CameraArm.Material
+  commentId: P:TeklaBillboardAid.CameraArm.Material
+  id: Material
+  parent: TeklaBillboardAid.CameraArm
+  langs:
+  - csharp
+  - vb
+  name: Material
+  nameWithType: CameraArm.Material
+  fullName: TeklaBillboardAid.CameraArm.Material
+  type: Property
+  source:
+    remote:
+      path: CameraArm.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: Material
+    path: CameraArm.cs
+    startLine: 23
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  example: []
+  syntax:
+    content: public string Material { get; set; }
+    parameters: []
+    return:
+      type: System.String
+      description: "\nString indicating the profile of the plates on the arm\n"
+    content.vb: Public Property Material As String
+  overload: TeklaBillboardAid.CameraArm.Material*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TeklaBillboardAid.CameraArm.Alpha
+  commentId: P:TeklaBillboardAid.CameraArm.Alpha
+  id: Alpha
+  parent: TeklaBillboardAid.CameraArm
+  langs:
+  - csharp
+  - vb
+  name: Alpha
+  nameWithType: CameraArm.Alpha
+  fullName: TeklaBillboardAid.CameraArm.Alpha
+  type: Property
+  source:
+    remote:
+      path: CameraArm.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: Alpha
+    path: CameraArm.cs
+    startLine: 28
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  example: []
+  syntax:
+    content: public double Alpha { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+      description: "\nDouble representing an angle for geometric analysis \n"
+    content.vb: Public Property Alpha As Double
+  overload: TeklaBillboardAid.CameraArm.Alpha*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TeklaBillboardAid.CameraArm.Beta
+  commentId: P:TeklaBillboardAid.CameraArm.Beta
+  id: Beta
+  parent: TeklaBillboardAid.CameraArm
+  langs:
+  - csharp
+  - vb
+  name: Beta
+  nameWithType: CameraArm.Beta
+  fullName: TeklaBillboardAid.CameraArm.Beta
+  type: Property
+  source:
+    remote:
+      path: CameraArm.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: Beta
+    path: CameraArm.cs
+    startLine: 33
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  example: []
+  syntax:
+    content: public double Beta { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+      description: "\nDouble representing an angle for geometric analysis\n"
+    content.vb: Public Property Beta As Double
+  overload: TeklaBillboardAid.CameraArm.Beta*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TeklaBillboardAid.CameraArm.M
+  commentId: P:TeklaBillboardAid.CameraArm.M
+  id: M
+  parent: TeklaBillboardAid.CameraArm
+  langs:
+  - csharp
+  - vb
+  name: M
+  nameWithType: CameraArm.M
+  fullName: TeklaBillboardAid.CameraArm.M
+  type: Property
+  source:
+    remote:
+      path: CameraArm.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: M
+    path: CameraArm.cs
+    startLine: 38
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  example: []
+  syntax:
+    content: public double M { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+      description: "\nUsed for additional supports \n"
+    content.vb: Public Property M As Double
+  overload: TeklaBillboardAid.CameraArm.M*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TeklaBillboardAid.CameraArm.N
+  commentId: P:TeklaBillboardAid.CameraArm.N
+  id: N
+  parent: TeklaBillboardAid.CameraArm
+  langs:
+  - csharp
+  - vb
+  name: N
+  nameWithType: CameraArm.N
+  fullName: TeklaBillboardAid.CameraArm.N
+  type: Property
+  source:
+    remote:
+      path: CameraArm.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: N
+    path: CameraArm.cs
+    startLine: 43
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  example: []
+  syntax:
+    content: public double N { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+      description: "\nUsed for additional supports\n"
+    content.vb: Public Property N As Double
+  overload: TeklaBillboardAid.CameraArm.N*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TeklaBillboardAid.CameraArm.Mult
+  commentId: P:TeklaBillboardAid.CameraArm.Mult
+  id: Mult
+  parent: TeklaBillboardAid.CameraArm
+  langs:
+  - csharp
+  - vb
+  name: Mult
+  nameWithType: CameraArm.Mult
+  fullName: TeklaBillboardAid.CameraArm.Mult
+  type: Property
+  source:
+    remote:
+      path: CameraArm.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: Mult
+    path: CameraArm.cs
+    startLine: 48
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  example: []
+  syntax:
+    content: public int Mult { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+      description: "\nSwitches the Z coordinates if the camera is on the bottom of the billboard\n"
+    content.vb: Public Property Mult As Integer
+  overload: TeklaBillboardAid.CameraArm.Mult*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TeklaBillboardAid.CameraArm.modelParameters
+  commentId: P:TeklaBillboardAid.CameraArm.modelParameters
+  id: modelParameters
+  parent: TeklaBillboardAid.CameraArm
+  langs:
+  - csharp
+  - vb
+  name: modelParameters
+  nameWithType: CameraArm.modelParameters
+  fullName: TeklaBillboardAid.CameraArm.modelParameters
+  type: Property
+  source:
+    remote:
+      path: CameraArm.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: modelParameters
+    path: CameraArm.cs
+    startLine: 53
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  example: []
+  syntax:
+    content: public ModelParameters modelParameters { get; set; }
+    parameters: []
+    return:
+      type: TeklaBillboardAid.ModelParameters
+      description: "\nAttribute to store the model&apos;s parameters\n"
+    content.vb: Public Property modelParameters As ModelParameters
+  overload: TeklaBillboardAid.CameraArm.modelParameters*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TeklaBillboardAid.CameraArm.BeamDepth
+  commentId: P:TeklaBillboardAid.CameraArm.BeamDepth
+  id: BeamDepth
+  parent: TeklaBillboardAid.CameraArm
+  langs:
+  - csharp
+  - vb
+  name: BeamDepth
+  nameWithType: CameraArm.BeamDepth
+  fullName: TeklaBillboardAid.CameraArm.BeamDepth
+  type: Property
+  source:
+    remote:
+      path: CameraArm.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: BeamDepth
+    path: CameraArm.cs
+    startLine: 58
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  example: []
+  syntax:
+    content: public double BeamDepth { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+      description: "\nIndicates the depth of the provided profile\n"
+    content.vb: Public Property BeamDepth As Double
+  overload: TeklaBillboardAid.CameraArm.BeamDepth*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TeklaBillboardAid.CameraArm.BeamWidth
+  commentId: P:TeklaBillboardAid.CameraArm.BeamWidth
+  id: BeamWidth
+  parent: TeklaBillboardAid.CameraArm
+  langs:
+  - csharp
+  - vb
+  name: BeamWidth
+  nameWithType: CameraArm.BeamWidth
+  fullName: TeklaBillboardAid.CameraArm.BeamWidth
+  type: Property
+  source:
+    remote:
+      path: CameraArm.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: BeamWidth
+    path: CameraArm.cs
+    startLine: 63
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  example: []
+  syntax:
+    content: public double BeamWidth { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+      description: "\nIndicates the width of the provided profile\n"
+    content.vb: Public Property BeamWidth As Double
+  overload: TeklaBillboardAid.CameraArm.BeamWidth*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TeklaBillboardAid.CameraArm.BeamThicccness
+  commentId: P:TeklaBillboardAid.CameraArm.BeamThicccness
+  id: BeamThicccness
+  parent: TeklaBillboardAid.CameraArm
+  langs:
+  - csharp
+  - vb
+  name: BeamThicccness
+  nameWithType: CameraArm.BeamThicccness
+  fullName: TeklaBillboardAid.CameraArm.BeamThicccness
+  type: Property
+  source:
+    remote:
+      path: CameraArm.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: BeamThicccness
+    path: CameraArm.cs
+    startLine: 68
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  example: []
+  syntax:
+    content: public double BeamThicccness { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+      description: "\nIndicates the thickness of the provided profile\n"
+    content.vb: Public Property BeamThicccness As Double
+  overload: TeklaBillboardAid.CameraArm.BeamThicccness*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TeklaBillboardAid.CameraArm.PlateThickness
+  commentId: P:TeklaBillboardAid.CameraArm.PlateThickness
+  id: PlateThickness
+  parent: TeklaBillboardAid.CameraArm
+  langs:
+  - csharp
+  - vb
+  name: PlateThickness
+  nameWithType: CameraArm.PlateThickness
+  fullName: TeklaBillboardAid.CameraArm.PlateThickness
+  type: Property
+  source:
+    remote:
+      path: CameraArm.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: PlateThickness
+    path: CameraArm.cs
+    startLine: 73
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  example: []
+  syntax:
+    content: public double PlateThickness { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+      description: "\nIndicates the thickness of the provided plate profile\n"
+    content.vb: Public Property PlateThickness As Double
+  overload: TeklaBillboardAid.CameraArm.PlateThickness*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TeklaBillboardAid.CameraArm.Height
+  commentId: P:TeklaBillboardAid.CameraArm.Height
+  id: Height
+  parent: TeklaBillboardAid.CameraArm
+  langs:
+  - csharp
+  - vb
+  name: Height
+  nameWithType: CameraArm.Height
+  fullName: TeklaBillboardAid.CameraArm.Height
+  type: Property
+  source:
+    remote:
+      path: CameraArm.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: Height
+    path: CameraArm.cs
+    startLine: 78
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  example: []
+  syntax:
+    content: public double Height { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+      description: "\nIndicates the Height of the model \n"
+    content.vb: Public Property Height As Double
+  overload: TeklaBillboardAid.CameraArm.Height*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TeklaBillboardAid.CameraArm.BasePlateLower
+  commentId: P:TeklaBillboardAid.CameraArm.BasePlateLower
+  id: BasePlateLower
+  parent: TeklaBillboardAid.CameraArm
+  langs:
+  - csharp
+  - vb
+  name: BasePlateLower
+  nameWithType: CameraArm.BasePlateLower
+  fullName: TeklaBillboardAid.CameraArm.BasePlateLower
+  type: Property
+  source:
+    remote:
+      path: CameraArm.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: BasePlateLower
+    path: CameraArm.cs
+    startLine: 83
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  example: []
+  syntax:
+    content: public Plate BasePlateLower { get; set; }
+    parameters: []
+    return:
+      type: TeklaBillboardAid.Plate
+      description: "\nIndicates the lower baseplate for the camera arm\n"
+    content.vb: Public Property BasePlateLower As Plate
+  overload: TeklaBillboardAid.CameraArm.BasePlateLower*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TeklaBillboardAid.CameraArm.BasePlateUpper
+  commentId: P:TeklaBillboardAid.CameraArm.BasePlateUpper
+  id: BasePlateUpper
+  parent: TeklaBillboardAid.CameraArm
+  langs:
+  - csharp
+  - vb
+  name: BasePlateUpper
+  nameWithType: CameraArm.BasePlateUpper
+  fullName: TeklaBillboardAid.CameraArm.BasePlateUpper
+  type: Property
+  source:
+    remote:
+      path: CameraArm.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: BasePlateUpper
+    path: CameraArm.cs
+    startLine: 88
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  example: []
+  syntax:
+    content: public Plate BasePlateUpper { get; set; }
+    parameters: []
+    return:
+      type: TeklaBillboardAid.Plate
+      description: "\nIndicates the upper baseplate for the camera arm\n"
+    content.vb: Public Property BasePlateUpper As Plate
+  overload: TeklaBillboardAid.CameraArm.BasePlateUpper*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TeklaBillboardAid.CameraArm.SupPlateLeft
+  commentId: P:TeklaBillboardAid.CameraArm.SupPlateLeft
+  id: SupPlateLeft
+  parent: TeklaBillboardAid.CameraArm
+  langs:
+  - csharp
+  - vb
+  name: SupPlateLeft
+  nameWithType: CameraArm.SupPlateLeft
+  fullName: TeklaBillboardAid.CameraArm.SupPlateLeft
+  type: Property
+  source:
+    remote:
+      path: CameraArm.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: SupPlateLeft
+    path: CameraArm.cs
+    startLine: 93
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  example: []
+  syntax:
+    content: public Plate SupPlateLeft { get; set; }
+    parameters: []
+    return:
+      type: TeklaBillboardAid.Plate
+      description: "\nIndicates the left complex support plate\n"
+    content.vb: Public Property SupPlateLeft As Plate
+  overload: TeklaBillboardAid.CameraArm.SupPlateLeft*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TeklaBillboardAid.CameraArm.SupPlateRight
+  commentId: P:TeklaBillboardAid.CameraArm.SupPlateRight
+  id: SupPlateRight
+  parent: TeklaBillboardAid.CameraArm
+  langs:
+  - csharp
+  - vb
+  name: SupPlateRight
+  nameWithType: CameraArm.SupPlateRight
+  fullName: TeklaBillboardAid.CameraArm.SupPlateRight
+  type: Property
+  source:
+    remote:
+      path: CameraArm.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: SupPlateRight
+    path: CameraArm.cs
+    startLine: 98
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  example: []
+  syntax:
+    content: public Plate SupPlateRight { get; set; }
+    parameters: []
+    return:
+      type: TeklaBillboardAid.Plate
+      description: "\nIndicates the right complesx support plate\n"
+    content.vb: Public Property SupPlateRight As Plate
+  overload: TeklaBillboardAid.CameraArm.SupPlateRight*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TeklaBillboardAid.CameraArm.ExtraSupPlateLeft
+  commentId: P:TeklaBillboardAid.CameraArm.ExtraSupPlateLeft
+  id: ExtraSupPlateLeft
+  parent: TeklaBillboardAid.CameraArm
+  langs:
+  - csharp
+  - vb
+  name: ExtraSupPlateLeft
+  nameWithType: CameraArm.ExtraSupPlateLeft
+  fullName: TeklaBillboardAid.CameraArm.ExtraSupPlateLeft
+  type: Property
+  source:
+    remote:
+      path: CameraArm.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: ExtraSupPlateLeft
+    path: CameraArm.cs
+    startLine: 103
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  example: []
+  syntax:
+    content: public Plate ExtraSupPlateLeft { get; set; }
+    parameters: []
+    return:
+      type: TeklaBillboardAid.Plate
+      description: "\nIndicates an additional left support plate\n"
+    content.vb: Public Property ExtraSupPlateLeft As Plate
+  overload: TeklaBillboardAid.CameraArm.ExtraSupPlateLeft*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TeklaBillboardAid.CameraArm.ExtraSupPlateRight
+  commentId: P:TeklaBillboardAid.CameraArm.ExtraSupPlateRight
+  id: ExtraSupPlateRight
+  parent: TeklaBillboardAid.CameraArm
+  langs:
+  - csharp
+  - vb
+  name: ExtraSupPlateRight
+  nameWithType: CameraArm.ExtraSupPlateRight
+  fullName: TeklaBillboardAid.CameraArm.ExtraSupPlateRight
+  type: Property
+  source:
+    remote:
+      path: CameraArm.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: ExtraSupPlateRight
+    path: CameraArm.cs
+    startLine: 108
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  example: []
+  syntax:
+    content: public Plate ExtraSupPlateRight { get; set; }
+    parameters: []
+    return:
+      type: TeklaBillboardAid.Plate
+      description: "\nIndicates an additional right support plate\n"
+    content.vb: Public Property ExtraSupPlateRight As Plate
+  overload: TeklaBillboardAid.CameraArm.ExtraSupPlateRight*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TeklaBillboardAid.CameraArm.#ctor(System.String,System.String,TeklaBillboardAid.ModelParameters)
+  commentId: M:TeklaBillboardAid.CameraArm.#ctor(System.String,System.String,TeklaBillboardAid.ModelParameters)
+  id: '#ctor(System.String,System.String,TeklaBillboardAid.ModelParameters)'
+  parent: TeklaBillboardAid.CameraArm
+  langs:
+  - csharp
+  - vb
+  name: CameraArm(String, String, ModelParameters)
+  nameWithType: CameraArm.CameraArm(String, String, ModelParameters)
+  fullName: TeklaBillboardAid.CameraArm.CameraArm(System.String, System.String, TeklaBillboardAid.ModelParameters)
+  type: Constructor
+  source:
+    remote:
+      path: CameraArm.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: .ctor
+    path: CameraArm.cs
+    startLine: 116
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  summary: "\nConstructor, which builds the camera arm with the relevant positioning and user inputs\n"
+  example: []
+  syntax:
+    content: public CameraArm(string beamProfile, string plateProfile, ModelParameters modelParameters)
+    parameters:
+    - id: beamProfile
+      type: System.String
+      description: The profile for the beams in the arm
+    - id: plateProfile
+      type: System.String
+      description: The profile of the plates in the arm
+    - id: modelParameters
+      type: TeklaBillboardAid.ModelParameters
+      description: The parameters of the model
+    content.vb: Public Sub New(beamProfile As String, plateProfile As String, modelParameters As ModelParameters)
+  overload: TeklaBillboardAid.CameraArm.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: TeklaBillboardAid
+  commentId: N:TeklaBillboardAid
+  name: TeklaBillboardAid
+  nameWithType: TeklaBillboardAid
+  fullName: TeklaBillboardAid
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TeklaBillboardAid.CameraArm.Profile*
+  commentId: Overload:TeklaBillboardAid.CameraArm.Profile
+  name: Profile
+  nameWithType: CameraArm.Profile
+  fullName: TeklaBillboardAid.CameraArm.Profile
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: TeklaBillboardAid.CameraArm.Material*
+  commentId: Overload:TeklaBillboardAid.CameraArm.Material
+  name: Material
+  nameWithType: CameraArm.Material
+  fullName: TeklaBillboardAid.CameraArm.Material
+- uid: TeklaBillboardAid.CameraArm.Alpha*
+  commentId: Overload:TeklaBillboardAid.CameraArm.Alpha
+  name: Alpha
+  nameWithType: CameraArm.Alpha
+  fullName: TeklaBillboardAid.CameraArm.Alpha
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: TeklaBillboardAid.CameraArm.Beta*
+  commentId: Overload:TeklaBillboardAid.CameraArm.Beta
+  name: Beta
+  nameWithType: CameraArm.Beta
+  fullName: TeklaBillboardAid.CameraArm.Beta
+- uid: TeklaBillboardAid.CameraArm.M*
+  commentId: Overload:TeklaBillboardAid.CameraArm.M
+  name: M
+  nameWithType: CameraArm.M
+  fullName: TeklaBillboardAid.CameraArm.M
+- uid: TeklaBillboardAid.CameraArm.N*
+  commentId: Overload:TeklaBillboardAid.CameraArm.N
+  name: N
+  nameWithType: CameraArm.N
+  fullName: TeklaBillboardAid.CameraArm.N
+- uid: TeklaBillboardAid.CameraArm.Mult*
+  commentId: Overload:TeklaBillboardAid.CameraArm.Mult
+  name: Mult
+  nameWithType: CameraArm.Mult
+  fullName: TeklaBillboardAid.CameraArm.Mult
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: TeklaBillboardAid.CameraArm.modelParameters*
+  commentId: Overload:TeklaBillboardAid.CameraArm.modelParameters
+  name: modelParameters
+  nameWithType: CameraArm.modelParameters
+  fullName: TeklaBillboardAid.CameraArm.modelParameters
+- uid: TeklaBillboardAid.ModelParameters
+  commentId: T:TeklaBillboardAid.ModelParameters
+  parent: TeklaBillboardAid
+  name: ModelParameters
+  nameWithType: ModelParameters
+  fullName: TeklaBillboardAid.ModelParameters
+- uid: TeklaBillboardAid.CameraArm.BeamDepth*
+  commentId: Overload:TeklaBillboardAid.CameraArm.BeamDepth
+  name: BeamDepth
+  nameWithType: CameraArm.BeamDepth
+  fullName: TeklaBillboardAid.CameraArm.BeamDepth
+- uid: TeklaBillboardAid.CameraArm.BeamWidth*
+  commentId: Overload:TeklaBillboardAid.CameraArm.BeamWidth
+  name: BeamWidth
+  nameWithType: CameraArm.BeamWidth
+  fullName: TeklaBillboardAid.CameraArm.BeamWidth
+- uid: TeklaBillboardAid.CameraArm.BeamThicccness*
+  commentId: Overload:TeklaBillboardAid.CameraArm.BeamThicccness
+  name: BeamThicccness
+  nameWithType: CameraArm.BeamThicccness
+  fullName: TeklaBillboardAid.CameraArm.BeamThicccness
+- uid: TeklaBillboardAid.CameraArm.PlateThickness*
+  commentId: Overload:TeklaBillboardAid.CameraArm.PlateThickness
+  name: PlateThickness
+  nameWithType: CameraArm.PlateThickness
+  fullName: TeklaBillboardAid.CameraArm.PlateThickness
+- uid: TeklaBillboardAid.CameraArm.Height*
+  commentId: Overload:TeklaBillboardAid.CameraArm.Height
+  name: Height
+  nameWithType: CameraArm.Height
+  fullName: TeklaBillboardAid.CameraArm.Height
+- uid: TeklaBillboardAid.CameraArm.BasePlateLower*
+  commentId: Overload:TeklaBillboardAid.CameraArm.BasePlateLower
+  name: BasePlateLower
+  nameWithType: CameraArm.BasePlateLower
+  fullName: TeklaBillboardAid.CameraArm.BasePlateLower
+- uid: TeklaBillboardAid.Plate
+  commentId: T:TeklaBillboardAid.Plate
+  parent: TeklaBillboardAid
+  name: Plate
+  nameWithType: Plate
+  fullName: TeklaBillboardAid.Plate
+- uid: TeklaBillboardAid.CameraArm.BasePlateUpper*
+  commentId: Overload:TeklaBillboardAid.CameraArm.BasePlateUpper
+  name: BasePlateUpper
+  nameWithType: CameraArm.BasePlateUpper
+  fullName: TeklaBillboardAid.CameraArm.BasePlateUpper
+- uid: TeklaBillboardAid.CameraArm.SupPlateLeft*
+  commentId: Overload:TeklaBillboardAid.CameraArm.SupPlateLeft
+  name: SupPlateLeft
+  nameWithType: CameraArm.SupPlateLeft
+  fullName: TeklaBillboardAid.CameraArm.SupPlateLeft
+- uid: TeklaBillboardAid.CameraArm.SupPlateRight*
+  commentId: Overload:TeklaBillboardAid.CameraArm.SupPlateRight
+  name: SupPlateRight
+  nameWithType: CameraArm.SupPlateRight
+  fullName: TeklaBillboardAid.CameraArm.SupPlateRight
+- uid: TeklaBillboardAid.CameraArm.ExtraSupPlateLeft*
+  commentId: Overload:TeklaBillboardAid.CameraArm.ExtraSupPlateLeft
+  name: ExtraSupPlateLeft
+  nameWithType: CameraArm.ExtraSupPlateLeft
+  fullName: TeklaBillboardAid.CameraArm.ExtraSupPlateLeft
+- uid: TeklaBillboardAid.CameraArm.ExtraSupPlateRight*
+  commentId: Overload:TeklaBillboardAid.CameraArm.ExtraSupPlateRight
+  name: ExtraSupPlateRight
+  nameWithType: CameraArm.ExtraSupPlateRight
+  fullName: TeklaBillboardAid.CameraArm.ExtraSupPlateRight
+- uid: TeklaBillboardAid.CameraArm.#ctor*
+  commentId: Overload:TeklaBillboardAid.CameraArm.#ctor
+  name: CameraArm
+  nameWithType: CameraArm.CameraArm
+  fullName: TeklaBillboardAid.CameraArm.CameraArm

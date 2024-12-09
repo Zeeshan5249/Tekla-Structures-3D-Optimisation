@@ -1,0 +1,134 @@
+C:\JFC\JFC_Winter2023_Group11\JFC_Winter2023_Group11\Deliveries to Client\HOLY GRAIL OF PHASE 3\HOLY GRAIL OF PHASE 3\SOURCE CODE PHASE 3\bin\Release\BeamApplication.exe.config
+C:\JFC\JFC_Winter2023_Group11\JFC_Winter2023_Group11\Deliveries to Client\HOLY GRAIL OF PHASE 3\HOLY GRAIL OF PHASE 3\SOURCE CODE PHASE 3\bin\Release\BeamApplication.exe
+C:\JFC\JFC_Winter2023_Group11\JFC_Winter2023_Group11\Deliveries to Client\HOLY GRAIL OF PHASE 3\HOLY GRAIL OF PHASE 3\SOURCE CODE PHASE 3\bin\Release\BeamApplication.pdb
+C:\JFC\JFC_Winter2023_Group11\JFC_Winter2023_Group11\Deliveries to Client\HOLY GRAIL OF PHASE 3\HOLY GRAIL OF PHASE 3\SOURCE CODE PHASE 3\bin\Release\Microsoft.Bcl.AsyncInterfaces.dll
+C:\JFC\JFC_Winter2023_Group11\JFC_Winter2023_Group11\Deliveries to Client\HOLY GRAIL OF PHASE 3\HOLY GRAIL OF PHASE 3\SOURCE CODE PHASE 3\bin\Release\System.Buffers.dll
+C:\JFC\JFC_Winter2023_Group11\JFC_Winter2023_Group11\Deliveries to Client\HOLY GRAIL OF PHASE 3\HOLY GRAIL OF PHASE 3\SOURCE CODE PHASE 3\bin\Release\System.Memory.dll
+C:\JFC\JFC_Winter2023_Group11\JFC_Winter2023_Group11\Deliveries to Client\HOLY GRAIL OF PHASE 3\HOLY GRAIL OF PHASE 3\SOURCE CODE PHASE 3\bin\Release\System.Numerics.Vectors.dll
+C:\JFC\JFC_Winter2023_Group11\JFC_Winter2023_Group11\Deliveries to Client\HOLY GRAIL OF PHASE 3\HOLY GRAIL OF PHASE 3\SOURCE CODE PHASE 3\bin\Release\System.Runtime.CompilerServices.Unsafe.dll
+C:\JFC\JFC_Winter2023_Group11\JFC_Winter2023_Group11\Deliveries to Client\HOLY GRAIL OF PHASE 3\HOLY GRAIL OF PHASE 3\SOURCE CODE PHASE 3\bin\Release\System.Text.Encodings.Web.dll
+C:\JFC\JFC_Winter2023_Group11\JFC_Winter2023_Group11\Deliveries to Client\HOLY GRAIL OF PHASE 3\HOLY GRAIL OF PHASE 3\SOURCE CODE PHASE 3\bin\Release\System.Text.Json.dll
+C:\JFC\JFC_Winter2023_Group11\JFC_Winter2023_Group11\Deliveries to Client\HOLY GRAIL OF PHASE 3\HOLY GRAIL OF PHASE 3\SOURCE CODE PHASE 3\bin\Release\System.Threading.Tasks.Extensions.dll
+C:\JFC\JFC_Winter2023_Group11\JFC_Winter2023_Group11\Deliveries to Client\HOLY GRAIL OF PHASE 3\HOLY GRAIL OF PHASE 3\SOURCE CODE PHASE 3\bin\Release\System.ValueTuple.dll
+C:\JFC\JFC_Winter2023_Group11\JFC_Winter2023_Group11\Deliveries to Client\HOLY GRAIL OF PHASE 3\HOLY GRAIL OF PHASE 3\SOURCE CODE PHASE 3\bin\Release\Tekla.Structures.Catalogs.dll
+C:\JFC\JFC_Winter2023_Group11\JFC_Winter2023_Group11\Deliveries to Client\HOLY GRAIL OF PHASE 3\HOLY GRAIL OF PHASE 3\SOURCE CODE PHASE 3\bin\Release\Tekla.Structures.Datatype.dll
+C:\JFC\JFC_Winter2023_Group11\JFC_Winter2023_Group11\Deliveries to Client\HOLY GRAIL OF PHASE 3\HOLY GRAIL OF PHASE 3\SOURCE CODE PHASE 3\bin\Release\Tekla.Structures.Dialog.dll
+C:\JFC\JFC_Winter2023_Group11\JFC_Winter2023_Group11\Deliveries to Client\HOLY GRAIL OF PHASE 3\HOLY GRAIL OF PHASE 3\SOURCE CODE PHASE 3\bin\Release\Tekla.Structures.dll
+C:\JFC\JFC_Winter2023_Group11\JFC_Winter2023_Group11\Deliveries to Client\HOLY GRAIL OF PHASE 3\HOLY GRAIL OF PHASE 3\SOURCE CODE PHASE 3\bin\Release\Tekla.Structures.Drawing.dll
+C:\JFC\JFC_Winter2023_Group11\JFC_Winter2023_Group11\Deliveries to Client\HOLY GRAIL OF PHASE 3\HOLY GRAIL OF PHASE 3\SOURCE CODE PHASE 3\bin\Release\Tekla.Structures.Model.dll
+C:\JFC\JFC_Winter2023_Group11\JFC_Winter2023_Group11\Deliveries to Client\HOLY GRAIL OF PHASE 3\HOLY GRAIL OF PHASE 3\SOURCE CODE PHASE 3\bin\Release\Tekla.Structures.Plugins.dll
+C:\JFC\JFC_Winter2023_Group11\JFC_Winter2023_Group11\Deliveries to Client\HOLY GRAIL OF PHASE 3\HOLY GRAIL OF PHASE 3\SOURCE CODE PHASE 3\bin\Release\Microsoft.Bcl.AsyncInterfaces.xml
+C:\JFC\JFC_Winter2023_Group11\JFC_Winter2023_Group11\Deliveries to Client\HOLY GRAIL OF PHASE 3\HOLY GRAIL OF PHASE 3\SOURCE CODE PHASE 3\bin\Release\System.Buffers.xml
+C:\JFC\JFC_Winter2023_Group11\JFC_Winter2023_Group11\Deliveries to Client\HOLY GRAIL OF PHASE 3\HOLY GRAIL OF PHASE 3\SOURCE CODE PHASE 3\bin\Release\System.Memory.xml
+C:\JFC\JFC_Winter2023_Group11\JFC_Winter2023_Group11\Deliveries to Client\HOLY GRAIL OF PHASE 3\HOLY GRAIL OF PHASE 3\SOURCE CODE PHASE 3\bin\Release\System.Numerics.Vectors.xml
+C:\JFC\JFC_Winter2023_Group11\JFC_Winter2023_Group11\Deliveries to Client\HOLY GRAIL OF PHASE 3\HOLY GRAIL OF PHASE 3\SOURCE CODE PHASE 3\bin\Release\System.Runtime.CompilerServices.Unsafe.xml
+C:\JFC\JFC_Winter2023_Group11\JFC_Winter2023_Group11\Deliveries to Client\HOLY GRAIL OF PHASE 3\HOLY GRAIL OF PHASE 3\SOURCE CODE PHASE 3\bin\Release\System.Text.Encodings.Web.xml
+C:\JFC\JFC_Winter2023_Group11\JFC_Winter2023_Group11\Deliveries to Client\HOLY GRAIL OF PHASE 3\HOLY GRAIL OF PHASE 3\SOURCE CODE PHASE 3\bin\Release\System.Text.Json.xml
+C:\JFC\JFC_Winter2023_Group11\JFC_Winter2023_Group11\Deliveries to Client\HOLY GRAIL OF PHASE 3\HOLY GRAIL OF PHASE 3\SOURCE CODE PHASE 3\bin\Release\System.Threading.Tasks.Extensions.xml
+C:\JFC\JFC_Winter2023_Group11\JFC_Winter2023_Group11\Deliveries to Client\HOLY GRAIL OF PHASE 3\HOLY GRAIL OF PHASE 3\SOURCE CODE PHASE 3\bin\Release\System.ValueTuple.xml
+C:\JFC\JFC_Winter2023_Group11\JFC_Winter2023_Group11\Deliveries to Client\HOLY GRAIL OF PHASE 3\HOLY GRAIL OF PHASE 3\SOURCE CODE PHASE 3\bin\Release\Tekla.Structures.xml
+C:\JFC\JFC_Winter2023_Group11\JFC_Winter2023_Group11\Deliveries to Client\HOLY GRAIL OF PHASE 3\HOLY GRAIL OF PHASE 3\SOURCE CODE PHASE 3\bin\Release\Tekla.Structures.Catalogs.xml
+C:\JFC\JFC_Winter2023_Group11\JFC_Winter2023_Group11\Deliveries to Client\HOLY GRAIL OF PHASE 3\HOLY GRAIL OF PHASE 3\SOURCE CODE PHASE 3\bin\Release\Tekla.Structures.Datatype.xml
+C:\JFC\JFC_Winter2023_Group11\JFC_Winter2023_Group11\Deliveries to Client\HOLY GRAIL OF PHASE 3\HOLY GRAIL OF PHASE 3\SOURCE CODE PHASE 3\bin\Release\Tekla.Structures.Dialog.xml
+C:\JFC\JFC_Winter2023_Group11\JFC_Winter2023_Group11\Deliveries to Client\HOLY GRAIL OF PHASE 3\HOLY GRAIL OF PHASE 3\SOURCE CODE PHASE 3\bin\Release\Tekla.Structures.Drawing.xml
+C:\JFC\JFC_Winter2023_Group11\JFC_Winter2023_Group11\Deliveries to Client\HOLY GRAIL OF PHASE 3\HOLY GRAIL OF PHASE 3\SOURCE CODE PHASE 3\bin\Release\Tekla.Structures.Model.xml
+C:\JFC\JFC_Winter2023_Group11\JFC_Winter2023_Group11\Deliveries to Client\HOLY GRAIL OF PHASE 3\HOLY GRAIL OF PHASE 3\SOURCE CODE PHASE 3\bin\Release\Tekla.Structures.Plugins.xml
+C:\JFC\JFC_Winter2023_Group11\JFC_Winter2023_Group11\Deliveries to Client\HOLY GRAIL OF PHASE 3\HOLY GRAIL OF PHASE 3\SOURCE CODE PHASE 3\ObjDir\AnyCPU\Release\TeklaBillboardAid\TeklaBillboardAid.csproj.SuggestedBindingRedirects.cache
+C:\JFC\JFC_Winter2023_Group11\JFC_Winter2023_Group11\Deliveries to Client\HOLY GRAIL OF PHASE 3\HOLY GRAIL OF PHASE 3\SOURCE CODE PHASE 3\ObjDir\AnyCPU\Release\TeklaBillboardAid\BeamApplication.exe.config
+C:\JFC\JFC_Winter2023_Group11\JFC_Winter2023_Group11\Deliveries to Client\HOLY GRAIL OF PHASE 3\HOLY GRAIL OF PHASE 3\SOURCE CODE PHASE 3\ObjDir\AnyCPU\Release\TeklaBillboardAid\TeklaBillboardAid.Form1.resources
+C:\JFC\JFC_Winter2023_Group11\JFC_Winter2023_Group11\Deliveries to Client\HOLY GRAIL OF PHASE 3\HOLY GRAIL OF PHASE 3\SOURCE CODE PHASE 3\ObjDir\AnyCPU\Release\TeklaBillboardAid\BeamApplication.Properties.Resources.resources
+C:\JFC\JFC_Winter2023_Group11\JFC_Winter2023_Group11\Deliveries to Client\HOLY GRAIL OF PHASE 3\HOLY GRAIL OF PHASE 3\SOURCE CODE PHASE 3\ObjDir\AnyCPU\Release\TeklaBillboardAid\TeklaBillboardAid.csproj.GenerateResource.cache
+C:\JFC\JFC_Winter2023_Group11\JFC_Winter2023_Group11\Deliveries to Client\HOLY GRAIL OF PHASE 3\HOLY GRAIL OF PHASE 3\SOURCE CODE PHASE 3\ObjDir\AnyCPU\Release\TeklaBillboardAid\TeklaBillboardAid.csproj.CoreCompileInputs.cache
+C:\JFC\JFC_Winter2023_Group11\JFC_Winter2023_Group11\Deliveries to Client\HOLY GRAIL OF PHASE 3\HOLY GRAIL OF PHASE 3\SOURCE CODE PHASE 3\ObjDir\AnyCPU\Release\TeklaBillboardAid\TeklaBillboardAid.csproj.CopyComplete
+C:\JFC\JFC_Winter2023_Group11\JFC_Winter2023_Group11\Deliveries to Client\HOLY GRAIL OF PHASE 3\HOLY GRAIL OF PHASE 3\SOURCE CODE PHASE 3\ObjDir\AnyCPU\Release\TeklaBillboardAid\BeamApplication.exe
+C:\JFC\JFC_Winter2023_Group11\JFC_Winter2023_Group11\Deliveries to Client\HOLY GRAIL OF PHASE 3\HOLY GRAIL OF PHASE 3\SOURCE CODE PHASE 3\ObjDir\AnyCPU\Release\TeklaBillboardAid\BeamApplication.pdb
+C:\JFC\Phase 4\Tekla_3D\bin\Release\BeamApplication.exe.config
+C:\JFC\Phase 4\Tekla_3D\bin\Release\BeamApplication.exe
+C:\JFC\Phase 4\Tekla_3D\bin\Release\BeamApplication.pdb
+C:\JFC\Phase 4\Tekla_3D\bin\Release\Microsoft.Bcl.AsyncInterfaces.dll
+C:\JFC\Phase 4\Tekla_3D\bin\Release\System.Buffers.dll
+C:\JFC\Phase 4\Tekla_3D\bin\Release\System.Memory.dll
+C:\JFC\Phase 4\Tekla_3D\bin\Release\System.Numerics.Vectors.dll
+C:\JFC\Phase 4\Tekla_3D\bin\Release\System.Runtime.CompilerServices.Unsafe.dll
+C:\JFC\Phase 4\Tekla_3D\bin\Release\System.Text.Encodings.Web.dll
+C:\JFC\Phase 4\Tekla_3D\bin\Release\System.Text.Json.dll
+C:\JFC\Phase 4\Tekla_3D\bin\Release\System.Threading.Tasks.Extensions.dll
+C:\JFC\Phase 4\Tekla_3D\bin\Release\System.ValueTuple.dll
+C:\JFC\Phase 4\Tekla_3D\bin\Release\Tekla.Structures.Catalogs.dll
+C:\JFC\Phase 4\Tekla_3D\bin\Release\Tekla.Structures.Datatype.dll
+C:\JFC\Phase 4\Tekla_3D\bin\Release\Tekla.Structures.Dialog.dll
+C:\JFC\Phase 4\Tekla_3D\bin\Release\Tekla.Structures.dll
+C:\JFC\Phase 4\Tekla_3D\bin\Release\Tekla.Structures.Drawing.dll
+C:\JFC\Phase 4\Tekla_3D\bin\Release\Tekla.Structures.Model.dll
+C:\JFC\Phase 4\Tekla_3D\bin\Release\Tekla.Structures.Plugins.dll
+C:\JFC\Phase 4\Tekla_3D\bin\Release\Microsoft.Bcl.AsyncInterfaces.xml
+C:\JFC\Phase 4\Tekla_3D\bin\Release\System.Buffers.xml
+C:\JFC\Phase 4\Tekla_3D\bin\Release\System.Memory.xml
+C:\JFC\Phase 4\Tekla_3D\bin\Release\System.Numerics.Vectors.xml
+C:\JFC\Phase 4\Tekla_3D\bin\Release\System.Runtime.CompilerServices.Unsafe.xml
+C:\JFC\Phase 4\Tekla_3D\bin\Release\System.Text.Encodings.Web.xml
+C:\JFC\Phase 4\Tekla_3D\bin\Release\System.Text.Json.xml
+C:\JFC\Phase 4\Tekla_3D\bin\Release\System.Threading.Tasks.Extensions.xml
+C:\JFC\Phase 4\Tekla_3D\bin\Release\System.ValueTuple.xml
+C:\JFC\Phase 4\Tekla_3D\bin\Release\Tekla.Structures.xml
+C:\JFC\Phase 4\Tekla_3D\bin\Release\Tekla.Structures.Catalogs.xml
+C:\JFC\Phase 4\Tekla_3D\bin\Release\Tekla.Structures.Datatype.xml
+C:\JFC\Phase 4\Tekla_3D\bin\Release\Tekla.Structures.Dialog.xml
+C:\JFC\Phase 4\Tekla_3D\bin\Release\Tekla.Structures.Drawing.xml
+C:\JFC\Phase 4\Tekla_3D\bin\Release\Tekla.Structures.Model.xml
+C:\JFC\Phase 4\Tekla_3D\bin\Release\Tekla.Structures.Plugins.xml
+C:\JFC\Phase 4\Tekla_3D\ObjDir\AnyCPU\Release\TeklaBillboardAid\TeklaBillboardAid.csproj.AssemblyReference.cache
+C:\JFC\Phase 4\Tekla_3D\ObjDir\AnyCPU\Release\TeklaBillboardAid\TeklaBillboardAid.csproj.SuggestedBindingRedirects.cache
+C:\JFC\Phase 4\Tekla_3D\ObjDir\AnyCPU\Release\TeklaBillboardAid\BeamApplication.exe.config
+C:\JFC\Phase 4\Tekla_3D\ObjDir\AnyCPU\Release\TeklaBillboardAid\TeklaBillboardAid.Form1.resources
+C:\JFC\Phase 4\Tekla_3D\ObjDir\AnyCPU\Release\TeklaBillboardAid\BeamApplication.Properties.Resources.resources
+C:\JFC\Phase 4\Tekla_3D\ObjDir\AnyCPU\Release\TeklaBillboardAid\TeklaBillboardAid.csproj.GenerateResource.cache
+C:\JFC\Phase 4\Tekla_3D\ObjDir\AnyCPU\Release\TeklaBillboardAid\TeklaBillboardAid.csproj.CoreCompileInputs.cache
+C:\JFC\Phase 4\Tekla_3D\ObjDir\AnyCPU\Release\TeklaBillboardAid\TeklaBillboardAid.csproj.CopyComplete
+C:\JFC\Phase 4\Tekla_3D\ObjDir\AnyCPU\Release\TeklaBillboardAid\BeamApplication.exe
+C:\JFC\Phase 4\Tekla_3D\ObjDir\AnyCPU\Release\TeklaBillboardAid\BeamApplication.pdb
+C:\JFC\Phase 4\bin\Release\BeamApplication.exe.config
+C:\JFC\Phase 4\bin\Release\BeamApplication.exe
+C:\JFC\Phase 4\bin\Release\BeamApplication.pdb
+C:\JFC\Phase 4\bin\Release\Microsoft.Bcl.AsyncInterfaces.dll
+C:\JFC\Phase 4\bin\Release\System.Buffers.dll
+C:\JFC\Phase 4\bin\Release\System.Memory.dll
+C:\JFC\Phase 4\bin\Release\System.Numerics.Vectors.dll
+C:\JFC\Phase 4\bin\Release\System.Runtime.CompilerServices.Unsafe.dll
+C:\JFC\Phase 4\bin\Release\System.Text.Encodings.Web.dll
+C:\JFC\Phase 4\bin\Release\System.Text.Json.dll
+C:\JFC\Phase 4\bin\Release\System.Threading.Tasks.Extensions.dll
+C:\JFC\Phase 4\bin\Release\System.ValueTuple.dll
+C:\JFC\Phase 4\bin\Release\Tekla.Structures.Catalogs.dll
+C:\JFC\Phase 4\bin\Release\Tekla.Structures.Datatype.dll
+C:\JFC\Phase 4\bin\Release\Tekla.Structures.Dialog.dll
+C:\JFC\Phase 4\bin\Release\Tekla.Structures.dll
+C:\JFC\Phase 4\bin\Release\Tekla.Structures.Drawing.dll
+C:\JFC\Phase 4\bin\Release\Tekla.Structures.Model.dll
+C:\JFC\Phase 4\bin\Release\Tekla.Structures.Plugins.dll
+C:\JFC\Phase 4\bin\Release\Microsoft.Bcl.AsyncInterfaces.xml
+C:\JFC\Phase 4\bin\Release\System.Buffers.xml
+C:\JFC\Phase 4\bin\Release\System.Memory.xml
+C:\JFC\Phase 4\bin\Release\System.Numerics.Vectors.xml
+C:\JFC\Phase 4\bin\Release\System.Runtime.CompilerServices.Unsafe.xml
+C:\JFC\Phase 4\bin\Release\System.Text.Encodings.Web.xml
+C:\JFC\Phase 4\bin\Release\System.Text.Json.xml
+C:\JFC\Phase 4\bin\Release\System.Threading.Tasks.Extensions.xml
+C:\JFC\Phase 4\bin\Release\System.ValueTuple.xml
+C:\JFC\Phase 4\bin\Release\Tekla.Structures.xml
+C:\JFC\Phase 4\bin\Release\Tekla.Structures.Catalogs.xml
+C:\JFC\Phase 4\bin\Release\Tekla.Structures.Datatype.xml
+C:\JFC\Phase 4\bin\Release\Tekla.Structures.Dialog.xml
+C:\JFC\Phase 4\bin\Release\Tekla.Structures.Drawing.xml
+C:\JFC\Phase 4\bin\Release\Tekla.Structures.Model.xml
+C:\JFC\Phase 4\bin\Release\Tekla.Structures.Plugins.xml
+C:\JFC\Phase 4\ObjDir\AnyCPU\Release\TeklaBillboardAid\TeklaBillboardAid.csproj.AssemblyReference.cache
+C:\JFC\Phase 4\ObjDir\AnyCPU\Release\TeklaBillboardAid\TeklaBillboardAid.csproj.SuggestedBindingRedirects.cache
+C:\JFC\Phase 4\ObjDir\AnyCPU\Release\TeklaBillboardAid\BeamApplication.exe.config
+C:\JFC\Phase 4\ObjDir\AnyCPU\Release\TeklaBillboardAid\TeklaBillboardAid.Form1.resources
+C:\JFC\Phase 4\ObjDir\AnyCPU\Release\TeklaBillboardAid\BeamApplication.Properties.Resources.resources
+C:\JFC\Phase 4\ObjDir\AnyCPU\Release\TeklaBillboardAid\TeklaBillboardAid.csproj.GenerateResource.cache
+C:\JFC\Phase 4\ObjDir\AnyCPU\Release\TeklaBillboardAid\TeklaBillboardAid.csproj.CoreCompileInputs.cache
+C:\JFC\Phase 4\ObjDir\AnyCPU\Release\TeklaBillboardAid\TeklaBillboardAid.csproj.CopyComplete
+C:\JFC\Phase 4\ObjDir\AnyCPU\Release\TeklaBillboardAid\BeamApplication.exe
+C:\JFC\Phase 4\ObjDir\AnyCPU\Release\TeklaBillboardAid\BeamApplication.pdb

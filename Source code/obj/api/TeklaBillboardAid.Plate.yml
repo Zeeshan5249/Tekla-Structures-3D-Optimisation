@@ -1,0 +1,783 @@
+### YamlMime:ManagedReference
+items:
+- uid: TeklaBillboardAid.Plate
+  commentId: T:TeklaBillboardAid.Plate
+  id: Plate
+  parent: TeklaBillboardAid
+  children:
+  - TeklaBillboardAid.Plate.#ctor(System.Collections.Generic.List{Tekla.Structures.Geometry3d.Point},System.String,System.String,Tekla.Structures.Model.Position.DepthEnum,System.String,System.String,System.String,System.String,System.String)
+  - TeklaBillboardAid.Plate.#ctor(Tekla.Structures.Geometry3d.Point,System.String,System.String,Tekla.Structures.Model.Position.DepthEnum,System.Double,System.Double,System.Double,System.String,System.String,System.String)
+  - TeklaBillboardAid.Plate.ContourPlate
+  - TeklaBillboardAid.Plate.Material
+  - TeklaBillboardAid.Plate.Points
+  - TeklaBillboardAid.Plate.Profile
+  langs:
+  - csharp
+  - vb
+  name: Plate
+  nameWithType: Plate
+  fullName: TeklaBillboardAid.Plate
+  type: Class
+  source:
+    remote:
+      path: Plate.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: Plate
+    path: Plate.cs
+    startLine: 10
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  summary: "\nClass to support modeling of plates on Tekla Structures. \n"
+  example: []
+  syntax:
+    content: public class Plate
+    content.vb: Public Class Plate
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: TeklaBillboardAid.Plate.Points
+  commentId: P:TeklaBillboardAid.Plate.Points
+  id: Points
+  parent: TeklaBillboardAid.Plate
+  langs:
+  - csharp
+  - vb
+  name: Points
+  nameWithType: Plate.Points
+  fullName: TeklaBillboardAid.Plate.Points
+  type: Property
+  source:
+    remote:
+      path: Plate.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: Points
+    path: Plate.cs
+    startLine: 16
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  example: []
+  syntax:
+    content: public List<Point> Points { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{Tekla.Structures.Geometry3d.Point}
+      description: "\nPoints used to form the plate (mm)\n"
+    content.vb: Public Property Points As List(Of Point)
+  overload: TeklaBillboardAid.Plate.Points*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TeklaBillboardAid.Plate.ContourPlate
+  commentId: P:TeklaBillboardAid.Plate.ContourPlate
+  id: ContourPlate
+  parent: TeklaBillboardAid.Plate
+  langs:
+  - csharp
+  - vb
+  name: ContourPlate
+  nameWithType: Plate.ContourPlate
+  fullName: TeklaBillboardAid.Plate.ContourPlate
+  type: Property
+  source:
+    remote:
+      path: Plate.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: ContourPlate
+    path: Plate.cs
+    startLine: 21
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  example: []
+  syntax:
+    content: public ContourPlate ContourPlate { get; set; }
+    parameters: []
+    return:
+      type: Tekla.Structures.Model.ContourPlate
+      description: "\nObject storing the modeled plate to interact with Tekla Open API\n"
+    content.vb: Public Property ContourPlate As ContourPlate
+  overload: TeklaBillboardAid.Plate.ContourPlate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TeklaBillboardAid.Plate.Profile
+  commentId: P:TeklaBillboardAid.Plate.Profile
+  id: Profile
+  parent: TeklaBillboardAid.Plate
+  langs:
+  - csharp
+  - vb
+  name: Profile
+  nameWithType: Plate.Profile
+  fullName: TeklaBillboardAid.Plate.Profile
+  type: Property
+  source:
+    remote:
+      path: Plate.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: Profile
+    path: Plate.cs
+    startLine: 26
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  summary: "\nThe profile of the plate\n"
+  example: []
+  syntax:
+    content: public string Profile { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Profile As String
+  overload: TeklaBillboardAid.Plate.Profile*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TeklaBillboardAid.Plate.Material
+  commentId: P:TeklaBillboardAid.Plate.Material
+  id: Material
+  parent: TeklaBillboardAid.Plate
+  langs:
+  - csharp
+  - vb
+  name: Material
+  nameWithType: Plate.Material
+  fullName: TeklaBillboardAid.Plate.Material
+  type: Property
+  source:
+    remote:
+      path: Plate.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: Material
+    path: Plate.cs
+    startLine: 31
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  summary: "\nThe material of the plate\n"
+  example: []
+  syntax:
+    content: public string Material { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Material As String
+  overload: TeklaBillboardAid.Plate.Material*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TeklaBillboardAid.Plate.#ctor(System.Collections.Generic.List{Tekla.Structures.Geometry3d.Point},System.String,System.String,Tekla.Structures.Model.Position.DepthEnum,System.String,System.String,System.String,System.String,System.String)
+  commentId: M:TeklaBillboardAid.Plate.#ctor(System.Collections.Generic.List{Tekla.Structures.Geometry3d.Point},System.String,System.String,Tekla.Structures.Model.Position.DepthEnum,System.String,System.String,System.String,System.String,System.String)
+  id: '#ctor(System.Collections.Generic.List{Tekla.Structures.Geometry3d.Point},System.String,System.String,Tekla.Structures.Model.Position.DepthEnum,System.String,System.String,System.String,System.String,System.String)'
+  parent: TeklaBillboardAid.Plate
+  langs:
+  - csharp
+  - vb
+  name: Plate(List<Point>, String, String, Position.DepthEnum, String, String, String, String, String)
+  nameWithType: Plate.Plate(List<Point>, String, String, Position.DepthEnum, String, String, String, String, String)
+  fullName: TeklaBillboardAid.Plate.Plate(System.Collections.Generic.List<Tekla.Structures.Geometry3d.Point>, System.String, System.String, Tekla.Structures.Model.Position.DepthEnum, System.String, System.String, System.String, System.String, System.String)
+  type: Constructor
+  source:
+    remote:
+      path: Plate.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: .ctor
+    path: Plate.cs
+    startLine: 43
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  summary: "\nConstructor to create a plate.\n"
+  example: []
+  syntax:
+    content: public Plate(List<Point> points, string profile, string material, Position.DepthEnum depth = Position.DepthEnum.MIDDLE, string plateClass = "1", string plateName = "", string plateFinish = "", string partprefix = "PL", string assprefix = "")
+    parameters:
+    - id: points
+      type: System.Collections.Generic.List{Tekla.Structures.Geometry3d.Point}
+      description: 'List of 3D coordinates in the cross section. Points must be provided in clockwise/counter-clockwise order. '
+    - id: profile
+      type: System.String
+      description: 'Profile of the plate. '
+    - id: material
+      type: System.String
+      description: Material of the plate.
+    - id: depth
+      type: Tekla.Structures.Model.Position.DepthEnum
+      description: 'Depth enumeration to position the plate. '
+    - id: plateClass
+      type: System.String
+      description: 'Changes colour of part. '
+    - id: plateName
+      type: System.String
+      description: 'Name field of plate. '
+    - id: plateFinish
+      type: System.String
+      description: 'Finish field of plate. '
+    - id: partprefix
+      type: System.String
+    - id: assprefix
+      type: System.String
+    content.vb: Public Sub New(points As List(Of Point), profile As String, material As String, depth As Position.DepthEnum = Position.DepthEnum.MIDDLE, plateClass As String = "1", plateName As String = "", plateFinish As String = "", partprefix As String = "PL", assprefix As String = "")
+  overload: TeklaBillboardAid.Plate.#ctor*
+  nameWithType.vb: Plate.Plate(List(Of Point), String, String, Position.DepthEnum, String, String, String, String, String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: TeklaBillboardAid.Plate.Plate(System.Collections.Generic.List(Of Tekla.Structures.Geometry3d.Point), System.String, System.String, Tekla.Structures.Model.Position.DepthEnum, System.String, System.String, System.String, System.String, System.String)
+  name.vb: Plate(List(Of Point), String, String, Position.DepthEnum, String, String, String, String, String)
+- uid: TeklaBillboardAid.Plate.#ctor(Tekla.Structures.Geometry3d.Point,System.String,System.String,Tekla.Structures.Model.Position.DepthEnum,System.Double,System.Double,System.Double,System.String,System.String,System.String)
+  commentId: M:TeklaBillboardAid.Plate.#ctor(Tekla.Structures.Geometry3d.Point,System.String,System.String,Tekla.Structures.Model.Position.DepthEnum,System.Double,System.Double,System.Double,System.String,System.String,System.String)
+  id: '#ctor(Tekla.Structures.Geometry3d.Point,System.String,System.String,Tekla.Structures.Model.Position.DepthEnum,System.Double,System.Double,System.Double,System.String,System.String,System.String)'
+  parent: TeklaBillboardAid.Plate
+  langs:
+  - csharp
+  - vb
+  name: Plate(Point, String, String, Position.DepthEnum, Double, Double, Double, String, String, String)
+  nameWithType: Plate.Plate(Point, String, String, Position.DepthEnum, Double, Double, Double, String, String, String)
+  fullName: TeklaBillboardAid.Plate.Plate(Tekla.Structures.Geometry3d.Point, System.String, System.String, Tekla.Structures.Model.Position.DepthEnum, System.Double, System.Double, System.Double, System.String, System.String, System.String)
+  type: Constructor
+  source:
+    remote:
+      path: Plate.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: .ctor
+    path: Plate.cs
+    startLine: 65
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  summary: "\nOverloaded constructor to create a rectangular plate in the XY, XZ or YZ plane using a centre point and x/y/z dimensions. Exactly two of xOffset, yOffset and zOffset must be set.\n"
+  example: []
+  syntax:
+    content: public Plate(Point centre, string profile, string material, Position.DepthEnum depth = Position.DepthEnum.BEHIND, double xOffset = 0, double yOffset = 0, double zOffset = 0, string plateClass = "1", string plateName = "", string plateFinish = "")
+    parameters:
+    - id: centre
+      type: Tekla.Structures.Geometry3d.Point
+      description: '3D coordinates of the plate&apos;s centre (mm) '
+    - id: profile
+      type: System.String
+      description: 'Profile of the plate. '
+    - id: material
+      type: System.String
+      description: Material of the plate.
+    - id: depth
+      type: Tekla.Structures.Model.Position.DepthEnum
+      description: 'Depth enumeration to position the plate. '
+    - id: xOffset
+      type: System.Double
+      description: Offset of corners in the x direction from the centre (mm)
+    - id: yOffset
+      type: System.Double
+      description: Offset of corners in the y direction from the centre (mm)
+    - id: zOffset
+      type: System.Double
+      description: Offset of corners in the z direction from the centre (mm)
+    - id: plateClass
+      type: System.String
+      description: 'Changes colour of part. '
+    - id: plateName
+      type: System.String
+      description: 'Name field of plate. '
+    - id: plateFinish
+      type: System.String
+      description: 'Finish field of plate. '
+    content.vb: Public Sub New(centre As Point, profile As String, material As String, depth As Position.DepthEnum = Position.DepthEnum.BEHIND, xOffset As Double = 0, yOffset As Double = 0, zOffset As Double = 0, plateClass As String = "1", plateName As String = "", plateFinish As String = "")
+  overload: TeklaBillboardAid.Plate.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: TeklaBillboardAid
+  commentId: N:TeklaBillboardAid
+  name: TeklaBillboardAid
+  nameWithType: TeklaBillboardAid
+  fullName: TeklaBillboardAid
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TeklaBillboardAid.Plate.Points*
+  commentId: Overload:TeklaBillboardAid.Plate.Points
+  name: Points
+  nameWithType: Plate.Points
+  fullName: TeklaBillboardAid.Plate.Points
+- uid: System.Collections.Generic.List{Tekla.Structures.Geometry3d.Point}
+  commentId: T:System.Collections.Generic.List{Tekla.Structures.Geometry3d.Point}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Point>
+  nameWithType: List<Point>
+  fullName: System.Collections.Generic.List<Tekla.Structures.Geometry3d.Point>
+  nameWithType.vb: List(Of Point)
+  fullName.vb: System.Collections.Generic.List(Of Tekla.Structures.Geometry3d.Point)
+  name.vb: List(Of Point)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Tekla.Structures.Geometry3d.Point
+    name: Point
+    nameWithType: Point
+    fullName: Tekla.Structures.Geometry3d.Point
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Tekla.Structures.Geometry3d.Point
+    name: Point
+    nameWithType: Point
+    fullName: Tekla.Structures.Geometry3d.Point
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: TeklaBillboardAid.Plate.ContourPlate*
+  commentId: Overload:TeklaBillboardAid.Plate.ContourPlate
+  name: ContourPlate
+  nameWithType: Plate.ContourPlate
+  fullName: TeklaBillboardAid.Plate.ContourPlate
+- uid: Tekla.Structures.Model.ContourPlate
+  commentId: T:Tekla.Structures.Model.ContourPlate
+  parent: Tekla.Structures.Model
+  isExternal: true
+  name: ContourPlate
+  nameWithType: ContourPlate
+  fullName: Tekla.Structures.Model.ContourPlate
+- uid: Tekla.Structures.Model
+  commentId: N:Tekla.Structures.Model
+  isExternal: true
+  name: Tekla.Structures.Model
+  nameWithType: Tekla.Structures.Model
+  fullName: Tekla.Structures.Model
+- uid: TeklaBillboardAid.Plate.Profile*
+  commentId: Overload:TeklaBillboardAid.Plate.Profile
+  name: Profile
+  nameWithType: Plate.Profile
+  fullName: TeklaBillboardAid.Plate.Profile
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: TeklaBillboardAid.Plate.Material*
+  commentId: Overload:TeklaBillboardAid.Plate.Material
+  name: Material
+  nameWithType: Plate.Material
+  fullName: TeklaBillboardAid.Plate.Material
+- uid: TeklaBillboardAid.Plate.#ctor*
+  commentId: Overload:TeklaBillboardAid.Plate.#ctor
+  name: Plate
+  nameWithType: Plate.Plate
+  fullName: TeklaBillboardAid.Plate.Plate
+- uid: Tekla.Structures.Model.Position.DepthEnum
+  commentId: T:Tekla.Structures.Model.Position.DepthEnum
+  parent: Tekla.Structures.Model
+  isExternal: true
+  name: Position.DepthEnum
+  nameWithType: Position.DepthEnum
+  fullName: Tekla.Structures.Model.Position.DepthEnum
+- uid: Tekla.Structures.Geometry3d.Point
+  commentId: T:Tekla.Structures.Geometry3d.Point
+  parent: Tekla.Structures.Geometry3d
+  isExternal: true
+  name: Point
+  nameWithType: Point
+  fullName: Tekla.Structures.Geometry3d.Point
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: Tekla.Structures.Geometry3d
+  commentId: N:Tekla.Structures.Geometry3d
+  isExternal: true
+  name: Tekla.Structures.Geometry3d
+  nameWithType: Tekla.Structures.Geometry3d
+  fullName: Tekla.Structures.Geometry3d

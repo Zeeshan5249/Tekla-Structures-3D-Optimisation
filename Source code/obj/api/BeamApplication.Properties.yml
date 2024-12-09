@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: BeamApplication.Properties
+  commentId: N:BeamApplication.Properties
+  id: BeamApplication.Properties
+  children:
+  - BeamApplication.Properties.Resources
+  langs:
+  - csharp
+  - vb
+  name: BeamApplication.Properties
+  nameWithType: BeamApplication.Properties
+  fullName: BeamApplication.Properties
+  type: Namespace
+  assemblies:
+  - BeamApplication
+references:
+- uid: BeamApplication.Properties.Resources
+  commentId: T:BeamApplication.Properties.Resources
+  name: Resources
+  nameWithType: Resources
+  fullName: BeamApplication.Properties.Resources

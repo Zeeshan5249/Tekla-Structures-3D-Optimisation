@@ -1,0 +1,1382 @@
+### YamlMime:ManagedReference
+items:
+- uid: TeklaBillboardAid.Frame
+  commentId: T:TeklaBillboardAid.Frame
+  id: Frame
+  parent: TeklaBillboardAid
+  children:
+  - TeklaBillboardAid.Frame.#ctor(System.Boolean,Tekla.Structures.Geometry3d.Point,Tekla.Structures.Geometry3d.Point,Tekla.Structures.Geometry3d.Point,Tekla.Structures.Geometry3d.Point,System.Int32,System.Boolean,System.Boolean,TeklaBillboardAid.ModelParameters,Tekla.Structures.Model.PolyBeam,Tekla.Structures.Model.PolyBeam,System.Boolean,System.Boolean)
+  - TeklaBillboardAid.Frame.B2Beams
+  - TeklaBillboardAid.Frame.Back
+  - TeklaBillboardAid.Frame.Bottom
+  - TeklaBillboardAid.Frame.CutBeamBottom
+  - TeklaBillboardAid.Frame.CutBeamTop
+  - TeklaBillboardAid.Frame.EnableBottomBeam
+  - TeklaBillboardAid.Frame.EnableTopBeam
+  - TeklaBillboardAid.Frame.Front
+  - TeklaBillboardAid.Frame.ModelParameters
+  - TeklaBillboardAid.Frame.PlaneType
+  - TeklaBillboardAid.Frame.Point1
+  - TeklaBillboardAid.Frame.Point2
+  - TeklaBillboardAid.Frame.Point3
+  - TeklaBillboardAid.Frame.Point4
+  - TeklaBillboardAid.Frame.SeatingPlateRight
+  - TeklaBillboardAid.Frame.Seatplate
+  - TeklaBillboardAid.Frame.Side1
+  - TeklaBillboardAid.Frame.Side3
+  - TeklaBillboardAid.Frame.Top
+  langs:
+  - csharp
+  - vb
+  name: Frame
+  nameWithType: Frame
+  fullName: TeklaBillboardAid.Frame
+  type: Class
+  source:
+    remote:
+      path: Frame.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: Frame
+    path: Frame.cs
+    startLine: 11
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  summary: "\nClass to support modeling of the major structural components of the billboard frame in Tekla Structures.\n"
+  example: []
+  syntax:
+    content: public class Frame
+    content.vb: Public Class Frame
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: TeklaBillboardAid.Frame.Point1
+  commentId: P:TeklaBillboardAid.Frame.Point1
+  id: Point1
+  parent: TeklaBillboardAid.Frame
+  langs:
+  - csharp
+  - vb
+  name: Point1
+  nameWithType: Frame.Point1
+  fullName: TeklaBillboardAid.Frame.Point1
+  type: Property
+  source:
+    remote:
+      path: Frame.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: Point1
+    path: Frame.cs
+    startLine: 16
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  example: []
+  syntax:
+    content: public Point Point1 { get; set; }
+    parameters: []
+    return:
+      type: Tekla.Structures.Geometry3d.Point
+      description: "\nThe point coordinate for the bottom-right corner of the plate (mm)\n"
+    content.vb: Public Property Point1 As Point
+  overload: TeklaBillboardAid.Frame.Point1*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TeklaBillboardAid.Frame.Point2
+  commentId: P:TeklaBillboardAid.Frame.Point2
+  id: Point2
+  parent: TeklaBillboardAid.Frame
+  langs:
+  - csharp
+  - vb
+  name: Point2
+  nameWithType: Frame.Point2
+  fullName: TeklaBillboardAid.Frame.Point2
+  type: Property
+  source:
+    remote:
+      path: Frame.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: Point2
+    path: Frame.cs
+    startLine: 21
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  example: []
+  syntax:
+    content: public Point Point2 { get; set; }
+    parameters: []
+    return:
+      type: Tekla.Structures.Geometry3d.Point
+      description: "\nThe point coordinate for the bottom-left corner of the plate (mm)\n"
+    content.vb: Public Property Point2 As Point
+  overload: TeklaBillboardAid.Frame.Point2*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TeklaBillboardAid.Frame.Point3
+  commentId: P:TeklaBillboardAid.Frame.Point3
+  id: Point3
+  parent: TeklaBillboardAid.Frame
+  langs:
+  - csharp
+  - vb
+  name: Point3
+  nameWithType: Frame.Point3
+  fullName: TeklaBillboardAid.Frame.Point3
+  type: Property
+  source:
+    remote:
+      path: Frame.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: Point3
+    path: Frame.cs
+    startLine: 26
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  example: []
+  syntax:
+    content: public Point Point3 { get; set; }
+    parameters: []
+    return:
+      type: Tekla.Structures.Geometry3d.Point
+      description: "\nThe point coordinate for the top-left corner of the plate (mm)\n"
+    content.vb: Public Property Point3 As Point
+  overload: TeklaBillboardAid.Frame.Point3*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TeklaBillboardAid.Frame.Point4
+  commentId: P:TeklaBillboardAid.Frame.Point4
+  id: Point4
+  parent: TeklaBillboardAid.Frame
+  langs:
+  - csharp
+  - vb
+  name: Point4
+  nameWithType: Frame.Point4
+  fullName: TeklaBillboardAid.Frame.Point4
+  type: Property
+  source:
+    remote:
+      path: Frame.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: Point4
+    path: Frame.cs
+    startLine: 31
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  example: []
+  syntax:
+    content: public Point Point4 { get; set; }
+    parameters: []
+    return:
+      type: Tekla.Structures.Geometry3d.Point
+      description: "\nThe point coordinate for the top-right corner of the plate (mm)\n"
+    content.vb: Public Property Point4 As Point
+  overload: TeklaBillboardAid.Frame.Point4*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TeklaBillboardAid.Frame.PlaneType
+  commentId: P:TeklaBillboardAid.Frame.PlaneType
+  id: PlaneType
+  parent: TeklaBillboardAid.Frame
+  langs:
+  - csharp
+  - vb
+  name: PlaneType
+  nameWithType: Frame.PlaneType
+  fullName: TeklaBillboardAid.Frame.PlaneType
+  type: Property
+  source:
+    remote:
+      path: Frame.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: PlaneType
+    path: Frame.cs
+    startLine: 36
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  example: []
+  syntax:
+    content: public int PlaneType { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+      description: "\nInteger representation for the plane position: 0 = first plane, 1 = last plane, 2 = planes in between the first and last planes\n"
+    content.vb: Public Property PlaneType As Integer
+  overload: TeklaBillboardAid.Frame.PlaneType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TeklaBillboardAid.Frame.Front
+  commentId: P:TeklaBillboardAid.Frame.Front
+  id: Front
+  parent: TeklaBillboardAid.Frame
+  langs:
+  - csharp
+  - vb
+  name: Front
+  nameWithType: Frame.Front
+  fullName: TeklaBillboardAid.Frame.Front
+  type: Property
+  source:
+    remote:
+      path: Frame.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: Front
+    path: Frame.cs
+    startLine: 41
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  example: []
+  syntax:
+    content: public Beam Front { get; set; }
+    parameters: []
+    return:
+      type: Tekla.Structures.Model.Beam
+      description: "\nThe front beam between points 1 and 4\n"
+    content.vb: Public Property Front As Beam
+  overload: TeklaBillboardAid.Frame.Front*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TeklaBillboardAid.Frame.Back
+  commentId: P:TeklaBillboardAid.Frame.Back
+  id: Back
+  parent: TeklaBillboardAid.Frame
+  langs:
+  - csharp
+  - vb
+  name: Back
+  nameWithType: Frame.Back
+  fullName: TeklaBillboardAid.Frame.Back
+  type: Property
+  source:
+    remote:
+      path: Frame.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: Back
+    path: Frame.cs
+    startLine: 46
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  example: []
+  syntax:
+    content: public Beam Back { get; set; }
+    parameters: []
+    return:
+      type: Tekla.Structures.Model.Beam
+      description: "\nThe back beam between points 2 and 3\n"
+    content.vb: Public Property Back As Beam
+  overload: TeklaBillboardAid.Frame.Back*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TeklaBillboardAid.Frame.Top
+  commentId: P:TeklaBillboardAid.Frame.Top
+  id: Top
+  parent: TeklaBillboardAid.Frame
+  langs:
+  - csharp
+  - vb
+  name: Top
+  nameWithType: Frame.Top
+  fullName: TeklaBillboardAid.Frame.Top
+  type: Property
+  source:
+    remote:
+      path: Frame.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: Top
+    path: Frame.cs
+    startLine: 51
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  example: []
+  syntax:
+    content: public Beam Top { get; set; }
+    parameters: []
+    return:
+      type: Tekla.Structures.Model.Beam
+      description: "\nThe top beam between points 3 and 4\n"
+    content.vb: Public Property Top As Beam
+  overload: TeklaBillboardAid.Frame.Top*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TeklaBillboardAid.Frame.Bottom
+  commentId: P:TeklaBillboardAid.Frame.Bottom
+  id: Bottom
+  parent: TeklaBillboardAid.Frame
+  langs:
+  - csharp
+  - vb
+  name: Bottom
+  nameWithType: Frame.Bottom
+  fullName: TeklaBillboardAid.Frame.Bottom
+  type: Property
+  source:
+    remote:
+      path: Frame.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: Bottom
+    path: Frame.cs
+    startLine: 56
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  example: []
+  syntax:
+    content: public Beam Bottom { get; set; }
+    parameters: []
+    return:
+      type: Tekla.Structures.Model.Beam
+      description: "\nThe bottom beam between points 1 and 2\n"
+    content.vb: Public Property Bottom As Beam
+  overload: TeklaBillboardAid.Frame.Bottom*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TeklaBillboardAid.Frame.Seatplate
+  commentId: P:TeklaBillboardAid.Frame.Seatplate
+  id: Seatplate
+  parent: TeklaBillboardAid.Frame
+  langs:
+  - csharp
+  - vb
+  name: Seatplate
+  nameWithType: Frame.Seatplate
+  fullName: TeklaBillboardAid.Frame.Seatplate
+  type: Property
+  source:
+    remote:
+      path: Frame.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: Seatplate
+    path: Frame.cs
+    startLine: 61
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  example: []
+  syntax:
+    content: public ContourPlate Seatplate { get; set; }
+    parameters: []
+    return:
+      type: Tekla.Structures.Model.ContourPlate
+      description: "\nThe seating plate below the LED cabinets\n"
+    content.vb: Public Property Seatplate As ContourPlate
+  overload: TeklaBillboardAid.Frame.Seatplate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TeklaBillboardAid.Frame.ModelParameters
+  commentId: P:TeklaBillboardAid.Frame.ModelParameters
+  id: ModelParameters
+  parent: TeklaBillboardAid.Frame
+  langs:
+  - csharp
+  - vb
+  name: ModelParameters
+  nameWithType: Frame.ModelParameters
+  fullName: TeklaBillboardAid.Frame.ModelParameters
+  type: Property
+  source:
+    remote:
+      path: Frame.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: ModelParameters
+    path: Frame.cs
+    startLine: 66
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  example: []
+  syntax:
+    content: public ModelParameters ModelParameters { get; set; }
+    parameters: []
+    return:
+      type: TeklaBillboardAid.ModelParameters
+      description: "\nThe model parameters data store\n"
+    content.vb: Public Property ModelParameters As ModelParameters
+  overload: TeklaBillboardAid.Frame.ModelParameters*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TeklaBillboardAid.Frame.SeatingPlateRight
+  commentId: P:TeklaBillboardAid.Frame.SeatingPlateRight
+  id: SeatingPlateRight
+  parent: TeklaBillboardAid.Frame
+  langs:
+  - csharp
+  - vb
+  name: SeatingPlateRight
+  nameWithType: Frame.SeatingPlateRight
+  fullName: TeklaBillboardAid.Frame.SeatingPlateRight
+  type: Property
+  source:
+    remote:
+      path: Frame.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: SeatingPlateRight
+    path: Frame.cs
+    startLine: 71
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  example: []
+  syntax:
+    content: public bool SeatingPlateRight { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+      description: "\nA boolean which is true if the seating plate is ment to be on the right hand side of the front beam\n"
+    content.vb: Public Property SeatingPlateRight As Boolean
+  overload: TeklaBillboardAid.Frame.SeatingPlateRight*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TeklaBillboardAid.Frame.CutBeamBottom
+  commentId: P:TeklaBillboardAid.Frame.CutBeamBottom
+  id: CutBeamBottom
+  parent: TeklaBillboardAid.Frame
+  langs:
+  - csharp
+  - vb
+  name: CutBeamBottom
+  nameWithType: Frame.CutBeamBottom
+  fullName: TeklaBillboardAid.Frame.CutBeamBottom
+  type: Property
+  source:
+    remote:
+      path: Frame.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: CutBeamBottom
+    path: Frame.cs
+    startLine: 76
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  example: []
+  syntax:
+    content: public PolyBeam CutBeamBottom { get; set; }
+    parameters: []
+    return:
+      type: Tekla.Structures.Model.PolyBeam
+      description: "\nThis is a polybeam part, it&apos;s used to cut the front beams\n"
+    content.vb: Public Property CutBeamBottom As PolyBeam
+  overload: TeklaBillboardAid.Frame.CutBeamBottom*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TeklaBillboardAid.Frame.CutBeamTop
+  commentId: P:TeklaBillboardAid.Frame.CutBeamTop
+  id: CutBeamTop
+  parent: TeklaBillboardAid.Frame
+  langs:
+  - csharp
+  - vb
+  name: CutBeamTop
+  nameWithType: Frame.CutBeamTop
+  fullName: TeklaBillboardAid.Frame.CutBeamTop
+  type: Property
+  source:
+    remote:
+      path: Frame.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: CutBeamTop
+    path: Frame.cs
+    startLine: 81
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  example: []
+  syntax:
+    content: public PolyBeam CutBeamTop { get; set; }
+    parameters: []
+    return:
+      type: Tekla.Structures.Model.PolyBeam
+      description: "\nThis is a polybeam part, it&apos;s used to cut the front beams\n"
+    content.vb: Public Property CutBeamTop As PolyBeam
+  overload: TeklaBillboardAid.Frame.CutBeamTop*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TeklaBillboardAid.Frame.Side1
+  commentId: P:TeklaBillboardAid.Frame.Side1
+  id: Side1
+  parent: TeklaBillboardAid.Frame
+  langs:
+  - csharp
+  - vb
+  name: Side1
+  nameWithType: Frame.Side1
+  fullName: TeklaBillboardAid.Frame.Side1
+  type: Property
+  source:
+    remote:
+      path: Frame.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: Side1
+    path: Frame.cs
+    startLine: 86
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  example: []
+  syntax:
+    content: public bool Side1 { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+      description: "\nBoolean parameter. If true means that there&apos;s a split on side 1.\n"
+    content.vb: Public Property Side1 As Boolean
+  overload: TeklaBillboardAid.Frame.Side1*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TeklaBillboardAid.Frame.Side3
+  commentId: P:TeklaBillboardAid.Frame.Side3
+  id: Side3
+  parent: TeklaBillboardAid.Frame
+  langs:
+  - csharp
+  - vb
+  name: Side3
+  nameWithType: Frame.Side3
+  fullName: TeklaBillboardAid.Frame.Side3
+  type: Property
+  source:
+    remote:
+      path: Frame.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: Side3
+    path: Frame.cs
+    startLine: 91
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  example: []
+  syntax:
+    content: public bool Side3 { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+      description: "\nBoolean parameter. If true means that there&apos;s a split on side 3.\n"
+    content.vb: Public Property Side3 As Boolean
+  overload: TeklaBillboardAid.Frame.Side3*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TeklaBillboardAid.Frame.B2Beams
+  commentId: P:TeklaBillboardAid.Frame.B2Beams
+  id: B2Beams
+  parent: TeklaBillboardAid.Frame
+  langs:
+  - csharp
+  - vb
+  name: B2Beams
+  nameWithType: Frame.B2Beams
+  fullName: TeklaBillboardAid.Frame.B2Beams
+  type: Property
+  source:
+    remote:
+      path: Frame.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: B2Beams
+    path: Frame.cs
+    startLine: 96
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  example: []
+  syntax:
+    content: public List<Beam> B2Beams { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{Tekla.Structures.Model.Beam}
+      description: "\nA list of the B2Beams, used to booleanpart cut the flashings if they overlap.\n"
+    content.vb: Public Property B2Beams As List(Of Beam)
+  overload: TeklaBillboardAid.Frame.B2Beams*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TeklaBillboardAid.Frame.EnableTopBeam
+  commentId: P:TeklaBillboardAid.Frame.EnableTopBeam
+  id: EnableTopBeam
+  parent: TeklaBillboardAid.Frame
+  langs:
+  - csharp
+  - vb
+  name: EnableTopBeam
+  nameWithType: Frame.EnableTopBeam
+  fullName: TeklaBillboardAid.Frame.EnableTopBeam
+  type: Property
+  source:
+    remote:
+      path: Frame.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: EnableTopBeam
+    path: Frame.cs
+    startLine: 97
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  syntax:
+    content: public bool EnableTopBeam { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property EnableTopBeam As Boolean
+  overload: TeklaBillboardAid.Frame.EnableTopBeam*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TeklaBillboardAid.Frame.EnableBottomBeam
+  commentId: P:TeklaBillboardAid.Frame.EnableBottomBeam
+  id: EnableBottomBeam
+  parent: TeklaBillboardAid.Frame
+  langs:
+  - csharp
+  - vb
+  name: EnableBottomBeam
+  nameWithType: Frame.EnableBottomBeam
+  fullName: TeklaBillboardAid.Frame.EnableBottomBeam
+  type: Property
+  source:
+    remote:
+      path: Frame.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: EnableBottomBeam
+    path: Frame.cs
+    startLine: 98
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  syntax:
+    content: public bool EnableBottomBeam { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property EnableBottomBeam As Boolean
+  overload: TeklaBillboardAid.Frame.EnableBottomBeam*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TeklaBillboardAid.Frame.#ctor(System.Boolean,Tekla.Structures.Geometry3d.Point,Tekla.Structures.Geometry3d.Point,Tekla.Structures.Geometry3d.Point,Tekla.Structures.Geometry3d.Point,System.Int32,System.Boolean,System.Boolean,TeklaBillboardAid.ModelParameters,Tekla.Structures.Model.PolyBeam,Tekla.Structures.Model.PolyBeam,System.Boolean,System.Boolean)
+  commentId: M:TeklaBillboardAid.Frame.#ctor(System.Boolean,Tekla.Structures.Geometry3d.Point,Tekla.Structures.Geometry3d.Point,Tekla.Structures.Geometry3d.Point,Tekla.Structures.Geometry3d.Point,System.Int32,System.Boolean,System.Boolean,TeklaBillboardAid.ModelParameters,Tekla.Structures.Model.PolyBeam,Tekla.Structures.Model.PolyBeam,System.Boolean,System.Boolean)
+  id: '#ctor(System.Boolean,Tekla.Structures.Geometry3d.Point,Tekla.Structures.Geometry3d.Point,Tekla.Structures.Geometry3d.Point,Tekla.Structures.Geometry3d.Point,System.Int32,System.Boolean,System.Boolean,TeklaBillboardAid.ModelParameters,Tekla.Structures.Model.PolyBeam,Tekla.Structures.Model.PolyBeam,System.Boolean,System.Boolean)'
+  parent: TeklaBillboardAid.Frame
+  langs:
+  - csharp
+  - vb
+  name: Frame(Boolean, Point, Point, Point, Point, Int32, Boolean, Boolean, ModelParameters, PolyBeam, PolyBeam, Boolean, Boolean)
+  nameWithType: Frame.Frame(Boolean, Point, Point, Point, Point, Int32, Boolean, Boolean, ModelParameters, PolyBeam, PolyBeam, Boolean, Boolean)
+  fullName: TeklaBillboardAid.Frame.Frame(System.Boolean, Tekla.Structures.Geometry3d.Point, Tekla.Structures.Geometry3d.Point, Tekla.Structures.Geometry3d.Point, Tekla.Structures.Geometry3d.Point, System.Int32, System.Boolean, System.Boolean, TeklaBillboardAid.ModelParameters, Tekla.Structures.Model.PolyBeam, Tekla.Structures.Model.PolyBeam, System.Boolean, System.Boolean)
+  type: Constructor
+  source:
+    remote:
+      path: Frame.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: .ctor
+    path: Frame.cs
+    startLine: 114
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  summary: "\nThe Frame class contains functions for building the frame.\n"
+  example: []
+  syntax:
+    content: public Frame(bool seatingPlateRight, Point point1, Point point2, Point point3, Point point4, int planeType, bool side1, bool side3, ModelParameters modelParameters, PolyBeam cutbeambottom, PolyBeam cutbeamtop, bool EnableTopBeam = true, bool EnableBottomBeam = true)
+    parameters:
+    - id: seatingPlateRight
+      type: System.Boolean
+      description: ''
+    - id: point1
+      type: Tekla.Structures.Geometry3d.Point
+      description: ''
+    - id: point2
+      type: Tekla.Structures.Geometry3d.Point
+      description: ''
+    - id: point3
+      type: Tekla.Structures.Geometry3d.Point
+      description: ''
+    - id: point4
+      type: Tekla.Structures.Geometry3d.Point
+      description: ''
+    - id: planeType
+      type: System.Int32
+      description: ''
+    - id: side1
+      type: System.Boolean
+      description: ''
+    - id: side3
+      type: System.Boolean
+      description: ''
+    - id: modelParameters
+      type: TeklaBillboardAid.ModelParameters
+      description: ''
+    - id: cutbeambottom
+      type: Tekla.Structures.Model.PolyBeam
+      description: ''
+    - id: cutbeamtop
+      type: Tekla.Structures.Model.PolyBeam
+      description: ''
+    - id: EnableTopBeam
+      type: System.Boolean
+    - id: EnableBottomBeam
+      type: System.Boolean
+    content.vb: Public Sub New(seatingPlateRight As Boolean, point1 As Point, point2 As Point, point3 As Point, point4 As Point, planeType As Integer, side1 As Boolean, side3 As Boolean, modelParameters As ModelParameters, cutbeambottom As PolyBeam, cutbeamtop As PolyBeam, EnableTopBeam As Boolean = True, EnableBottomBeam As Boolean = True)
+  overload: TeklaBillboardAid.Frame.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: TeklaBillboardAid
+  commentId: N:TeklaBillboardAid
+  name: TeklaBillboardAid
+  nameWithType: TeklaBillboardAid
+  fullName: TeklaBillboardAid
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TeklaBillboardAid.Frame.Point1*
+  commentId: Overload:TeklaBillboardAid.Frame.Point1
+  name: Point1
+  nameWithType: Frame.Point1
+  fullName: TeklaBillboardAid.Frame.Point1
+- uid: Tekla.Structures.Geometry3d.Point
+  commentId: T:Tekla.Structures.Geometry3d.Point
+  parent: Tekla.Structures.Geometry3d
+  isExternal: true
+  name: Point
+  nameWithType: Point
+  fullName: Tekla.Structures.Geometry3d.Point
+- uid: Tekla.Structures.Geometry3d
+  commentId: N:Tekla.Structures.Geometry3d
+  isExternal: true
+  name: Tekla.Structures.Geometry3d
+  nameWithType: Tekla.Structures.Geometry3d
+  fullName: Tekla.Structures.Geometry3d
+- uid: TeklaBillboardAid.Frame.Point2*
+  commentId: Overload:TeklaBillboardAid.Frame.Point2
+  name: Point2
+  nameWithType: Frame.Point2
+  fullName: TeklaBillboardAid.Frame.Point2
+- uid: TeklaBillboardAid.Frame.Point3*
+  commentId: Overload:TeklaBillboardAid.Frame.Point3
+  name: Point3
+  nameWithType: Frame.Point3
+  fullName: TeklaBillboardAid.Frame.Point3
+- uid: TeklaBillboardAid.Frame.Point4*
+  commentId: Overload:TeklaBillboardAid.Frame.Point4
+  name: Point4
+  nameWithType: Frame.Point4
+  fullName: TeklaBillboardAid.Frame.Point4
+- uid: TeklaBillboardAid.Frame.PlaneType*
+  commentId: Overload:TeklaBillboardAid.Frame.PlaneType
+  name: PlaneType
+  nameWithType: Frame.PlaneType
+  fullName: TeklaBillboardAid.Frame.PlaneType
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: TeklaBillboardAid.Frame.Front*
+  commentId: Overload:TeklaBillboardAid.Frame.Front
+  name: Front
+  nameWithType: Frame.Front
+  fullName: TeklaBillboardAid.Frame.Front
+- uid: Tekla.Structures.Model.Beam
+  commentId: T:Tekla.Structures.Model.Beam
+  parent: Tekla.Structures.Model
+  isExternal: true
+  name: Beam
+  nameWithType: Beam
+  fullName: Tekla.Structures.Model.Beam
+- uid: Tekla.Structures.Model
+  commentId: N:Tekla.Structures.Model
+  isExternal: true
+  name: Tekla.Structures.Model
+  nameWithType: Tekla.Structures.Model
+  fullName: Tekla.Structures.Model
+- uid: TeklaBillboardAid.Frame.Back*
+  commentId: Overload:TeklaBillboardAid.Frame.Back
+  name: Back
+  nameWithType: Frame.Back
+  fullName: TeklaBillboardAid.Frame.Back
+- uid: TeklaBillboardAid.Frame.Top*
+  commentId: Overload:TeklaBillboardAid.Frame.Top
+  name: Top
+  nameWithType: Frame.Top
+  fullName: TeklaBillboardAid.Frame.Top
+- uid: TeklaBillboardAid.Frame.Bottom*
+  commentId: Overload:TeklaBillboardAid.Frame.Bottom
+  name: Bottom
+  nameWithType: Frame.Bottom
+  fullName: TeklaBillboardAid.Frame.Bottom
+- uid: TeklaBillboardAid.Frame.Seatplate*
+  commentId: Overload:TeklaBillboardAid.Frame.Seatplate
+  name: Seatplate
+  nameWithType: Frame.Seatplate
+  fullName: TeklaBillboardAid.Frame.Seatplate
+- uid: Tekla.Structures.Model.ContourPlate
+  commentId: T:Tekla.Structures.Model.ContourPlate
+  parent: Tekla.Structures.Model
+  isExternal: true
+  name: ContourPlate
+  nameWithType: ContourPlate
+  fullName: Tekla.Structures.Model.ContourPlate
+- uid: TeklaBillboardAid.Frame.ModelParameters*
+  commentId: Overload:TeklaBillboardAid.Frame.ModelParameters
+  name: ModelParameters
+  nameWithType: Frame.ModelParameters
+  fullName: TeklaBillboardAid.Frame.ModelParameters
+- uid: TeklaBillboardAid.ModelParameters
+  commentId: T:TeklaBillboardAid.ModelParameters
+  parent: TeklaBillboardAid
+  name: ModelParameters
+  nameWithType: ModelParameters
+  fullName: TeklaBillboardAid.ModelParameters
+- uid: TeklaBillboardAid.Frame.SeatingPlateRight*
+  commentId: Overload:TeklaBillboardAid.Frame.SeatingPlateRight
+  name: SeatingPlateRight
+  nameWithType: Frame.SeatingPlateRight
+  fullName: TeklaBillboardAid.Frame.SeatingPlateRight
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: TeklaBillboardAid.Frame.CutBeamBottom*
+  commentId: Overload:TeklaBillboardAid.Frame.CutBeamBottom
+  name: CutBeamBottom
+  nameWithType: Frame.CutBeamBottom
+  fullName: TeklaBillboardAid.Frame.CutBeamBottom
+- uid: Tekla.Structures.Model.PolyBeam
+  commentId: T:Tekla.Structures.Model.PolyBeam
+  parent: Tekla.Structures.Model
+  isExternal: true
+  name: PolyBeam
+  nameWithType: PolyBeam
+  fullName: Tekla.Structures.Model.PolyBeam
+- uid: TeklaBillboardAid.Frame.CutBeamTop*
+  commentId: Overload:TeklaBillboardAid.Frame.CutBeamTop
+  name: CutBeamTop
+  nameWithType: Frame.CutBeamTop
+  fullName: TeklaBillboardAid.Frame.CutBeamTop
+- uid: TeklaBillboardAid.Frame.Side1*
+  commentId: Overload:TeklaBillboardAid.Frame.Side1
+  name: Side1
+  nameWithType: Frame.Side1
+  fullName: TeklaBillboardAid.Frame.Side1
+- uid: TeklaBillboardAid.Frame.Side3*
+  commentId: Overload:TeklaBillboardAid.Frame.Side3
+  name: Side3
+  nameWithType: Frame.Side3
+  fullName: TeklaBillboardAid.Frame.Side3
+- uid: TeklaBillboardAid.Frame.B2Beams*
+  commentId: Overload:TeklaBillboardAid.Frame.B2Beams
+  name: B2Beams
+  nameWithType: Frame.B2Beams
+  fullName: TeklaBillboardAid.Frame.B2Beams
+- uid: System.Collections.Generic.List{Tekla.Structures.Model.Beam}
+  commentId: T:System.Collections.Generic.List{Tekla.Structures.Model.Beam}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Beam>
+  nameWithType: List<Beam>
+  fullName: System.Collections.Generic.List<Tekla.Structures.Model.Beam>
+  nameWithType.vb: List(Of Beam)
+  fullName.vb: System.Collections.Generic.List(Of Tekla.Structures.Model.Beam)
+  name.vb: List(Of Beam)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Tekla.Structures.Model.Beam
+    name: Beam
+    nameWithType: Beam
+    fullName: Tekla.Structures.Model.Beam
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Tekla.Structures.Model.Beam
+    name: Beam
+    nameWithType: Beam
+    fullName: Tekla.Structures.Model.Beam
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: TeklaBillboardAid.Frame.EnableTopBeam*
+  commentId: Overload:TeklaBillboardAid.Frame.EnableTopBeam
+  name: EnableTopBeam
+  nameWithType: Frame.EnableTopBeam
+  fullName: TeklaBillboardAid.Frame.EnableTopBeam
+- uid: TeklaBillboardAid.Frame.EnableBottomBeam*
+  commentId: Overload:TeklaBillboardAid.Frame.EnableBottomBeam
+  name: EnableBottomBeam
+  nameWithType: Frame.EnableBottomBeam
+  fullName: TeklaBillboardAid.Frame.EnableBottomBeam
+- uid: TeklaBillboardAid.Frame.#ctor*
+  commentId: Overload:TeklaBillboardAid.Frame.#ctor
+  name: Frame
+  nameWithType: Frame.Frame
+  fullName: TeklaBillboardAid.Frame.Frame

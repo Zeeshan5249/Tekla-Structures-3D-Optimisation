@@ -1,0 +1,735 @@
+### YamlMime:ManagedReference
+items:
+- uid: TeklaBillboardAid.Hatch
+  commentId: T:TeklaBillboardAid.Hatch
+  id: Hatch
+  parent: TeklaBillboardAid
+  children:
+  - TeklaBillboardAid.Hatch.#ctor(Tekla.Structures.Geometry3d.Point,Tekla.Structures.Geometry3d.Point,System.Double,System.Double,System.Boolean)
+  - TeklaBillboardAid.Hatch.BuildHatch(TeklaBillboardAid.ModelParameters)
+  - TeklaBillboardAid.Hatch.HatchEnd
+  - TeklaBillboardAid.Hatch.HatchStart
+  - TeklaBillboardAid.Hatch.IsLeftHatch
+  - TeklaBillboardAid.Hatch.YDistanceForLadder
+  langs:
+  - csharp
+  - vb
+  name: Hatch
+  nameWithType: Hatch
+  fullName: TeklaBillboardAid.Hatch
+  type: Class
+  source:
+    remote:
+      path: Hatch.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: Hatch
+    path: Hatch.cs
+    startLine: 13
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  syntax:
+    content: public class Hatch
+    content.vb: Public Class Hatch
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: TeklaBillboardAid.Hatch.HatchStart
+  commentId: P:TeklaBillboardAid.Hatch.HatchStart
+  id: HatchStart
+  parent: TeklaBillboardAid.Hatch
+  langs:
+  - csharp
+  - vb
+  name: HatchStart
+  nameWithType: Hatch.HatchStart
+  fullName: TeklaBillboardAid.Hatch.HatchStart
+  type: Property
+  source:
+    remote:
+      path: Hatch.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: HatchStart
+    path: Hatch.cs
+    startLine: 18
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  summary: "\nThe starting point of the hatch.\n"
+  example: []
+  syntax:
+    content: public Point HatchStart { get; set; }
+    parameters: []
+    return:
+      type: Tekla.Structures.Geometry3d.Point
+    content.vb: Public Property HatchStart As Point
+  overload: TeklaBillboardAid.Hatch.HatchStart*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TeklaBillboardAid.Hatch.HatchEnd
+  commentId: P:TeklaBillboardAid.Hatch.HatchEnd
+  id: HatchEnd
+  parent: TeklaBillboardAid.Hatch
+  langs:
+  - csharp
+  - vb
+  name: HatchEnd
+  nameWithType: Hatch.HatchEnd
+  fullName: TeklaBillboardAid.Hatch.HatchEnd
+  type: Property
+  source:
+    remote:
+      path: Hatch.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: HatchEnd
+    path: Hatch.cs
+    startLine: 23
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  summary: "\nThe ending point of the hatch.\n"
+  example: []
+  syntax:
+    content: public Point HatchEnd { get; set; }
+    parameters: []
+    return:
+      type: Tekla.Structures.Geometry3d.Point
+    content.vb: Public Property HatchEnd As Point
+  overload: TeklaBillboardAid.Hatch.HatchEnd*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TeklaBillboardAid.Hatch.YDistanceForLadder
+  commentId: P:TeklaBillboardAid.Hatch.YDistanceForLadder
+  id: YDistanceForLadder
+  parent: TeklaBillboardAid.Hatch
+  langs:
+  - csharp
+  - vb
+  name: YDistanceForLadder
+  nameWithType: Hatch.YDistanceForLadder
+  fullName: TeklaBillboardAid.Hatch.YDistanceForLadder
+  type: Property
+  source:
+    remote:
+      path: Hatch.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: YDistanceForLadder
+    path: Hatch.cs
+    startLine: 29
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  summary: "\nThe distance of the hatch from the ladder.\nThe space that will be left out.\n"
+  example: []
+  syntax:
+    content: public double YDistanceForLadder { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property YDistanceForLadder As Double
+  overload: TeklaBillboardAid.Hatch.YDistanceForLadder*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TeklaBillboardAid.Hatch.IsLeftHatch
+  commentId: P:TeklaBillboardAid.Hatch.IsLeftHatch
+  id: IsLeftHatch
+  parent: TeklaBillboardAid.Hatch
+  langs:
+  - csharp
+  - vb
+  name: IsLeftHatch
+  nameWithType: Hatch.IsLeftHatch
+  fullName: TeklaBillboardAid.Hatch.IsLeftHatch
+  type: Property
+  source:
+    remote:
+      path: Hatch.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: IsLeftHatch
+    path: Hatch.cs
+    startLine: 34
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  summary: "\nIndicate if this hatch is a left hatch or not.\n"
+  example: []
+  syntax:
+    content: public bool IsLeftHatch { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsLeftHatch As Boolean
+  overload: TeklaBillboardAid.Hatch.IsLeftHatch*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TeklaBillboardAid.Hatch.#ctor(Tekla.Structures.Geometry3d.Point,Tekla.Structures.Geometry3d.Point,System.Double,System.Double,System.Boolean)
+  commentId: M:TeklaBillboardAid.Hatch.#ctor(Tekla.Structures.Geometry3d.Point,Tekla.Structures.Geometry3d.Point,System.Double,System.Double,System.Boolean)
+  id: '#ctor(Tekla.Structures.Geometry3d.Point,Tekla.Structures.Geometry3d.Point,System.Double,System.Double,System.Boolean)'
+  parent: TeklaBillboardAid.Hatch
+  langs:
+  - csharp
+  - vb
+  name: Hatch(Point, Point, Double, Double, Boolean)
+  nameWithType: Hatch.Hatch(Point, Point, Double, Double, Boolean)
+  fullName: TeklaBillboardAid.Hatch.Hatch(Tekla.Structures.Geometry3d.Point, Tekla.Structures.Geometry3d.Point, System.Double, System.Double, System.Boolean)
+  type: Constructor
+  source:
+    remote:
+      path: Hatch.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: .ctor
+    path: Hatch.cs
+    startLine: 81
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  summary: "\nA hatch class representing each of the individual hatches of the billboard.\n"
+  example: []
+  syntax:
+    content: public Hatch(Point HatchStart, Point HatchEnd, double HatchZ, double YDistanceForLadder, bool IsLeftHatch)
+    parameters:
+    - id: HatchStart
+      type: Tekla.Structures.Geometry3d.Point
+      description: 'The starting position of the hatch (refer to diagram). '
+    - id: HatchEnd
+      type: Tekla.Structures.Geometry3d.Point
+      description: The end position of the hatch. (refer to diagram)
+    - id: HatchZ
+      type: System.Double
+      description: 'The Z position of the hatch. '
+    - id: YDistanceForLadder
+      type: System.Double
+      description: 'The distance of the hatch from the ladder. '
+    - id: IsLeftHatch
+      type: System.Boolean
+      description: 'True: this hatch is a hatch on the left side, False: it is a hatch on the right side of the billboard. '
+    content.vb: Public Sub New(HatchStart As Point, HatchEnd As Point, HatchZ As Double, YDistanceForLadder As Double, IsLeftHatch As Boolean)
+  overload: TeklaBillboardAid.Hatch.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TeklaBillboardAid.Hatch.BuildHatch(TeklaBillboardAid.ModelParameters)
+  commentId: M:TeklaBillboardAid.Hatch.BuildHatch(TeklaBillboardAid.ModelParameters)
+  id: BuildHatch(TeklaBillboardAid.ModelParameters)
+  parent: TeklaBillboardAid.Hatch
+  langs:
+  - csharp
+  - vb
+  name: BuildHatch(ModelParameters)
+  nameWithType: Hatch.BuildHatch(ModelParameters)
+  fullName: TeklaBillboardAid.Hatch.BuildHatch(TeklaBillboardAid.ModelParameters)
+  type: Method
+  source:
+    remote:
+      path: Hatch.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: BuildHatch
+    path: Hatch.cs
+    startLine: 97
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  summary: "\nBuilds the hatch with the input specification.\n"
+  example: []
+  syntax:
+    content: public List<Part> BuildHatch(ModelParameters modelParameters)
+    parameters:
+    - id: modelParameters
+      type: TeklaBillboardAid.ModelParameters
+      description: 'modelParameters '
+    return:
+      type: System.Collections.Generic.List{Tekla.Structures.Model.Part}
+      description: 'List of Part objects of the Part objects created for the hatch. '
+    content.vb: Public Function BuildHatch(modelParameters As ModelParameters) As List(Of Part)
+  overload: TeklaBillboardAid.Hatch.BuildHatch*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: TeklaBillboardAid
+  commentId: N:TeklaBillboardAid
+  name: TeklaBillboardAid
+  nameWithType: TeklaBillboardAid
+  fullName: TeklaBillboardAid
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TeklaBillboardAid.Hatch.HatchStart*
+  commentId: Overload:TeklaBillboardAid.Hatch.HatchStart
+  name: HatchStart
+  nameWithType: Hatch.HatchStart
+  fullName: TeklaBillboardAid.Hatch.HatchStart
+- uid: Tekla.Structures.Geometry3d.Point
+  commentId: T:Tekla.Structures.Geometry3d.Point
+  parent: Tekla.Structures.Geometry3d
+  isExternal: true
+  name: Point
+  nameWithType: Point
+  fullName: Tekla.Structures.Geometry3d.Point
+- uid: Tekla.Structures.Geometry3d
+  commentId: N:Tekla.Structures.Geometry3d
+  isExternal: true
+  name: Tekla.Structures.Geometry3d
+  nameWithType: Tekla.Structures.Geometry3d
+  fullName: Tekla.Structures.Geometry3d
+- uid: TeklaBillboardAid.Hatch.HatchEnd*
+  commentId: Overload:TeklaBillboardAid.Hatch.HatchEnd
+  name: HatchEnd
+  nameWithType: Hatch.HatchEnd
+  fullName: TeklaBillboardAid.Hatch.HatchEnd
+- uid: TeklaBillboardAid.Hatch.YDistanceForLadder*
+  commentId: Overload:TeklaBillboardAid.Hatch.YDistanceForLadder
+  name: YDistanceForLadder
+  nameWithType: Hatch.YDistanceForLadder
+  fullName: TeklaBillboardAid.Hatch.YDistanceForLadder
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: TeklaBillboardAid.Hatch.IsLeftHatch*
+  commentId: Overload:TeklaBillboardAid.Hatch.IsLeftHatch
+  name: IsLeftHatch
+  nameWithType: Hatch.IsLeftHatch
+  fullName: TeklaBillboardAid.Hatch.IsLeftHatch
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: TeklaBillboardAid.Hatch.#ctor*
+  commentId: Overload:TeklaBillboardAid.Hatch.#ctor
+  name: Hatch
+  nameWithType: Hatch.Hatch
+  fullName: TeklaBillboardAid.Hatch.Hatch
+- uid: TeklaBillboardAid.Hatch.BuildHatch*
+  commentId: Overload:TeklaBillboardAid.Hatch.BuildHatch
+  name: BuildHatch
+  nameWithType: Hatch.BuildHatch
+  fullName: TeklaBillboardAid.Hatch.BuildHatch
+- uid: TeklaBillboardAid.ModelParameters
+  commentId: T:TeklaBillboardAid.ModelParameters
+  parent: TeklaBillboardAid
+  name: ModelParameters
+  nameWithType: ModelParameters
+  fullName: TeklaBillboardAid.ModelParameters
+- uid: System.Collections.Generic.List{Tekla.Structures.Model.Part}
+  commentId: T:System.Collections.Generic.List{Tekla.Structures.Model.Part}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Part>
+  nameWithType: List<Part>
+  fullName: System.Collections.Generic.List<Tekla.Structures.Model.Part>
+  nameWithType.vb: List(Of Part)
+  fullName.vb: System.Collections.Generic.List(Of Tekla.Structures.Model.Part)
+  name.vb: List(Of Part)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Tekla.Structures.Model.Part
+    name: Part
+    nameWithType: Part
+    fullName: Tekla.Structures.Model.Part
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Tekla.Structures.Model.Part
+    name: Part
+    nameWithType: Part
+    fullName: Tekla.Structures.Model.Part
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic

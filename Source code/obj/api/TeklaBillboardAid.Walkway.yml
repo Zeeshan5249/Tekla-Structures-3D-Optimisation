@@ -1,0 +1,649 @@
+### YamlMime:ManagedReference
+items:
+- uid: TeklaBillboardAid.Walkway
+  commentId: T:TeklaBillboardAid.Walkway
+  id: Walkway
+  parent: TeklaBillboardAid
+  children:
+  - TeklaBillboardAid.Walkway.Walkways(System.Double,System.Collections.Generic.List{System.Double},TeklaBillboardAid.ModelParameters,Tekla.Structures.Geometry3d.Point,System.Boolean,System.Boolean,System.Double)
+  - TeklaBillboardAid.Walkway.WalkwaysWithHatch(System.Double,System.Collections.Generic.List{System.Double},TeklaBillboardAid.ModelParameters,Tekla.Structures.Geometry3d.Point,System.Boolean,System.Boolean,System.Double,Tekla.Structures.Geometry3d.Point,Tekla.Structures.Geometry3d.Point)
+  langs:
+  - csharp
+  - vb
+  name: Walkway
+  nameWithType: Walkway
+  fullName: TeklaBillboardAid.Walkway
+  type: Class
+  source:
+    remote:
+      path: Walkway.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: Walkway
+    path: Walkway.cs
+    startLine: 10
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  summary: "\nClass for holding methods for creating mid-walkways\n"
+  example: []
+  syntax:
+    content: public class Walkway
+    content.vb: Public Class Walkway
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: TeklaBillboardAid.Walkway.Walkways(System.Double,System.Collections.Generic.List{System.Double},TeklaBillboardAid.ModelParameters,Tekla.Structures.Geometry3d.Point,System.Boolean,System.Boolean,System.Double)
+  commentId: M:TeklaBillboardAid.Walkway.Walkways(System.Double,System.Collections.Generic.List{System.Double},TeklaBillboardAid.ModelParameters,Tekla.Structures.Geometry3d.Point,System.Boolean,System.Boolean,System.Double)
+  id: Walkways(System.Double,System.Collections.Generic.List{System.Double},TeklaBillboardAid.ModelParameters,Tekla.Structures.Geometry3d.Point,System.Boolean,System.Boolean,System.Double)
+  parent: TeklaBillboardAid.Walkway
+  langs:
+  - csharp
+  - vb
+  name: Walkways(Double, List<Double>, ModelParameters, Point, Boolean, Boolean, Double)
+  nameWithType: Walkway.Walkways(Double, List<Double>, ModelParameters, Point, Boolean, Boolean, Double)
+  fullName: TeklaBillboardAid.Walkway.Walkways(System.Double, System.Collections.Generic.List<System.Double>, TeklaBillboardAid.ModelParameters, Tekla.Structures.Geometry3d.Point, System.Boolean, System.Boolean, System.Double)
+  type: Method
+  source:
+    remote:
+      path: Walkway.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: Walkways
+    path: Walkway.cs
+    startLine: 24
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  summary: "\nWalkway constructor\n"
+  example: []
+  syntax:
+    content: public static List<Beam> Walkways(double walkwayZ, List<double> xSubCoordinates, ModelParameters modelParameters, Point OriginOffset, bool side2, bool side4, double boxlength)
+    parameters:
+    - id: walkwayZ
+      type: System.Double
+      description: Height of the mid-walkway (offset from bottom)
+    - id: xSubCoordinates
+      type: System.Collections.Generic.List{System.Double}
+      description: Sub-list of frame X-coordinates (for the current box)
+    - id: modelParameters
+      type: TeklaBillboardAid.ModelParameters
+      description: Model parameters
+    - id: OriginOffset
+      type: Tekla.Structures.Geometry3d.Point
+      description: Origin point of the current box
+    - id: side2
+      type: System.Boolean
+      description: Whether the left side of the box is at a split, true if split
+    - id: side4
+      type: System.Boolean
+      description: Whether the right side of the box is at a split, true if split
+    - id: boxlength
+      type: System.Double
+      description: Length of the current box
+    return:
+      type: System.Collections.Generic.List{Tekla.Structures.Model.Beam}
+      description: 'List of Beam objects created '
+    content.vb: Public Shared Function Walkways(walkwayZ As Double, xSubCoordinates As List(Of Double), modelParameters As ModelParameters, OriginOffset As Point, side2 As Boolean, side4 As Boolean, boxlength As Double) As List(Of Beam)
+  overload: TeklaBillboardAid.Walkway.Walkways*
+  nameWithType.vb: Walkway.Walkways(Double, List(Of Double), ModelParameters, Point, Boolean, Boolean, Double)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: TeklaBillboardAid.Walkway.Walkways(System.Double, System.Collections.Generic.List(Of System.Double), TeklaBillboardAid.ModelParameters, Tekla.Structures.Geometry3d.Point, System.Boolean, System.Boolean, System.Double)
+  name.vb: Walkways(Double, List(Of Double), ModelParameters, Point, Boolean, Boolean, Double)
+- uid: TeklaBillboardAid.Walkway.WalkwaysWithHatch(System.Double,System.Collections.Generic.List{System.Double},TeklaBillboardAid.ModelParameters,Tekla.Structures.Geometry3d.Point,System.Boolean,System.Boolean,System.Double,Tekla.Structures.Geometry3d.Point,Tekla.Structures.Geometry3d.Point)
+  commentId: M:TeklaBillboardAid.Walkway.WalkwaysWithHatch(System.Double,System.Collections.Generic.List{System.Double},TeklaBillboardAid.ModelParameters,Tekla.Structures.Geometry3d.Point,System.Boolean,System.Boolean,System.Double,Tekla.Structures.Geometry3d.Point,Tekla.Structures.Geometry3d.Point)
+  id: WalkwaysWithHatch(System.Double,System.Collections.Generic.List{System.Double},TeklaBillboardAid.ModelParameters,Tekla.Structures.Geometry3d.Point,System.Boolean,System.Boolean,System.Double,Tekla.Structures.Geometry3d.Point,Tekla.Structures.Geometry3d.Point)
+  parent: TeklaBillboardAid.Walkway
+  langs:
+  - csharp
+  - vb
+  name: WalkwaysWithHatch(Double, List<Double>, ModelParameters, Point, Boolean, Boolean, Double, Point, Point)
+  nameWithType: Walkway.WalkwaysWithHatch(Double, List<Double>, ModelParameters, Point, Boolean, Boolean, Double, Point, Point)
+  fullName: TeklaBillboardAid.Walkway.WalkwaysWithHatch(System.Double, System.Collections.Generic.List<System.Double>, TeklaBillboardAid.ModelParameters, Tekla.Structures.Geometry3d.Point, System.Boolean, System.Boolean, System.Double, Tekla.Structures.Geometry3d.Point, Tekla.Structures.Geometry3d.Point)
+  type: Method
+  source:
+    remote:
+      path: Walkway.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: WalkwaysWithHatch
+    path: Walkway.cs
+    startLine: 364
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  summary: "\nWalkway constructor\n"
+  example: []
+  syntax:
+    content: public static List<Beam> WalkwaysWithHatch(double walkwayZ, List<double> xSubCoordinates, ModelParameters modelParameters, Point OriginOffset, bool side2, bool side4, double boxlength, Point HatchStart, Point HatchEnd)
+    parameters:
+    - id: walkwayZ
+      type: System.Double
+      description: Height of the mid-walkway (offset from bottom)
+    - id: xSubCoordinates
+      type: System.Collections.Generic.List{System.Double}
+      description: Sub-list of frame X-coordinates (for the current box)
+    - id: modelParameters
+      type: TeklaBillboardAid.ModelParameters
+      description: Model parameters
+    - id: OriginOffset
+      type: Tekla.Structures.Geometry3d.Point
+      description: Origin point of the current box
+    - id: side2
+      type: System.Boolean
+      description: Whether the left side of the box is at a split, true if split
+    - id: side4
+      type: System.Boolean
+      description: Whether the right side of the box is at a split, true if split
+    - id: boxlength
+      type: System.Double
+      description: Length of the current box
+    - id: HatchStart
+      type: Tekla.Structures.Geometry3d.Point
+    - id: HatchEnd
+      type: Tekla.Structures.Geometry3d.Point
+    return:
+      type: System.Collections.Generic.List{Tekla.Structures.Model.Beam}
+    content.vb: Public Shared Function WalkwaysWithHatch(walkwayZ As Double, xSubCoordinates As List(Of Double), modelParameters As ModelParameters, OriginOffset As Point, side2 As Boolean, side4 As Boolean, boxlength As Double, HatchStart As Point, HatchEnd As Point) As List(Of Beam)
+  overload: TeklaBillboardAid.Walkway.WalkwaysWithHatch*
+  nameWithType.vb: Walkway.WalkwaysWithHatch(Double, List(Of Double), ModelParameters, Point, Boolean, Boolean, Double, Point, Point)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: TeklaBillboardAid.Walkway.WalkwaysWithHatch(System.Double, System.Collections.Generic.List(Of System.Double), TeklaBillboardAid.ModelParameters, Tekla.Structures.Geometry3d.Point, System.Boolean, System.Boolean, System.Double, Tekla.Structures.Geometry3d.Point, Tekla.Structures.Geometry3d.Point)
+  name.vb: WalkwaysWithHatch(Double, List(Of Double), ModelParameters, Point, Boolean, Boolean, Double, Point, Point)
+references:
+- uid: TeklaBillboardAid
+  commentId: N:TeklaBillboardAid
+  name: TeklaBillboardAid
+  nameWithType: TeklaBillboardAid
+  fullName: TeklaBillboardAid
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TeklaBillboardAid.Walkway.Walkways*
+  commentId: Overload:TeklaBillboardAid.Walkway.Walkways
+  name: Walkways
+  nameWithType: Walkway.Walkways
+  fullName: TeklaBillboardAid.Walkway.Walkways
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: System.Collections.Generic.List{System.Double}
+  commentId: T:System.Collections.Generic.List{System.Double}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Double>
+  nameWithType: List<Double>
+  fullName: System.Collections.Generic.List<System.Double>
+  nameWithType.vb: List(Of Double)
+  fullName.vb: System.Collections.Generic.List(Of System.Double)
+  name.vb: List(Of Double)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TeklaBillboardAid.ModelParameters
+  commentId: T:TeklaBillboardAid.ModelParameters
+  parent: TeklaBillboardAid
+  name: ModelParameters
+  nameWithType: ModelParameters
+  fullName: TeklaBillboardAid.ModelParameters
+- uid: Tekla.Structures.Geometry3d.Point
+  commentId: T:Tekla.Structures.Geometry3d.Point
+  parent: Tekla.Structures.Geometry3d
+  isExternal: true
+  name: Point
+  nameWithType: Point
+  fullName: Tekla.Structures.Geometry3d.Point
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Collections.Generic.List{Tekla.Structures.Model.Beam}
+  commentId: T:System.Collections.Generic.List{Tekla.Structures.Model.Beam}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Beam>
+  nameWithType: List<Beam>
+  fullName: System.Collections.Generic.List<Tekla.Structures.Model.Beam>
+  nameWithType.vb: List(Of Beam)
+  fullName.vb: System.Collections.Generic.List(Of Tekla.Structures.Model.Beam)
+  name.vb: List(Of Beam)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Tekla.Structures.Model.Beam
+    name: Beam
+    nameWithType: Beam
+    fullName: Tekla.Structures.Model.Beam
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Tekla.Structures.Model.Beam
+    name: Beam
+    nameWithType: Beam
+    fullName: Tekla.Structures.Model.Beam
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Tekla.Structures.Geometry3d
+  commentId: N:Tekla.Structures.Geometry3d
+  isExternal: true
+  name: Tekla.Structures.Geometry3d
+  nameWithType: Tekla.Structures.Geometry3d
+  fullName: Tekla.Structures.Geometry3d
+- uid: TeklaBillboardAid.Walkway.WalkwaysWithHatch*
+  commentId: Overload:TeklaBillboardAid.Walkway.WalkwaysWithHatch
+  name: WalkwaysWithHatch
+  nameWithType: Walkway.WalkwaysWithHatch
+  fullName: TeklaBillboardAid.Walkway.WalkwaysWithHatch

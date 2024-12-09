@@ -1,0 +1,538 @@
+### YamlMime:ManagedReference
+items:
+- uid: TeklaBillboardAid.Colour
+  commentId: T:TeklaBillboardAid.Colour
+  id: Colour
+  parent: TeklaBillboardAid
+  children:
+  - TeklaBillboardAid.Colour.Basalt
+  - TeklaBillboardAid.Colour.Cove
+  - TeklaBillboardAid.Colour.Dune
+  - TeklaBillboardAid.Colour.EveningHaze
+  - TeklaBillboardAid.Colour.Gully
+  - TeklaBillboardAid.Colour.Ironstone
+  - TeklaBillboardAid.Colour.Jasper
+  - TeklaBillboardAid.Colour.Mangrove
+  - TeklaBillboardAid.Colour.Monument
+  - TeklaBillboardAid.Colour.ShaleGrey
+  - TeklaBillboardAid.Colour.Surfmist
+  - TeklaBillboardAid.Colour.Terrain
+  - TeklaBillboardAid.Colour.Wallaby
+  - TeklaBillboardAid.Colour.Windspray
+  langs:
+  - csharp
+  - vb
+  name: Colour
+  nameWithType: Colour
+  fullName: TeklaBillboardAid.Colour
+  type: Enum
+  source:
+    remote:
+      path: Cladding.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: Colour
+    path: Cladding.cs
+    startLine: 84
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  summary: "\nEnumeration to support different material colours/finishes\n"
+  example: []
+  syntax:
+    content: public enum Colour
+    content.vb: Public Enum Colour
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: TeklaBillboardAid.Colour.Basalt
+  commentId: F:TeklaBillboardAid.Colour.Basalt
+  id: Basalt
+  parent: TeklaBillboardAid.Colour
+  langs:
+  - csharp
+  - vb
+  name: Basalt
+  nameWithType: Colour.Basalt
+  fullName: TeklaBillboardAid.Colour.Basalt
+  type: Field
+  source:
+    remote:
+      path: Cladding.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: Basalt
+    path: Cladding.cs
+    startLine: 89
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  summary: "\nBasalt colour\n"
+  example: []
+  syntax:
+    content: Basalt = 0
+    return:
+      type: TeklaBillboardAid.Colour
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TeklaBillboardAid.Colour.Cove
+  commentId: F:TeklaBillboardAid.Colour.Cove
+  id: Cove
+  parent: TeklaBillboardAid.Colour
+  langs:
+  - csharp
+  - vb
+  name: Cove
+  nameWithType: Colour.Cove
+  fullName: TeklaBillboardAid.Colour.Cove
+  type: Field
+  source:
+    remote:
+      path: Cladding.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: Cove
+    path: Cladding.cs
+    startLine: 94
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  summary: "\nCove colour\n"
+  example: []
+  syntax:
+    content: Cove = 1
+    return:
+      type: TeklaBillboardAid.Colour
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TeklaBillboardAid.Colour.Dune
+  commentId: F:TeklaBillboardAid.Colour.Dune
+  id: Dune
+  parent: TeklaBillboardAid.Colour
+  langs:
+  - csharp
+  - vb
+  name: Dune
+  nameWithType: Colour.Dune
+  fullName: TeklaBillboardAid.Colour.Dune
+  type: Field
+  source:
+    remote:
+      path: Cladding.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: Dune
+    path: Cladding.cs
+    startLine: 99
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  summary: "\nDune colour\n"
+  example: []
+  syntax:
+    content: Dune = 2
+    return:
+      type: TeklaBillboardAid.Colour
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TeklaBillboardAid.Colour.EveningHaze
+  commentId: F:TeklaBillboardAid.Colour.EveningHaze
+  id: EveningHaze
+  parent: TeklaBillboardAid.Colour
+  langs:
+  - csharp
+  - vb
+  name: EveningHaze
+  nameWithType: Colour.EveningHaze
+  fullName: TeklaBillboardAid.Colour.EveningHaze
+  type: Field
+  source:
+    remote:
+      path: Cladding.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: EveningHaze
+    path: Cladding.cs
+    startLine: 104
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  summary: "\nEveningHaze Colour\n"
+  example: []
+  syntax:
+    content: EveningHaze = 3
+    return:
+      type: TeklaBillboardAid.Colour
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TeklaBillboardAid.Colour.Gully
+  commentId: F:TeklaBillboardAid.Colour.Gully
+  id: Gully
+  parent: TeklaBillboardAid.Colour
+  langs:
+  - csharp
+  - vb
+  name: Gully
+  nameWithType: Colour.Gully
+  fullName: TeklaBillboardAid.Colour.Gully
+  type: Field
+  source:
+    remote:
+      path: Cladding.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: Gully
+    path: Cladding.cs
+    startLine: 109
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  summary: "\nGully Colour\n"
+  example: []
+  syntax:
+    content: Gully = 4
+    return:
+      type: TeklaBillboardAid.Colour
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TeklaBillboardAid.Colour.Ironstone
+  commentId: F:TeklaBillboardAid.Colour.Ironstone
+  id: Ironstone
+  parent: TeklaBillboardAid.Colour
+  langs:
+  - csharp
+  - vb
+  name: Ironstone
+  nameWithType: Colour.Ironstone
+  fullName: TeklaBillboardAid.Colour.Ironstone
+  type: Field
+  source:
+    remote:
+      path: Cladding.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: Ironstone
+    path: Cladding.cs
+    startLine: 114
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  summary: "\nIronstone Colour\n"
+  example: []
+  syntax:
+    content: Ironstone = 5
+    return:
+      type: TeklaBillboardAid.Colour
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TeklaBillboardAid.Colour.Jasper
+  commentId: F:TeklaBillboardAid.Colour.Jasper
+  id: Jasper
+  parent: TeklaBillboardAid.Colour
+  langs:
+  - csharp
+  - vb
+  name: Jasper
+  nameWithType: Colour.Jasper
+  fullName: TeklaBillboardAid.Colour.Jasper
+  type: Field
+  source:
+    remote:
+      path: Cladding.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: Jasper
+    path: Cladding.cs
+    startLine: 119
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  summary: "\nJasper COlour\n"
+  example: []
+  syntax:
+    content: Jasper = 6
+    return:
+      type: TeklaBillboardAid.Colour
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TeklaBillboardAid.Colour.Mangrove
+  commentId: F:TeklaBillboardAid.Colour.Mangrove
+  id: Mangrove
+  parent: TeklaBillboardAid.Colour
+  langs:
+  - csharp
+  - vb
+  name: Mangrove
+  nameWithType: Colour.Mangrove
+  fullName: TeklaBillboardAid.Colour.Mangrove
+  type: Field
+  source:
+    remote:
+      path: Cladding.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: Mangrove
+    path: Cladding.cs
+    startLine: 124
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  summary: "\nMangrove Colour\n"
+  example: []
+  syntax:
+    content: Mangrove = 7
+    return:
+      type: TeklaBillboardAid.Colour
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TeklaBillboardAid.Colour.Monument
+  commentId: F:TeklaBillboardAid.Colour.Monument
+  id: Monument
+  parent: TeklaBillboardAid.Colour
+  langs:
+  - csharp
+  - vb
+  name: Monument
+  nameWithType: Colour.Monument
+  fullName: TeklaBillboardAid.Colour.Monument
+  type: Field
+  source:
+    remote:
+      path: Cladding.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: Monument
+    path: Cladding.cs
+    startLine: 129
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  summary: "\nMonument Colour\n"
+  example: []
+  syntax:
+    content: Monument = 8
+    return:
+      type: TeklaBillboardAid.Colour
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TeklaBillboardAid.Colour.ShaleGrey
+  commentId: F:TeklaBillboardAid.Colour.ShaleGrey
+  id: ShaleGrey
+  parent: TeklaBillboardAid.Colour
+  langs:
+  - csharp
+  - vb
+  name: ShaleGrey
+  nameWithType: Colour.ShaleGrey
+  fullName: TeklaBillboardAid.Colour.ShaleGrey
+  type: Field
+  source:
+    remote:
+      path: Cladding.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: ShaleGrey
+    path: Cladding.cs
+    startLine: 134
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  summary: "\nShaleGrey Colour\n"
+  example: []
+  syntax:
+    content: ShaleGrey = 9
+    return:
+      type: TeklaBillboardAid.Colour
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TeklaBillboardAid.Colour.Surfmist
+  commentId: F:TeklaBillboardAid.Colour.Surfmist
+  id: Surfmist
+  parent: TeklaBillboardAid.Colour
+  langs:
+  - csharp
+  - vb
+  name: Surfmist
+  nameWithType: Colour.Surfmist
+  fullName: TeklaBillboardAid.Colour.Surfmist
+  type: Field
+  source:
+    remote:
+      path: Cladding.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: Surfmist
+    path: Cladding.cs
+    startLine: 139
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  summary: "\nSurfmist Colour\n"
+  example: []
+  syntax:
+    content: Surfmist = 10
+    return:
+      type: TeklaBillboardAid.Colour
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TeklaBillboardAid.Colour.Terrain
+  commentId: F:TeklaBillboardAid.Colour.Terrain
+  id: Terrain
+  parent: TeklaBillboardAid.Colour
+  langs:
+  - csharp
+  - vb
+  name: Terrain
+  nameWithType: Colour.Terrain
+  fullName: TeklaBillboardAid.Colour.Terrain
+  type: Field
+  source:
+    remote:
+      path: Cladding.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: Terrain
+    path: Cladding.cs
+    startLine: 144
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  summary: "\nTerrain Colour\n"
+  example: []
+  syntax:
+    content: Terrain = 11
+    return:
+      type: TeklaBillboardAid.Colour
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TeklaBillboardAid.Colour.Wallaby
+  commentId: F:TeklaBillboardAid.Colour.Wallaby
+  id: Wallaby
+  parent: TeklaBillboardAid.Colour
+  langs:
+  - csharp
+  - vb
+  name: Wallaby
+  nameWithType: Colour.Wallaby
+  fullName: TeklaBillboardAid.Colour.Wallaby
+  type: Field
+  source:
+    remote:
+      path: Cladding.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: Wallaby
+    path: Cladding.cs
+    startLine: 149
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  summary: "\nWallaby Colour\n"
+  example: []
+  syntax:
+    content: Wallaby = 12
+    return:
+      type: TeklaBillboardAid.Colour
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TeklaBillboardAid.Colour.Windspray
+  commentId: F:TeklaBillboardAid.Colour.Windspray
+  id: Windspray
+  parent: TeklaBillboardAid.Colour
+  langs:
+  - csharp
+  - vb
+  name: Windspray
+  nameWithType: Colour.Windspray
+  fullName: TeklaBillboardAid.Colour.Windspray
+  type: Field
+  source:
+    remote:
+      path: Cladding.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: Windspray
+    path: Cladding.cs
+    startLine: 154
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  summary: "\nWindspray Colour\n"
+  example: []
+  syntax:
+    content: Windspray = 13
+    return:
+      type: TeklaBillboardAid.Colour
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: TeklaBillboardAid
+  commentId: N:TeklaBillboardAid
+  name: TeklaBillboardAid
+  nameWithType: TeklaBillboardAid
+  fullName: TeklaBillboardAid
+- uid: TeklaBillboardAid.Colour
+  commentId: T:TeklaBillboardAid.Colour
+  parent: TeklaBillboardAid
+  name: Colour
+  nameWithType: Colour
+  fullName: TeklaBillboardAid.Colour

@@ -1,0 +1,135 @@
+D:\tekla box dustin revison\Tekla Billboard Tool\working no profile\Dustin Modified TeklaBillboardAid -files moved\bin\x64\Release\BeamApplication.exe.config
+D:\tekla box dustin revison\Tekla Billboard Tool\working no profile\Dustin Modified TeklaBillboardAid -files moved\bin\x64\Release\BeamApplication.exe
+D:\tekla box dustin revison\Tekla Billboard Tool\working no profile\Dustin Modified TeklaBillboardAid -files moved\bin\x64\Release\BeamApplication.pdb
+D:\tekla box dustin revison\Tekla Billboard Tool\working no profile\Dustin Modified TeklaBillboardAid -files moved\bin\x64\Release\Microsoft.Bcl.AsyncInterfaces.dll
+D:\tekla box dustin revison\Tekla Billboard Tool\working no profile\Dustin Modified TeklaBillboardAid -files moved\bin\x64\Release\System.Buffers.dll
+D:\tekla box dustin revison\Tekla Billboard Tool\working no profile\Dustin Modified TeklaBillboardAid -files moved\bin\x64\Release\System.Memory.dll
+D:\tekla box dustin revison\Tekla Billboard Tool\working no profile\Dustin Modified TeklaBillboardAid -files moved\bin\x64\Release\System.Numerics.Vectors.dll
+D:\tekla box dustin revison\Tekla Billboard Tool\working no profile\Dustin Modified TeklaBillboardAid -files moved\bin\x64\Release\System.Runtime.CompilerServices.Unsafe.dll
+D:\tekla box dustin revison\Tekla Billboard Tool\working no profile\Dustin Modified TeklaBillboardAid -files moved\bin\x64\Release\System.Text.Encodings.Web.dll
+D:\tekla box dustin revison\Tekla Billboard Tool\working no profile\Dustin Modified TeklaBillboardAid -files moved\bin\x64\Release\System.Text.Json.dll
+D:\tekla box dustin revison\Tekla Billboard Tool\working no profile\Dustin Modified TeklaBillboardAid -files moved\bin\x64\Release\System.Threading.Tasks.Extensions.dll
+D:\tekla box dustin revison\Tekla Billboard Tool\working no profile\Dustin Modified TeklaBillboardAid -files moved\bin\x64\Release\System.ValueTuple.dll
+D:\tekla box dustin revison\Tekla Billboard Tool\working no profile\Dustin Modified TeklaBillboardAid -files moved\bin\x64\Release\Microsoft.Bcl.AsyncInterfaces.xml
+D:\tekla box dustin revison\Tekla Billboard Tool\working no profile\Dustin Modified TeklaBillboardAid -files moved\bin\x64\Release\System.Buffers.xml
+D:\tekla box dustin revison\Tekla Billboard Tool\working no profile\Dustin Modified TeklaBillboardAid -files moved\bin\x64\Release\System.Memory.xml
+D:\tekla box dustin revison\Tekla Billboard Tool\working no profile\Dustin Modified TeklaBillboardAid -files moved\bin\x64\Release\System.Numerics.Vectors.xml
+D:\tekla box dustin revison\Tekla Billboard Tool\working no profile\Dustin Modified TeklaBillboardAid -files moved\bin\x64\Release\System.Runtime.CompilerServices.Unsafe.xml
+D:\tekla box dustin revison\Tekla Billboard Tool\working no profile\Dustin Modified TeklaBillboardAid -files moved\bin\x64\Release\System.Text.Encodings.Web.xml
+D:\tekla box dustin revison\Tekla Billboard Tool\working no profile\Dustin Modified TeklaBillboardAid -files moved\bin\x64\Release\System.Text.Json.xml
+D:\tekla box dustin revison\Tekla Billboard Tool\working no profile\Dustin Modified TeklaBillboardAid -files moved\bin\x64\Release\System.Threading.Tasks.Extensions.xml
+D:\tekla box dustin revison\Tekla Billboard Tool\working no profile\Dustin Modified TeklaBillboardAid -files moved\bin\x64\Release\System.ValueTuple.xml
+D:\tekla box dustin revison\Tekla Billboard Tool\working no profile\Dustin Modified TeklaBillboardAid -files moved\ObjDir\x64\Release\TeklaBillboardAid\TeklaBillboardAid.csproj.AssemblyReference.cache
+D:\tekla box dustin revison\Tekla Billboard Tool\working no profile\Dustin Modified TeklaBillboardAid -files moved\ObjDir\x64\Release\TeklaBillboardAid\TeklaBillboardAid.csproj.SuggestedBindingRedirects.cache
+D:\tekla box dustin revison\Tekla Billboard Tool\working no profile\Dustin Modified TeklaBillboardAid -files moved\ObjDir\x64\Release\TeklaBillboardAid\TeklaBillboardAid.Form1.resources
+D:\tekla box dustin revison\Tekla Billboard Tool\working no profile\Dustin Modified TeklaBillboardAid -files moved\ObjDir\x64\Release\TeklaBillboardAid\BeamApplication.Properties.Resources.resources
+D:\tekla box dustin revison\Tekla Billboard Tool\working no profile\Dustin Modified TeklaBillboardAid -files moved\ObjDir\x64\Release\TeklaBillboardAid\TeklaBillboardAid.csproj.GenerateResource.cache
+D:\tekla box dustin revison\Tekla Billboard Tool\working no profile\Dustin Modified TeklaBillboardAid -files moved\ObjDir\x64\Release\TeklaBillboardAid\TeklaBillboardAid.csproj.CoreCompileInputs.cache
+D:\tekla box dustin revison\Tekla Billboard Tool\working no profile\Dustin Modified TeklaBillboardAid -files moved\ObjDir\x64\Release\TeklaBillboardAid\TeklaBillboardAid.csproj.CopyComplete
+D:\tekla box dustin revison\Tekla Billboard Tool\working no profile\Dustin Modified TeklaBillboardAid -files moved\ObjDir\x64\Release\TeklaBillboardAid\BeamApplication.exe
+D:\tekla box dustin revison\Tekla Billboard Tool\working no profile\Dustin Modified TeklaBillboardAid -files moved\ObjDir\x64\Release\TeklaBillboardAid\BeamApplication.pdb
+D:\tekla box dustin revison\Tekla Billboard Tool\working no profile\Dustin Modified TeklaBillboardAid -files moved\bin\x64\Release\Tekla.Structures.Catalogs.dll
+D:\tekla box dustin revison\Tekla Billboard Tool\working no profile\Dustin Modified TeklaBillboardAid -files moved\bin\x64\Release\Tekla.Structures.Datatype.dll
+D:\tekla box dustin revison\Tekla Billboard Tool\working no profile\Dustin Modified TeklaBillboardAid -files moved\bin\x64\Release\Tekla.Structures.Dialog.dll
+D:\tekla box dustin revison\Tekla Billboard Tool\working no profile\Dustin Modified TeklaBillboardAid -files moved\bin\x64\Release\Tekla.Structures.dll
+D:\tekla box dustin revison\Tekla Billboard Tool\working no profile\Dustin Modified TeklaBillboardAid -files moved\bin\x64\Release\Tekla.Structures.Drawing.dll
+D:\tekla box dustin revison\Tekla Billboard Tool\working no profile\Dustin Modified TeklaBillboardAid -files moved\bin\x64\Release\Tekla.Structures.Model.dll
+D:\tekla box dustin revison\Tekla Billboard Tool\working no profile\Dustin Modified TeklaBillboardAid -files moved\bin\x64\Release\Tekla.Structures.Plugins.dll
+D:\tekla box dustin revison\Tekla Billboard Tool\working no profile\Dustin Modified TeklaBillboardAid -files moved\bin\x64\Release\Tekla.Structures.xml
+D:\tekla box dustin revison\Tekla Billboard Tool\working no profile\Dustin Modified TeklaBillboardAid -files moved\bin\x64\Release\Tekla.Structures.Catalogs.xml
+D:\tekla box dustin revison\Tekla Billboard Tool\working no profile\Dustin Modified TeklaBillboardAid -files moved\bin\x64\Release\Tekla.Structures.Datatype.xml
+D:\tekla box dustin revison\Tekla Billboard Tool\working no profile\Dustin Modified TeklaBillboardAid -files moved\bin\x64\Release\Tekla.Structures.Dialog.xml
+D:\tekla box dustin revison\Tekla Billboard Tool\working no profile\Dustin Modified TeklaBillboardAid -files moved\bin\x64\Release\Tekla.Structures.Drawing.xml
+D:\tekla box dustin revison\Tekla Billboard Tool\working no profile\Dustin Modified TeklaBillboardAid -files moved\bin\x64\Release\Tekla.Structures.Model.xml
+D:\tekla box dustin revison\Tekla Billboard Tool\working no profile\Dustin Modified TeklaBillboardAid -files moved\bin\x64\Release\Tekla.Structures.Plugins.xml
+D:\tekla box dustin revison\Tekla Billboard Tool\working no profile\Dustin Modified TeklaBillboardAid -files moved\ObjDir\x64\Release\TeklaBillboardAid\BeamApplication.exe.config
+C:\Users\Thomas\Documents\Uni\JFC\Code\PHASE 1,2 CODE\Dustin Modified TeklaBillboardAid\bin\x64\Release\BeamApplication.exe.config
+C:\Users\Thomas\Documents\Uni\JFC\Code\PHASE 1,2 CODE\Dustin Modified TeklaBillboardAid\bin\x64\Release\BeamApplication.exe
+C:\Users\Thomas\Documents\Uni\JFC\Code\PHASE 1,2 CODE\Dustin Modified TeklaBillboardAid\bin\x64\Release\BeamApplication.pdb
+C:\Users\Thomas\Documents\Uni\JFC\Code\PHASE 1,2 CODE\Dustin Modified TeklaBillboardAid\bin\x64\Release\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Thomas\Documents\Uni\JFC\Code\PHASE 1,2 CODE\Dustin Modified TeklaBillboardAid\bin\x64\Release\System.Buffers.dll
+C:\Users\Thomas\Documents\Uni\JFC\Code\PHASE 1,2 CODE\Dustin Modified TeklaBillboardAid\bin\x64\Release\System.Memory.dll
+C:\Users\Thomas\Documents\Uni\JFC\Code\PHASE 1,2 CODE\Dustin Modified TeklaBillboardAid\bin\x64\Release\System.Numerics.Vectors.dll
+C:\Users\Thomas\Documents\Uni\JFC\Code\PHASE 1,2 CODE\Dustin Modified TeklaBillboardAid\bin\x64\Release\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Thomas\Documents\Uni\JFC\Code\PHASE 1,2 CODE\Dustin Modified TeklaBillboardAid\bin\x64\Release\System.Text.Encodings.Web.dll
+C:\Users\Thomas\Documents\Uni\JFC\Code\PHASE 1,2 CODE\Dustin Modified TeklaBillboardAid\bin\x64\Release\System.Text.Json.dll
+C:\Users\Thomas\Documents\Uni\JFC\Code\PHASE 1,2 CODE\Dustin Modified TeklaBillboardAid\bin\x64\Release\System.Threading.Tasks.Extensions.dll
+C:\Users\Thomas\Documents\Uni\JFC\Code\PHASE 1,2 CODE\Dustin Modified TeklaBillboardAid\bin\x64\Release\System.ValueTuple.dll
+C:\Users\Thomas\Documents\Uni\JFC\Code\PHASE 1,2 CODE\Dustin Modified TeklaBillboardAid\bin\x64\Release\Tekla.Structures.Catalogs.dll
+C:\Users\Thomas\Documents\Uni\JFC\Code\PHASE 1,2 CODE\Dustin Modified TeklaBillboardAid\bin\x64\Release\Tekla.Structures.Datatype.dll
+C:\Users\Thomas\Documents\Uni\JFC\Code\PHASE 1,2 CODE\Dustin Modified TeklaBillboardAid\bin\x64\Release\Tekla.Structures.Dialog.dll
+C:\Users\Thomas\Documents\Uni\JFC\Code\PHASE 1,2 CODE\Dustin Modified TeklaBillboardAid\bin\x64\Release\Tekla.Structures.dll
+C:\Users\Thomas\Documents\Uni\JFC\Code\PHASE 1,2 CODE\Dustin Modified TeklaBillboardAid\bin\x64\Release\Tekla.Structures.Drawing.dll
+C:\Users\Thomas\Documents\Uni\JFC\Code\PHASE 1,2 CODE\Dustin Modified TeklaBillboardAid\bin\x64\Release\Tekla.Structures.Model.dll
+C:\Users\Thomas\Documents\Uni\JFC\Code\PHASE 1,2 CODE\Dustin Modified TeklaBillboardAid\bin\x64\Release\Tekla.Structures.Plugins.dll
+C:\Users\Thomas\Documents\Uni\JFC\Code\PHASE 1,2 CODE\Dustin Modified TeklaBillboardAid\bin\x64\Release\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Thomas\Documents\Uni\JFC\Code\PHASE 1,2 CODE\Dustin Modified TeklaBillboardAid\bin\x64\Release\System.Buffers.xml
+C:\Users\Thomas\Documents\Uni\JFC\Code\PHASE 1,2 CODE\Dustin Modified TeklaBillboardAid\bin\x64\Release\System.Memory.xml
+C:\Users\Thomas\Documents\Uni\JFC\Code\PHASE 1,2 CODE\Dustin Modified TeklaBillboardAid\bin\x64\Release\System.Numerics.Vectors.xml
+C:\Users\Thomas\Documents\Uni\JFC\Code\PHASE 1,2 CODE\Dustin Modified TeklaBillboardAid\bin\x64\Release\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Thomas\Documents\Uni\JFC\Code\PHASE 1,2 CODE\Dustin Modified TeklaBillboardAid\bin\x64\Release\System.Text.Encodings.Web.xml
+C:\Users\Thomas\Documents\Uni\JFC\Code\PHASE 1,2 CODE\Dustin Modified TeklaBillboardAid\bin\x64\Release\System.Text.Json.xml
+C:\Users\Thomas\Documents\Uni\JFC\Code\PHASE 1,2 CODE\Dustin Modified TeklaBillboardAid\bin\x64\Release\System.Threading.Tasks.Extensions.xml
+C:\Users\Thomas\Documents\Uni\JFC\Code\PHASE 1,2 CODE\Dustin Modified TeklaBillboardAid\bin\x64\Release\System.ValueTuple.xml
+C:\Users\Thomas\Documents\Uni\JFC\Code\PHASE 1,2 CODE\Dustin Modified TeklaBillboardAid\bin\x64\Release\Tekla.Structures.xml
+C:\Users\Thomas\Documents\Uni\JFC\Code\PHASE 1,2 CODE\Dustin Modified TeklaBillboardAid\bin\x64\Release\Tekla.Structures.Catalogs.xml
+C:\Users\Thomas\Documents\Uni\JFC\Code\PHASE 1,2 CODE\Dustin Modified TeklaBillboardAid\bin\x64\Release\Tekla.Structures.Datatype.xml
+C:\Users\Thomas\Documents\Uni\JFC\Code\PHASE 1,2 CODE\Dustin Modified TeklaBillboardAid\bin\x64\Release\Tekla.Structures.Dialog.xml
+C:\Users\Thomas\Documents\Uni\JFC\Code\PHASE 1,2 CODE\Dustin Modified TeklaBillboardAid\bin\x64\Release\Tekla.Structures.Drawing.xml
+C:\Users\Thomas\Documents\Uni\JFC\Code\PHASE 1,2 CODE\Dustin Modified TeklaBillboardAid\bin\x64\Release\Tekla.Structures.Model.xml
+C:\Users\Thomas\Documents\Uni\JFC\Code\PHASE 1,2 CODE\Dustin Modified TeklaBillboardAid\bin\x64\Release\Tekla.Structures.Plugins.xml
+C:\Users\Thomas\Documents\Uni\JFC\Code\PHASE 1,2 CODE\Dustin Modified TeklaBillboardAid\ObjDir\x64\Release\TeklaBillboardAid\TeklaBillboardAid.csproj.AssemblyReference.cache
+C:\Users\Thomas\Documents\Uni\JFC\Code\PHASE 1,2 CODE\Dustin Modified TeklaBillboardAid\ObjDir\x64\Release\TeklaBillboardAid\TeklaBillboardAid.csproj.SuggestedBindingRedirects.cache
+C:\Users\Thomas\Documents\Uni\JFC\Code\PHASE 1,2 CODE\Dustin Modified TeklaBillboardAid\ObjDir\x64\Release\TeklaBillboardAid\BeamApplication.exe.config
+C:\Users\Thomas\Documents\Uni\JFC\Code\PHASE 1,2 CODE\Dustin Modified TeklaBillboardAid\ObjDir\x64\Release\TeklaBillboardAid\TeklaBillboardAid.Form1.resources
+C:\Users\Thomas\Documents\Uni\JFC\Code\PHASE 1,2 CODE\Dustin Modified TeklaBillboardAid\ObjDir\x64\Release\TeklaBillboardAid\BeamApplication.Properties.Resources.resources
+C:\Users\Thomas\Documents\Uni\JFC\Code\PHASE 1,2 CODE\Dustin Modified TeklaBillboardAid\ObjDir\x64\Release\TeklaBillboardAid\TeklaBillboardAid.csproj.GenerateResource.cache
+C:\Users\Thomas\Documents\Uni\JFC\Code\PHASE 1,2 CODE\Dustin Modified TeklaBillboardAid\ObjDir\x64\Release\TeklaBillboardAid\TeklaBillboardAid.csproj.CoreCompileInputs.cache
+C:\Users\Thomas\Documents\Uni\JFC\Code\PHASE 1,2 CODE\Dustin Modified TeklaBillboardAid\ObjDir\x64\Release\TeklaBillboardAid\TeklaBillboardAid.csproj.CopyComplete
+C:\Users\Thomas\Documents\Uni\JFC\Code\PHASE 1,2 CODE\Dustin Modified TeklaBillboardAid\ObjDir\x64\Release\TeklaBillboardAid\BeamApplication.exe
+C:\Users\Thomas\Documents\Uni\JFC\Code\PHASE 1,2 CODE\Dustin Modified TeklaBillboardAid\ObjDir\x64\Release\TeklaBillboardAid\BeamApplication.pdb
+C:\Users\Thomas\Documents\Uni\JFC\Code\ALL CODES\MAIN CODING\bin\x64\Release\BeamApplication.exe.config
+C:\Users\Thomas\Documents\Uni\JFC\Code\ALL CODES\MAIN CODING\bin\x64\Release\BeamApplication.exe
+C:\Users\Thomas\Documents\Uni\JFC\Code\ALL CODES\MAIN CODING\bin\x64\Release\BeamApplication.pdb
+C:\Users\Thomas\Documents\Uni\JFC\Code\ALL CODES\MAIN CODING\bin\x64\Release\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Thomas\Documents\Uni\JFC\Code\ALL CODES\MAIN CODING\bin\x64\Release\System.Buffers.dll
+C:\Users\Thomas\Documents\Uni\JFC\Code\ALL CODES\MAIN CODING\bin\x64\Release\System.Memory.dll
+C:\Users\Thomas\Documents\Uni\JFC\Code\ALL CODES\MAIN CODING\bin\x64\Release\System.Numerics.Vectors.dll
+C:\Users\Thomas\Documents\Uni\JFC\Code\ALL CODES\MAIN CODING\bin\x64\Release\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Thomas\Documents\Uni\JFC\Code\ALL CODES\MAIN CODING\bin\x64\Release\System.Text.Encodings.Web.dll
+C:\Users\Thomas\Documents\Uni\JFC\Code\ALL CODES\MAIN CODING\bin\x64\Release\System.Text.Json.dll
+C:\Users\Thomas\Documents\Uni\JFC\Code\ALL CODES\MAIN CODING\bin\x64\Release\System.Threading.Tasks.Extensions.dll
+C:\Users\Thomas\Documents\Uni\JFC\Code\ALL CODES\MAIN CODING\bin\x64\Release\System.ValueTuple.dll
+C:\Users\Thomas\Documents\Uni\JFC\Code\ALL CODES\MAIN CODING\bin\x64\Release\Tekla.Structures.Catalogs.dll
+C:\Users\Thomas\Documents\Uni\JFC\Code\ALL CODES\MAIN CODING\bin\x64\Release\Tekla.Structures.Datatype.dll
+C:\Users\Thomas\Documents\Uni\JFC\Code\ALL CODES\MAIN CODING\bin\x64\Release\Tekla.Structures.Dialog.dll
+C:\Users\Thomas\Documents\Uni\JFC\Code\ALL CODES\MAIN CODING\bin\x64\Release\Tekla.Structures.dll
+C:\Users\Thomas\Documents\Uni\JFC\Code\ALL CODES\MAIN CODING\bin\x64\Release\Tekla.Structures.Drawing.dll
+C:\Users\Thomas\Documents\Uni\JFC\Code\ALL CODES\MAIN CODING\bin\x64\Release\Tekla.Structures.Model.dll
+C:\Users\Thomas\Documents\Uni\JFC\Code\ALL CODES\MAIN CODING\bin\x64\Release\Tekla.Structures.Plugins.dll
+C:\Users\Thomas\Documents\Uni\JFC\Code\ALL CODES\MAIN CODING\bin\x64\Release\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Thomas\Documents\Uni\JFC\Code\ALL CODES\MAIN CODING\bin\x64\Release\System.Buffers.xml
+C:\Users\Thomas\Documents\Uni\JFC\Code\ALL CODES\MAIN CODING\bin\x64\Release\System.Memory.xml
+C:\Users\Thomas\Documents\Uni\JFC\Code\ALL CODES\MAIN CODING\bin\x64\Release\System.Numerics.Vectors.xml
+C:\Users\Thomas\Documents\Uni\JFC\Code\ALL CODES\MAIN CODING\bin\x64\Release\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Thomas\Documents\Uni\JFC\Code\ALL CODES\MAIN CODING\bin\x64\Release\System.Text.Encodings.Web.xml
+C:\Users\Thomas\Documents\Uni\JFC\Code\ALL CODES\MAIN CODING\bin\x64\Release\System.Text.Json.xml
+C:\Users\Thomas\Documents\Uni\JFC\Code\ALL CODES\MAIN CODING\bin\x64\Release\System.Threading.Tasks.Extensions.xml
+C:\Users\Thomas\Documents\Uni\JFC\Code\ALL CODES\MAIN CODING\bin\x64\Release\System.ValueTuple.xml
+C:\Users\Thomas\Documents\Uni\JFC\Code\ALL CODES\MAIN CODING\bin\x64\Release\Tekla.Structures.xml
+C:\Users\Thomas\Documents\Uni\JFC\Code\ALL CODES\MAIN CODING\bin\x64\Release\Tekla.Structures.Catalogs.xml
+C:\Users\Thomas\Documents\Uni\JFC\Code\ALL CODES\MAIN CODING\bin\x64\Release\Tekla.Structures.Datatype.xml
+C:\Users\Thomas\Documents\Uni\JFC\Code\ALL CODES\MAIN CODING\bin\x64\Release\Tekla.Structures.Dialog.xml
+C:\Users\Thomas\Documents\Uni\JFC\Code\ALL CODES\MAIN CODING\bin\x64\Release\Tekla.Structures.Drawing.xml
+C:\Users\Thomas\Documents\Uni\JFC\Code\ALL CODES\MAIN CODING\bin\x64\Release\Tekla.Structures.Model.xml
+C:\Users\Thomas\Documents\Uni\JFC\Code\ALL CODES\MAIN CODING\bin\x64\Release\Tekla.Structures.Plugins.xml
+C:\Users\Thomas\Documents\Uni\JFC\Code\ALL CODES\MAIN CODING\ObjDir\x64\Release\TeklaBillboardAid\TeklaBillboardAid.csproj.AssemblyReference.cache
+C:\Users\Thomas\Documents\Uni\JFC\Code\ALL CODES\MAIN CODING\ObjDir\x64\Release\TeklaBillboardAid\TeklaBillboardAid.csproj.SuggestedBindingRedirects.cache
+C:\Users\Thomas\Documents\Uni\JFC\Code\ALL CODES\MAIN CODING\ObjDir\x64\Release\TeklaBillboardAid\BeamApplication.exe.config
+C:\Users\Thomas\Documents\Uni\JFC\Code\ALL CODES\MAIN CODING\ObjDir\x64\Release\TeklaBillboardAid\TeklaBillboardAid.Form1.resources
+C:\Users\Thomas\Documents\Uni\JFC\Code\ALL CODES\MAIN CODING\ObjDir\x64\Release\TeklaBillboardAid\BeamApplication.Properties.Resources.resources
+C:\Users\Thomas\Documents\Uni\JFC\Code\ALL CODES\MAIN CODING\ObjDir\x64\Release\TeklaBillboardAid\TeklaBillboardAid.csproj.GenerateResource.cache
+C:\Users\Thomas\Documents\Uni\JFC\Code\ALL CODES\MAIN CODING\ObjDir\x64\Release\TeklaBillboardAid\TeklaBillboardAid.csproj.CoreCompileInputs.cache
+C:\Users\Thomas\Documents\Uni\JFC\Code\ALL CODES\MAIN CODING\ObjDir\x64\Release\TeklaBillboardAid\TeklaBillboardAid.csproj.CopyComplete
+C:\Users\Thomas\Documents\Uni\JFC\Code\ALL CODES\MAIN CODING\ObjDir\x64\Release\TeklaBillboardAid\BeamApplication.exe
+C:\Users\Thomas\Documents\Uni\JFC\Code\ALL CODES\MAIN CODING\ObjDir\x64\Release\TeklaBillboardAid\BeamApplication.pdb

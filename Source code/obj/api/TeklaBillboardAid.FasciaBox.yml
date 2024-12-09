@@ -1,0 +1,866 @@
+### YamlMime:ManagedReference
+items:
+- uid: TeklaBillboardAid.FasciaBox
+  commentId: T:TeklaBillboardAid.FasciaBox
+  id: FasciaBox
+  parent: TeklaBillboardAid
+  children:
+  - TeklaBillboardAid.FasciaBox.#ctor(System.Collections.Generic.List{System.Double},TeklaBillboardAid.ModelParameters)
+  - TeklaBillboardAid.FasciaBox.AddColumnBolts(Tekla.Structures.Model.Beam,Tekla.Structures.Model.Beam,Tekla.Structures.Model.Beam,Tekla.Structures.Model.Beam,Tekla.Structures.Model.ContourPlate,Tekla.Structures.Model.ContourPlate,Tekla.Structures.Model.ContourPlate,Tekla.Structures.Model.ContourPlate)
+  - TeklaBillboardAid.FasciaBox.AddEdgeBoltsBolts(System.Boolean,Tekla.Structures.Model.Beam,Tekla.Structures.Model.Beam,Tekla.Structures.Model.ContourPlate,Tekla.Structures.Model.ContourPlate,Tekla.Structures.Model.ContourPlate)
+  - TeklaBillboardAid.FasciaBox.HorizOffset
+  - TeklaBillboardAid.FasciaBox.InsertAngledSupport(System.Boolean,System.Boolean)
+  - TeklaBillboardAid.FasciaBox.InstallFascialBrace(System.Collections.Generic.List{System.Double},TeklaBillboardAid.ModelParameters)
+  - TeklaBillboardAid.FasciaBox.OriginVertOffset
+  - TeklaBillboardAid.FasciaBox.p
+  - TeklaBillboardAid.FasciaBox.VertOffset
+  langs:
+  - csharp
+  - vb
+  name: FasciaBox
+  nameWithType: FasciaBox
+  fullName: TeklaBillboardAid.FasciaBox
+  type: Class
+  source:
+    remote:
+      path: FasciaBox.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: FasciaBox
+    path: FasciaBox.cs
+    startLine: 13
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  summary: "\nA class for the fascia box.\n"
+  example: []
+  syntax:
+    content: public class FasciaBox
+    content.vb: Public Class FasciaBox
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: TeklaBillboardAid.FasciaBox.VertOffset
+  commentId: F:TeklaBillboardAid.FasciaBox.VertOffset
+  id: VertOffset
+  parent: TeklaBillboardAid.FasciaBox
+  langs:
+  - csharp
+  - vb
+  name: VertOffset
+  nameWithType: FasciaBox.VertOffset
+  fullName: TeklaBillboardAid.FasciaBox.VertOffset
+  type: Field
+  source:
+    remote:
+      path: FasciaBox.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: VertOffset
+    path: FasciaBox.cs
+    startLine: 18
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  example: []
+  syntax:
+    content: public double VertOffset
+    return:
+      type: System.Double
+      description: "\nThe vertical offset of the fascia box from the bottom of the billboard to the indicated user input\n"
+    content.vb: Public VertOffset As Double
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TeklaBillboardAid.FasciaBox.HorizOffset
+  commentId: F:TeklaBillboardAid.FasciaBox.HorizOffset
+  id: HorizOffset
+  parent: TeklaBillboardAid.FasciaBox
+  langs:
+  - csharp
+  - vb
+  name: HorizOffset
+  nameWithType: FasciaBox.HorizOffset
+  fullName: TeklaBillboardAid.FasciaBox.HorizOffset
+  type: Field
+  source:
+    remote:
+      path: FasciaBox.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: HorizOffset
+    path: FasciaBox.cs
+    startLine: 23
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  example: []
+  syntax:
+    content: public double HorizOffset
+    return:
+      type: System.Double
+      description: "\nThe current horizontal offset\n"
+    content.vb: Public HorizOffset As Double
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TeklaBillboardAid.FasciaBox.OriginVertOffset
+  commentId: F:TeklaBillboardAid.FasciaBox.OriginVertOffset
+  id: OriginVertOffset
+  parent: TeklaBillboardAid.FasciaBox
+  langs:
+  - csharp
+  - vb
+  name: OriginVertOffset
+  nameWithType: FasciaBox.OriginVertOffset
+  fullName: TeklaBillboardAid.FasciaBox.OriginVertOffset
+  type: Field
+  source:
+    remote:
+      path: FasciaBox.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: OriginVertOffset
+    path: FasciaBox.cs
+    startLine: 27
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  example: []
+  syntax:
+    content: public double OriginVertOffset
+    return:
+      type: System.Double
+      description: "\nThe offset for the position accounting for beams at the base of the billboard\n"
+    content.vb: Public OriginVertOffset As Double
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TeklaBillboardAid.FasciaBox.p
+  commentId: F:TeklaBillboardAid.FasciaBox.p
+  id: p
+  parent: TeklaBillboardAid.FasciaBox
+  langs:
+  - csharp
+  - vb
+  name: p
+  nameWithType: FasciaBox.p
+  fullName: TeklaBillboardAid.FasciaBox.p
+  type: Field
+  source:
+    remote:
+      path: FasciaBox.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: p
+    path: FasciaBox.cs
+    startLine: 32
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  example: []
+  syntax:
+    content: public ModelParameters p
+    return:
+      type: TeklaBillboardAid.ModelParameters
+      description: "\nThe parameters for the model\n"
+    content.vb: Public p As ModelParameters
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TeklaBillboardAid.FasciaBox.AddEdgeBoltsBolts(System.Boolean,Tekla.Structures.Model.Beam,Tekla.Structures.Model.Beam,Tekla.Structures.Model.ContourPlate,Tekla.Structures.Model.ContourPlate,Tekla.Structures.Model.ContourPlate)
+  commentId: M:TeklaBillboardAid.FasciaBox.AddEdgeBoltsBolts(System.Boolean,Tekla.Structures.Model.Beam,Tekla.Structures.Model.Beam,Tekla.Structures.Model.ContourPlate,Tekla.Structures.Model.ContourPlate,Tekla.Structures.Model.ContourPlate)
+  id: AddEdgeBoltsBolts(System.Boolean,Tekla.Structures.Model.Beam,Tekla.Structures.Model.Beam,Tekla.Structures.Model.ContourPlate,Tekla.Structures.Model.ContourPlate,Tekla.Structures.Model.ContourPlate)
+  parent: TeklaBillboardAid.FasciaBox
+  langs:
+  - csharp
+  - vb
+  name: AddEdgeBoltsBolts(Boolean, Beam, Beam, ContourPlate, ContourPlate, ContourPlate)
+  nameWithType: FasciaBox.AddEdgeBoltsBolts(Boolean, Beam, Beam, ContourPlate, ContourPlate, ContourPlate)
+  fullName: TeklaBillboardAid.FasciaBox.AddEdgeBoltsBolts(System.Boolean, Tekla.Structures.Model.Beam, Tekla.Structures.Model.Beam, Tekla.Structures.Model.ContourPlate, Tekla.Structures.Model.ContourPlate, Tekla.Structures.Model.ContourPlate)
+  type: Method
+  source:
+    remote:
+      path: FasciaBox.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: AddEdgeBoltsBolts
+    path: FasciaBox.cs
+    startLine: 43
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  summary: "\nAdds 4 bolts, based on left or right column based on inputs\n"
+  example: []
+  syntax:
+    content: public void AddEdgeBoltsBolts(bool leftSide, Beam top, Beam bot, ContourPlate middle, ContourPlate bottom, ContourPlate topEdge)
+    parameters:
+    - id: leftSide
+      type: System.Boolean
+      description: Indicates if on the left side of the column
+    - id: top
+      type: Tekla.Structures.Model.Beam
+      description: Indicates the top beam
+    - id: bot
+      type: Tekla.Structures.Model.Beam
+      description: Indicates the bottom beam
+    - id: middle
+      type: Tekla.Structures.Model.ContourPlate
+      description: Indicates the middle beam
+    - id: bottom
+      type: Tekla.Structures.Model.ContourPlate
+      description: Indicates the bottom plate
+    - id: topEdge
+      type: Tekla.Structures.Model.ContourPlate
+      description: Indicates the top corner plate
+    content.vb: Public Sub AddEdgeBoltsBolts(leftSide As Boolean, top As Beam, bot As Beam, middle As ContourPlate, bottom As ContourPlate, topEdge As ContourPlate)
+  overload: TeklaBillboardAid.FasciaBox.AddEdgeBoltsBolts*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TeklaBillboardAid.FasciaBox.AddColumnBolts(Tekla.Structures.Model.Beam,Tekla.Structures.Model.Beam,Tekla.Structures.Model.Beam,Tekla.Structures.Model.Beam,Tekla.Structures.Model.ContourPlate,Tekla.Structures.Model.ContourPlate,Tekla.Structures.Model.ContourPlate,Tekla.Structures.Model.ContourPlate)
+  commentId: M:TeklaBillboardAid.FasciaBox.AddColumnBolts(Tekla.Structures.Model.Beam,Tekla.Structures.Model.Beam,Tekla.Structures.Model.Beam,Tekla.Structures.Model.Beam,Tekla.Structures.Model.ContourPlate,Tekla.Structures.Model.ContourPlate,Tekla.Structures.Model.ContourPlate,Tekla.Structures.Model.ContourPlate)
+  id: AddColumnBolts(Tekla.Structures.Model.Beam,Tekla.Structures.Model.Beam,Tekla.Structures.Model.Beam,Tekla.Structures.Model.Beam,Tekla.Structures.Model.ContourPlate,Tekla.Structures.Model.ContourPlate,Tekla.Structures.Model.ContourPlate,Tekla.Structures.Model.ContourPlate)
+  parent: TeklaBillboardAid.FasciaBox
+  langs:
+  - csharp
+  - vb
+  name: AddColumnBolts(Beam, Beam, Beam, Beam, ContourPlate, ContourPlate, ContourPlate, ContourPlate)
+  nameWithType: FasciaBox.AddColumnBolts(Beam, Beam, Beam, Beam, ContourPlate, ContourPlate, ContourPlate, ContourPlate)
+  fullName: TeklaBillboardAid.FasciaBox.AddColumnBolts(Tekla.Structures.Model.Beam, Tekla.Structures.Model.Beam, Tekla.Structures.Model.Beam, Tekla.Structures.Model.Beam, Tekla.Structures.Model.ContourPlate, Tekla.Structures.Model.ContourPlate, Tekla.Structures.Model.ContourPlate, Tekla.Structures.Model.ContourPlate)
+  type: Method
+  source:
+    remote:
+      path: FasciaBox.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: AddColumnBolts
+    path: FasciaBox.cs
+    startLine: 144
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  summary: "\nAdds 8 bolts per central column\n"
+  example: []
+  syntax:
+    content: public void AddColumnBolts(Beam mid, Beam prevMid, Beam bot, Beam prevBot, ContourPlate topEdge, ContourPlate middleRight, ContourPlate middleLeft, ContourPlate bottom)
+    parameters:
+    - id: mid
+      type: Tekla.Structures.Model.Beam
+      description: Indicates the middle beam
+    - id: prevMid
+      type: Tekla.Structures.Model.Beam
+      description: Indicates the previous middle beam
+    - id: bot
+      type: Tekla.Structures.Model.Beam
+      description: Indicates the bottom beam
+    - id: prevBot
+      type: Tekla.Structures.Model.Beam
+      description: Indicates the previous bottom beam
+    - id: topEdge
+      type: Tekla.Structures.Model.ContourPlate
+      description: Indicates the top level plate
+    - id: middleRight
+      type: Tekla.Structures.Model.ContourPlate
+      description: Indicates the middle plate on the right
+    - id: middleLeft
+      type: Tekla.Structures.Model.ContourPlate
+      description: Indicates the midddle plate on the left
+    - id: bottom
+      type: Tekla.Structures.Model.ContourPlate
+      description: Indicates the bottom plate
+    content.vb: Public Sub AddColumnBolts(mid As Beam, prevMid As Beam, bot As Beam, prevBot As Beam, topEdge As ContourPlate, middleRight As ContourPlate, middleLeft As ContourPlate, bottom As ContourPlate)
+  overload: TeklaBillboardAid.FasciaBox.AddColumnBolts*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TeklaBillboardAid.FasciaBox.InsertAngledSupport(System.Boolean,System.Boolean)
+  commentId: M:TeklaBillboardAid.FasciaBox.InsertAngledSupport(System.Boolean,System.Boolean)
+  id: InsertAngledSupport(System.Boolean,System.Boolean)
+  parent: TeklaBillboardAid.FasciaBox
+  langs:
+  - csharp
+  - vb
+  name: InsertAngledSupport(Boolean, Boolean)
+  nameWithType: FasciaBox.InsertAngledSupport(Boolean, Boolean)
+  fullName: TeklaBillboardAid.FasciaBox.InsertAngledSupport(System.Boolean, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: FasciaBox.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: InsertAngledSupport
+    path: FasciaBox.cs
+    startLine: 276
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  summary: "\nCreate the angled support with bolts\n"
+  example: []
+  syntax:
+    content: public void InsertAngledSupport(bool leftCol, bool rightCol)
+    parameters:
+    - id: leftCol
+      type: System.Boolean
+      description: Indicates if it is the left column
+    - id: rightCol
+      type: System.Boolean
+      description: Indicates if it is the right column
+    content.vb: Public Sub InsertAngledSupport(leftCol As Boolean, rightCol As Boolean)
+  overload: TeklaBillboardAid.FasciaBox.InsertAngledSupport*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TeklaBillboardAid.FasciaBox.InstallFascialBrace(System.Collections.Generic.List{System.Double},TeklaBillboardAid.ModelParameters)
+  commentId: M:TeklaBillboardAid.FasciaBox.InstallFascialBrace(System.Collections.Generic.List{System.Double},TeklaBillboardAid.ModelParameters)
+  id: InstallFascialBrace(System.Collections.Generic.List{System.Double},TeklaBillboardAid.ModelParameters)
+  parent: TeklaBillboardAid.FasciaBox
+  langs:
+  - csharp
+  - vb
+  name: InstallFascialBrace(List<Double>, ModelParameters)
+  nameWithType: FasciaBox.InstallFascialBrace(List<Double>, ModelParameters)
+  fullName: TeklaBillboardAid.FasciaBox.InstallFascialBrace(System.Collections.Generic.List<System.Double>, TeklaBillboardAid.ModelParameters)
+  type: Method
+  source:
+    remote:
+      path: FasciaBox.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: InstallFascialBrace
+    path: FasciaBox.cs
+    startLine: 474
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  syntax:
+    content: public void InstallFascialBrace(List<double> xCoordinates, ModelParameters modelParameters)
+    parameters:
+    - id: xCoordinates
+      type: System.Collections.Generic.List{System.Double}
+    - id: modelParameters
+      type: TeklaBillboardAid.ModelParameters
+    content.vb: Public Sub InstallFascialBrace(xCoordinates As List(Of Double), modelParameters As ModelParameters)
+  overload: TeklaBillboardAid.FasciaBox.InstallFascialBrace*
+  nameWithType.vb: FasciaBox.InstallFascialBrace(List(Of Double), ModelParameters)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: TeklaBillboardAid.FasciaBox.InstallFascialBrace(System.Collections.Generic.List(Of System.Double), TeklaBillboardAid.ModelParameters)
+  name.vb: InstallFascialBrace(List(Of Double), ModelParameters)
+- uid: TeklaBillboardAid.FasciaBox.#ctor(System.Collections.Generic.List{System.Double},TeklaBillboardAid.ModelParameters)
+  commentId: M:TeklaBillboardAid.FasciaBox.#ctor(System.Collections.Generic.List{System.Double},TeklaBillboardAid.ModelParameters)
+  id: '#ctor(System.Collections.Generic.List{System.Double},TeklaBillboardAid.ModelParameters)'
+  parent: TeklaBillboardAid.FasciaBox
+  langs:
+  - csharp
+  - vb
+  name: FasciaBox(List<Double>, ModelParameters)
+  nameWithType: FasciaBox.FasciaBox(List<Double>, ModelParameters)
+  fullName: TeklaBillboardAid.FasciaBox.FasciaBox(System.Collections.Generic.List<System.Double>, TeklaBillboardAid.ModelParameters)
+  type: Constructor
+  source:
+    remote:
+      path: FasciaBox.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: .ctor
+    path: FasciaBox.cs
+    startLine: 796
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  summary: "\nThe constructor of the fascia box, which generates the fascia box in the model\n"
+  example: []
+  syntax:
+    content: public FasciaBox(List<double> xCoordinates, ModelParameters modelParameters)
+    parameters:
+    - id: xCoordinates
+      type: System.Collections.Generic.List{System.Double}
+      description: The vertical columns in the billboard
+    - id: modelParameters
+      type: TeklaBillboardAid.ModelParameters
+      description: The parameters of the model
+    content.vb: Public Sub New(xCoordinates As List(Of Double), modelParameters As ModelParameters)
+  overload: TeklaBillboardAid.FasciaBox.#ctor*
+  nameWithType.vb: FasciaBox.FasciaBox(List(Of Double), ModelParameters)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: TeklaBillboardAid.FasciaBox.FasciaBox(System.Collections.Generic.List(Of System.Double), TeklaBillboardAid.ModelParameters)
+  name.vb: FasciaBox(List(Of Double), ModelParameters)
+references:
+- uid: TeklaBillboardAid
+  commentId: N:TeklaBillboardAid
+  name: TeklaBillboardAid
+  nameWithType: TeklaBillboardAid
+  fullName: TeklaBillboardAid
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: TeklaBillboardAid.ModelParameters
+  commentId: T:TeklaBillboardAid.ModelParameters
+  parent: TeklaBillboardAid
+  name: ModelParameters
+  nameWithType: ModelParameters
+  fullName: TeklaBillboardAid.ModelParameters
+- uid: TeklaBillboardAid.FasciaBox.AddEdgeBoltsBolts*
+  commentId: Overload:TeklaBillboardAid.FasciaBox.AddEdgeBoltsBolts
+  name: AddEdgeBoltsBolts
+  nameWithType: FasciaBox.AddEdgeBoltsBolts
+  fullName: TeklaBillboardAid.FasciaBox.AddEdgeBoltsBolts
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Tekla.Structures.Model.Beam
+  commentId: T:Tekla.Structures.Model.Beam
+  parent: Tekla.Structures.Model
+  isExternal: true
+  name: Beam
+  nameWithType: Beam
+  fullName: Tekla.Structures.Model.Beam
+- uid: Tekla.Structures.Model.ContourPlate
+  commentId: T:Tekla.Structures.Model.ContourPlate
+  parent: Tekla.Structures.Model
+  isExternal: true
+  name: ContourPlate
+  nameWithType: ContourPlate
+  fullName: Tekla.Structures.Model.ContourPlate
+- uid: Tekla.Structures.Model
+  commentId: N:Tekla.Structures.Model
+  isExternal: true
+  name: Tekla.Structures.Model
+  nameWithType: Tekla.Structures.Model
+  fullName: Tekla.Structures.Model
+- uid: TeklaBillboardAid.FasciaBox.AddColumnBolts*
+  commentId: Overload:TeklaBillboardAid.FasciaBox.AddColumnBolts
+  name: AddColumnBolts
+  nameWithType: FasciaBox.AddColumnBolts
+  fullName: TeklaBillboardAid.FasciaBox.AddColumnBolts
+- uid: TeklaBillboardAid.FasciaBox.InsertAngledSupport*
+  commentId: Overload:TeklaBillboardAid.FasciaBox.InsertAngledSupport
+  name: InsertAngledSupport
+  nameWithType: FasciaBox.InsertAngledSupport
+  fullName: TeklaBillboardAid.FasciaBox.InsertAngledSupport
+- uid: TeklaBillboardAid.FasciaBox.InstallFascialBrace*
+  commentId: Overload:TeklaBillboardAid.FasciaBox.InstallFascialBrace
+  name: InstallFascialBrace
+  nameWithType: FasciaBox.InstallFascialBrace
+  fullName: TeklaBillboardAid.FasciaBox.InstallFascialBrace
+- uid: System.Collections.Generic.List{System.Double}
+  commentId: T:System.Collections.Generic.List{System.Double}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Double>
+  nameWithType: List<Double>
+  fullName: System.Collections.Generic.List<System.Double>
+  nameWithType.vb: List(Of Double)
+  fullName.vb: System.Collections.Generic.List(Of System.Double)
+  name.vb: List(Of Double)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: TeklaBillboardAid.FasciaBox.#ctor*
+  commentId: Overload:TeklaBillboardAid.FasciaBox.#ctor
+  name: FasciaBox
+  nameWithType: FasciaBox.FasciaBox
+  fullName: TeklaBillboardAid.FasciaBox.FasciaBox

@@ -1,0 +1,2872 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class ModelParameters
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class ModelParameters
+   ">
+    <meta name="generator" content="docfx 2.59.3.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="TeklaBillboardAid.ModelParameters">
+  
+  
+  <h1 id="TeklaBillboardAid_ModelParameters" data-uid="TeklaBillboardAid.ModelParameters" class="text-break">Class ModelParameters
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">ModelParameters</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="TeklaBillboardAid.html">TeklaBillboardAid</a></h6>
+  <h6><strong>Assembly</strong>: BeamApplication.dll</h6>
+  <h5 id="TeklaBillboardAid_ModelParameters_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class ModelParameters</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters__ctor_" data-uid="TeklaBillboardAid.ModelParameters.#ctor*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters__ctor" data-uid="TeklaBillboardAid.ModelParameters.#ctor">ModelParameters()</h4>
+  <div class="markdown level1 summary"><p>Initialises default values for the billboard model.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ModelParameters()</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_ArmAngle_" data-uid="TeklaBillboardAid.ModelParameters.ArmAngle*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_ArmAngle" data-uid="TeklaBillboardAid.ModelParameters.ArmAngle">ArmAngle</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double ArmAngle { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_ArmAtTop_" data-uid="TeklaBillboardAid.ModelParameters.ArmAtTop*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_ArmAtTop" data-uid="TeklaBillboardAid.ModelParameters.ArmAtTop">ArmAtTop</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ArmAtTop { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_ArmOffset_" data-uid="TeklaBillboardAid.ModelParameters.ArmOffset*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_ArmOffset" data-uid="TeklaBillboardAid.ModelParameters.ArmOffset">ArmOffset</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double ArmOffset { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_AutoSpacing_" data-uid="TeklaBillboardAid.ModelParameters.AutoSpacing*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_AutoSpacing" data-uid="TeklaBillboardAid.ModelParameters.AutoSpacing">AutoSpacing</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool AutoSpacing { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Whether back horizontal beams are automatically spaced</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_B1BeamDepth_" data-uid="TeklaBillboardAid.ModelParameters.B1BeamDepth*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_B1BeamDepth" data-uid="TeklaBillboardAid.ModelParameters.B1BeamDepth">B1BeamDepth</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double B1BeamDepth { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>Depth of the B1 beam (mm)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_B1BeamWidth_" data-uid="TeklaBillboardAid.ModelParameters.B1BeamWidth*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_B1BeamWidth" data-uid="TeklaBillboardAid.ModelParameters.B1BeamWidth">B1BeamWidth</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double B1BeamWidth { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>Width of the B1 beam (mm)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_B1Material_" data-uid="TeklaBillboardAid.ModelParameters.B1Material*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_B1Material" data-uid="TeklaBillboardAid.ModelParameters.B1Material">B1Material</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string B1Material { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Material for the B1 beam</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_B1Profile_" data-uid="TeklaBillboardAid.ModelParameters.B1Profile*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_B1Profile" data-uid="TeklaBillboardAid.ModelParameters.B1Profile">B1Profile</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string B1Profile { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Profile for the B1 beam</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_B2BeamDepth_" data-uid="TeklaBillboardAid.ModelParameters.B2BeamDepth*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_B2BeamDepth" data-uid="TeklaBillboardAid.ModelParameters.B2BeamDepth">B2BeamDepth</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double B2BeamDepth { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>Depth of the B2 beam (mm)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_B2BeamThickness_" data-uid="TeklaBillboardAid.ModelParameters.B2BeamThickness*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_B2BeamThickness" data-uid="TeklaBillboardAid.ModelParameters.B2BeamThickness">B2BeamThickness</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double B2BeamThickness { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>Thickness of the B2 beam (mm)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_B2BeamWidth_" data-uid="TeklaBillboardAid.ModelParameters.B2BeamWidth*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_B2BeamWidth" data-uid="TeklaBillboardAid.ModelParameters.B2BeamWidth">B2BeamWidth</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double B2BeamWidth { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>Width of the B2 beam (mm)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_B2Material_" data-uid="TeklaBillboardAid.ModelParameters.B2Material*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_B2Material" data-uid="TeklaBillboardAid.ModelParameters.B2Material">B2Material</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string B2Material { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Material for the B2 beam</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_B2Profile_" data-uid="TeklaBillboardAid.ModelParameters.B2Profile*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_B2Profile" data-uid="TeklaBillboardAid.ModelParameters.B2Profile">B2Profile</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string B2Profile { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Profile for the B2 beam</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_B3BeamDepth_" data-uid="TeklaBillboardAid.ModelParameters.B3BeamDepth*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_B3BeamDepth" data-uid="TeklaBillboardAid.ModelParameters.B3BeamDepth">B3BeamDepth</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double B3BeamDepth { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>Depth of the B3 beam (mm)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_B3BeamWidth_" data-uid="TeklaBillboardAid.ModelParameters.B3BeamWidth*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_B3BeamWidth" data-uid="TeklaBillboardAid.ModelParameters.B3BeamWidth">B3BeamWidth</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double B3BeamWidth { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>Width of the B3 beam (mm)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_B3Material_" data-uid="TeklaBillboardAid.ModelParameters.B3Material*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_B3Material" data-uid="TeklaBillboardAid.ModelParameters.B3Material">B3Material</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string B3Material { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Material for the B3 beam</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_B3Profile_" data-uid="TeklaBillboardAid.ModelParameters.B3Profile*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_B3Profile" data-uid="TeklaBillboardAid.ModelParameters.B3Profile">B3Profile</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string B3Profile { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Profile for the B3 beam</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_B5BeamDepth_" data-uid="TeklaBillboardAid.ModelParameters.B5BeamDepth*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_B5BeamDepth" data-uid="TeklaBillboardAid.ModelParameters.B5BeamDepth">B5BeamDepth</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double B5BeamDepth { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>Depth of the B5 beam (mm)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_B5BeamWidth_" data-uid="TeklaBillboardAid.ModelParameters.B5BeamWidth*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_B5BeamWidth" data-uid="TeklaBillboardAid.ModelParameters.B5BeamWidth">B5BeamWidth</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double B5BeamWidth { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>Width of the B5 beam (mm)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_B5Material_" data-uid="TeklaBillboardAid.ModelParameters.B5Material*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_B5Material" data-uid="TeklaBillboardAid.ModelParameters.B5Material">B5Material</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string B5Material { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Material for the B5 beam</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_B5Profile_" data-uid="TeklaBillboardAid.ModelParameters.B5Profile*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_B5Profile" data-uid="TeklaBillboardAid.ModelParameters.B5Profile">B5Profile</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string B5Profile { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Profile for the B5 beam</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_BillboardDepth_" data-uid="TeklaBillboardAid.ModelParameters.BillboardDepth*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_BillboardDepth" data-uid="TeklaBillboardAid.ModelParameters.BillboardDepth">BillboardDepth</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double BillboardDepth { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>Overall depth of the billboard structural beam frame (mm)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_BillboardHeight_" data-uid="TeklaBillboardAid.ModelParameters.BillboardHeight*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_BillboardHeight" data-uid="TeklaBillboardAid.ModelParameters.BillboardHeight">BillboardHeight</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double BillboardHeight { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>Overall height of the billboard structural beam frame (mm)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_BillboardLength_" data-uid="TeklaBillboardAid.ModelParameters.BillboardLength*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_BillboardLength" data-uid="TeklaBillboardAid.ModelParameters.BillboardLength">BillboardLength</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double BillboardLength { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>Overall length of the billboard structural beam frame (mm)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_BoltOffsetDx_" data-uid="TeklaBillboardAid.ModelParameters.BoltOffsetDx*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_BoltOffsetDx" data-uid="TeklaBillboardAid.ModelParameters.BoltOffsetDx">BoltOffsetDx</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double BoltOffsetDx { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>Vertical offset of the bolt (mm)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_BoltOffsetDy_" data-uid="TeklaBillboardAid.ModelParameters.BoltOffsetDy*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_BoltOffsetDy" data-uid="TeklaBillboardAid.ModelParameters.BoltOffsetDy">BoltOffsetDy</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double BoltOffsetDy { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>Horizontal offset of the bolt (mm)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_BoltSize_" data-uid="TeklaBillboardAid.ModelParameters.BoltSize*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_BoltSize" data-uid="TeklaBillboardAid.ModelParameters.BoltSize">BoltSize</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double BoltSize { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>Bolt size diameter (mm)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_BR1BeamDepth_" data-uid="TeklaBillboardAid.ModelParameters.BR1BeamDepth*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_BR1BeamDepth" data-uid="TeklaBillboardAid.ModelParameters.BR1BeamDepth">BR1BeamDepth</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double BR1BeamDepth { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>Depth of the BR1 beam (mm)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_BR1BeamWidth_" data-uid="TeklaBillboardAid.ModelParameters.BR1BeamWidth*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_BR1BeamWidth" data-uid="TeklaBillboardAid.ModelParameters.BR1BeamWidth">BR1BeamWidth</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double BR1BeamWidth { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>Width of the BR1 beam (mm)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_BR1Material_" data-uid="TeklaBillboardAid.ModelParameters.BR1Material*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_BR1Material" data-uid="TeklaBillboardAid.ModelParameters.BR1Material">BR1Material</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string BR1Material { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Material for the BR1 beam</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_BR1Profile_" data-uid="TeklaBillboardAid.ModelParameters.BR1Profile*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_BR1Profile" data-uid="TeklaBillboardAid.ModelParameters.BR1Profile">BR1Profile</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string BR1Profile { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Profile for the BR1 beam</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_BracketASpacing_" data-uid="TeklaBillboardAid.ModelParameters.BracketASpacing*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_BracketASpacing" data-uid="TeklaBillboardAid.ModelParameters.BracketASpacing">BracketASpacing</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double BracketASpacing { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>Distance between the outer edge of the waler and middle Z-bracket (mm)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_BracketBoltDiameter_" data-uid="TeklaBillboardAid.ModelParameters.BracketBoltDiameter*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_BracketBoltDiameter" data-uid="TeklaBillboardAid.ModelParameters.BracketBoltDiameter">BracketBoltDiameter</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double BracketBoltDiameter { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>Diameter of bolts on the Z-bracket (mm)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_BracketBoltStandard_" data-uid="TeklaBillboardAid.ModelParameters.BracketBoltStandard*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_BracketBoltStandard" data-uid="TeklaBillboardAid.ModelParameters.BracketBoltStandard">BracketBoltStandard</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string BracketBoltStandard { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Standard of bolts on the Z-bracket</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_BracketBSpacing_" data-uid="TeklaBillboardAid.ModelParameters.BracketBSpacing*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_BracketBSpacing" data-uid="TeklaBillboardAid.ModelParameters.BracketBSpacing">BracketBSpacing</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double BracketBSpacing { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>Distance between the lower edge of the waler and middle Z-bracket (mm)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_BracketMaterial_" data-uid="TeklaBillboardAid.ModelParameters.BracketMaterial*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_BracketMaterial" data-uid="TeklaBillboardAid.ModelParameters.BracketMaterial">BracketMaterial</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string BracketMaterial { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Material for the Z-bracket</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_BuildSeatingPlate_" data-uid="TeklaBillboardAid.ModelParameters.BuildSeatingPlate*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_BuildSeatingPlate" data-uid="TeklaBillboardAid.ModelParameters.BuildSeatingPlate">BuildSeatingPlate</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool BuildSeatingPlate { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Whether to model the seating plate</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_C1BeamDepth_" data-uid="TeklaBillboardAid.ModelParameters.C1BeamDepth*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_C1BeamDepth" data-uid="TeklaBillboardAid.ModelParameters.C1BeamDepth">C1BeamDepth</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double C1BeamDepth { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>Depth of the C1 beam (mm)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_C1BeamWidth_" data-uid="TeklaBillboardAid.ModelParameters.C1BeamWidth*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_C1BeamWidth" data-uid="TeklaBillboardAid.ModelParameters.C1BeamWidth">C1BeamWidth</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double C1BeamWidth { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>Width of the C1 beam (mm)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_C1Material_" data-uid="TeklaBillboardAid.ModelParameters.C1Material*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_C1Material" data-uid="TeklaBillboardAid.ModelParameters.C1Material">C1Material</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string C1Material { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Material for the C1 beam</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_C1Profile_" data-uid="TeklaBillboardAid.ModelParameters.C1Profile*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_C1Profile" data-uid="TeklaBillboardAid.ModelParameters.C1Profile">C1Profile</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string C1Profile { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Profile for the C1 beam</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_CamPlateMaterial_" data-uid="TeklaBillboardAid.ModelParameters.CamPlateMaterial*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_CamPlateMaterial" data-uid="TeklaBillboardAid.ModelParameters.CamPlateMaterial">CamPlateMaterial</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string CamPlateMaterial { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_CamPlateProfile_" data-uid="TeklaBillboardAid.ModelParameters.CamPlateProfile*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_CamPlateProfile" data-uid="TeklaBillboardAid.ModelParameters.CamPlateProfile">CamPlateProfile</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string CamPlateProfile { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_CornerOffset_" data-uid="TeklaBillboardAid.ModelParameters.CornerOffset*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_CornerOffset" data-uid="TeklaBillboardAid.ModelParameters.CornerOffset">CornerOffset</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double CornerOffset { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>Distance offset for the diagonal beams from the corner of B1 and B2/B5 beams (mm)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_DiagonalBottomOffset_" data-uid="TeklaBillboardAid.ModelParameters.DiagonalBottomOffset*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_DiagonalBottomOffset" data-uid="TeklaBillboardAid.ModelParameters.DiagonalBottomOffset">DiagonalBottomOffset</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double DiagonalBottomOffset { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>Distance offset for the bottom diagonal beams away from the bottom of the beam (mm)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_DiagonalTopOffset_" data-uid="TeklaBillboardAid.ModelParameters.DiagonalTopOffset*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_DiagonalTopOffset" data-uid="TeklaBillboardAid.ModelParameters.DiagonalTopOffset">DiagonalTopOffset</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double DiagonalTopOffset { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>Distance offset for the top diagonal beams away from the top of the structure (mm)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_EABeamDepth_" data-uid="TeklaBillboardAid.ModelParameters.EABeamDepth*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_EABeamDepth" data-uid="TeklaBillboardAid.ModelParameters.EABeamDepth">EABeamDepth</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double EABeamDepth { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>Depth of the EA support bracket</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_EABeamWidth_" data-uid="TeklaBillboardAid.ModelParameters.EABeamWidth*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_EABeamWidth" data-uid="TeklaBillboardAid.ModelParameters.EABeamWidth">EABeamWidth</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double EABeamWidth { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>Width of the EA support bracket</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_EAMaterial_" data-uid="TeklaBillboardAid.ModelParameters.EAMaterial*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_EAMaterial" data-uid="TeklaBillboardAid.ModelParameters.EAMaterial">EAMaterial</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string EAMaterial { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Material for the EA support bracket</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_EAProfile_" data-uid="TeklaBillboardAid.ModelParameters.EAProfile*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_EAProfile" data-uid="TeklaBillboardAid.ModelParameters.EAProfile">EAProfile</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string EAProfile { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Profile for the EA support bracket</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_EASupportClearance_" data-uid="TeklaBillboardAid.ModelParameters.EASupportClearance*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_EASupportClearance" data-uid="TeklaBillboardAid.ModelParameters.EASupportClearance">EASupportClearance</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double EASupportClearance { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>Distance between EA support and adjacent members (mm)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_EndBracketSpacing_" data-uid="TeklaBillboardAid.ModelParameters.EndBracketSpacing*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_EndBracketSpacing" data-uid="TeklaBillboardAid.ModelParameters.EndBracketSpacing">EndBracketSpacing</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double EndBracketSpacing { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>Distance between the lower edge of the waler and end Z-bracket (mm)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_GalBathHeight_" data-uid="TeklaBillboardAid.ModelParameters.GalBathHeight*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_GalBathHeight" data-uid="TeklaBillboardAid.ModelParameters.GalBathHeight">GalBathHeight</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double GalBathHeight { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>Height of the selected galvanising bath (mm)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_GalBathLength_" data-uid="TeklaBillboardAid.ModelParameters.GalBathLength*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_GalBathLength" data-uid="TeklaBillboardAid.ModelParameters.GalBathLength">GalBathLength</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double GalBathLength { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>Length of the selected galvanising bath (mm)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_GalBathWidth_" data-uid="TeklaBillboardAid.ModelParameters.GalBathWidth*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_GalBathWidth" data-uid="TeklaBillboardAid.ModelParameters.GalBathWidth">GalBathWidth</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double GalBathWidth { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>Width of the selected galvanising bath (mm)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_HeightOffsetBottom_" data-uid="TeklaBillboardAid.ModelParameters.HeightOffsetBottom*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_HeightOffsetBottom" data-uid="TeklaBillboardAid.ModelParameters.HeightOffsetBottom">HeightOffsetBottom</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double HeightOffsetBottom { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The gap size between the bottom B! beam and top of the LED cabinets</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_HeightOffsetTop_" data-uid="TeklaBillboardAid.ModelParameters.HeightOffsetTop*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_HeightOffsetTop" data-uid="TeklaBillboardAid.ModelParameters.HeightOffsetTop">HeightOffsetTop</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double HeightOffsetTop { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The gap size between the top B1 beam and top of the LED cabinets</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_IfWalkway_" data-uid="TeklaBillboardAid.ModelParameters.IfWalkway*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_IfWalkway" data-uid="TeklaBillboardAid.ModelParameters.IfWalkway">IfWalkway</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IfWalkway { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_LEDMaterial_" data-uid="TeklaBillboardAid.ModelParameters.LEDMaterial*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_LEDMaterial" data-uid="TeklaBillboardAid.ModelParameters.LEDMaterial">LEDMaterial</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string LEDMaterial { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Material for the LED cabinet</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_LEDProfile_" data-uid="TeklaBillboardAid.ModelParameters.LEDProfile*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_LEDProfile" data-uid="TeklaBillboardAid.ModelParameters.LEDProfile">LEDProfile</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string LEDProfile { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Profile for the LED cabinet</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_LiftBoltStandard_" data-uid="TeklaBillboardAid.ModelParameters.LiftBoltStandard*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_LiftBoltStandard" data-uid="TeklaBillboardAid.ModelParameters.LiftBoltStandard">LiftBoltStandard</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string LiftBoltStandard { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Standard of lifting point bolts (placeholder for eye bolts)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_LiftPoints_" data-uid="TeklaBillboardAid.ModelParameters.LiftPoints*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_LiftPoints" data-uid="TeklaBillboardAid.ModelParameters.LiftPoints">LiftPoints</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;LiftPoint&gt; LiftPoints { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="TeklaBillboardAid.LiftPoint.html">LiftPoint</a>&gt;</td>
+        <td><p>List of lifting point objects present in the model</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_LiftPointsBottomX_" data-uid="TeklaBillboardAid.ModelParameters.LiftPointsBottomX*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_LiftPointsBottomX" data-uid="TeklaBillboardAid.ModelParameters.LiftPointsBottomX">LiftPointsBottomX</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;double&gt; LiftPointsBottomX { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.Double</span>&gt;</td>
+        <td><p>List of x coordinates to insert lifting points along the bottom B1 member (mm)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_LiftPointsTopX_" data-uid="TeklaBillboardAid.ModelParameters.LiftPointsTopX*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_LiftPointsTopX" data-uid="TeklaBillboardAid.ModelParameters.LiftPointsTopX">LiftPointsTopX</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;double&gt; LiftPointsTopX { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.Double</span>&gt;</td>
+        <td><p>List of x coordinates to insert lifting points along the top B1 member (mm)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_LowerWalerSpacing_" data-uid="TeklaBillboardAid.ModelParameters.LowerWalerSpacing*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_LowerWalerSpacing" data-uid="TeklaBillboardAid.ModelParameters.LowerWalerSpacing">LowerWalerSpacing</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double LowerWalerSpacing { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>Distance of the lower waler beam (mm)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_LugPlateMaterial_" data-uid="TeklaBillboardAid.ModelParameters.LugPlateMaterial*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_LugPlateMaterial" data-uid="TeklaBillboardAid.ModelParameters.LugPlateMaterial">LugPlateMaterial</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string LugPlateMaterial { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Material for the lifting point plate</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_LugPlateProfile_" data-uid="TeklaBillboardAid.ModelParameters.LugPlateProfile*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_LugPlateProfile" data-uid="TeklaBillboardAid.ModelParameters.LugPlateProfile">LugPlateProfile</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string LugPlateProfile { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Profile for the lifting point plate</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_LugPlateWidth_" data-uid="TeklaBillboardAid.ModelParameters.LugPlateWidth*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_LugPlateWidth" data-uid="TeklaBillboardAid.ModelParameters.LugPlateWidth">LugPlateWidth</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double LugPlateWidth { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>Width of the lifting point plate (mm)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_MeshMaterial_" data-uid="TeklaBillboardAid.ModelParameters.MeshMaterial*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_MeshMaterial" data-uid="TeklaBillboardAid.ModelParameters.MeshMaterial">MeshMaterial</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string MeshMaterial { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Material for the walkway mesh</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_MeshThickness_" data-uid="TeklaBillboardAid.ModelParameters.MeshThickness*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_MeshThickness" data-uid="TeklaBillboardAid.ModelParameters.MeshThickness">MeshThickness</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double MeshThickness { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>Thickness of the walkway mesh (mm)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_NoArm_" data-uid="TeklaBillboardAid.ModelParameters.NoArm*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_NoArm" data-uid="TeklaBillboardAid.ModelParameters.NoArm">NoArm</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool NoArm { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_RailingCoordinates_" data-uid="TeklaBillboardAid.ModelParameters.RailingCoordinates*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_RailingCoordinates" data-uid="TeklaBillboardAid.ModelParameters.RailingCoordinates">RailingCoordinates</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;double&gt; RailingCoordinates { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.Double</span>&gt;</td>
+        <td><p>List of distance offsets between each railing (mm)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_RailingSpace1_" data-uid="TeklaBillboardAid.ModelParameters.RailingSpace1*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_RailingSpace1" data-uid="TeklaBillboardAid.ModelParameters.RailingSpace1">RailingSpace1</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double RailingSpace1 { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>Distance of the bottom railing centre from the top of the walkway mesh (mm)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_RailingSpace2_" data-uid="TeklaBillboardAid.ModelParameters.RailingSpace2*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_RailingSpace2" data-uid="TeklaBillboardAid.ModelParameters.RailingSpace2">RailingSpace2</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double RailingSpace2 { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>Distance of the top railing centre from the bottom railing centre (mm)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_ScreenLength_" data-uid="TeklaBillboardAid.ModelParameters.ScreenLength*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_ScreenLength" data-uid="TeklaBillboardAid.ModelParameters.ScreenLength">ScreenLength</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double ScreenLength { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>Overall length of the billboard screen (mm)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_SeatingPlateExtrusionLength_" data-uid="TeklaBillboardAid.ModelParameters.SeatingPlateExtrusionLength*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_SeatingPlateExtrusionLength" data-uid="TeklaBillboardAid.ModelParameters.SeatingPlateExtrusionLength">SeatingPlateExtrusionLength</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double SeatingPlateExtrusionLength { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>Distance between the edge of the bottom beam to the outer edge of the seating plate (mm)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_SeatingPlateMaterial_" data-uid="TeklaBillboardAid.ModelParameters.SeatingPlateMaterial*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_SeatingPlateMaterial" data-uid="TeklaBillboardAid.ModelParameters.SeatingPlateMaterial">SeatingPlateMaterial</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string SeatingPlateMaterial { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Material for the LED cabinet seating plate</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_SeatingPlateOffset_" data-uid="TeklaBillboardAid.ModelParameters.SeatingPlateOffset*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_SeatingPlateOffset" data-uid="TeklaBillboardAid.ModelParameters.SeatingPlateOffset">SeatingPlateOffset</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double SeatingPlateOffset { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>Distance between the edge of the seating plate and the adjacent column (mm)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_SeatingPlateProfile_" data-uid="TeklaBillboardAid.ModelParameters.SeatingPlateProfile*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_SeatingPlateProfile" data-uid="TeklaBillboardAid.ModelParameters.SeatingPlateProfile">SeatingPlateProfile</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string SeatingPlateProfile { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Profile for the seating plate</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_SetArmLength_" data-uid="TeklaBillboardAid.ModelParameters.SetArmLength*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_SetArmLength" data-uid="TeklaBillboardAid.ModelParameters.SetArmLength">SetArmLength</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double SetArmLength { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_TotWeight_" data-uid="TeklaBillboardAid.ModelParameters.TotWeight*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_TotWeight" data-uid="TeklaBillboardAid.ModelParameters.TotWeight">TotWeight</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double TotWeight { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_UpperWalerSpacing_" data-uid="TeklaBillboardAid.ModelParameters.UpperWalerSpacing*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_UpperWalerSpacing" data-uid="TeklaBillboardAid.ModelParameters.UpperWalerSpacing">UpperWalerSpacing</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double UpperWalerSpacing { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>Distance of the top waler beam (mm)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_VertArmLength_" data-uid="TeklaBillboardAid.ModelParameters.VertArmLength*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_VertArmLength" data-uid="TeklaBillboardAid.ModelParameters.VertArmLength">VertArmLength</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double VertArmLength { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_WalerAuto_" data-uid="TeklaBillboardAid.ModelParameters.WalerAuto*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_WalerAuto" data-uid="TeklaBillboardAid.ModelParameters.WalerAuto">WalerAuto</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool WalerAuto { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Whether walers are automatically spaced</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_WalerBeamDepth_" data-uid="TeklaBillboardAid.ModelParameters.WalerBeamDepth*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_WalerBeamDepth" data-uid="TeklaBillboardAid.ModelParameters.WalerBeamDepth">WalerBeamDepth</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double WalerBeamDepth { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>Depth of the waler beam (mm)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_WalerBeamWidth_" data-uid="TeklaBillboardAid.ModelParameters.WalerBeamWidth*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_WalerBeamWidth" data-uid="TeklaBillboardAid.ModelParameters.WalerBeamWidth">WalerBeamWidth</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double WalerBeamWidth { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>Width of the waler beam (mm)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_WalerMaterial_" data-uid="TeklaBillboardAid.ModelParameters.WalerMaterial*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_WalerMaterial" data-uid="TeklaBillboardAid.ModelParameters.WalerMaterial">WalerMaterial</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string WalerMaterial { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Material for the waler beam</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_WalerProfile_" data-uid="TeklaBillboardAid.ModelParameters.WalerProfile*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_WalerProfile" data-uid="TeklaBillboardAid.ModelParameters.WalerProfile">WalerProfile</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string WalerProfile { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Profile for the waler beam</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_WalersCoordinates_" data-uid="TeklaBillboardAid.ModelParameters.WalersCoordinates*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_WalersCoordinates" data-uid="TeklaBillboardAid.ModelParameters.WalersCoordinates">WalersCoordinates</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;double&gt; WalersCoordinates { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.Double</span>&gt;</td>
+        <td><p>List of distance offsets between each waler (mm)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_WalersNumber_" data-uid="TeklaBillboardAid.ModelParameters.WalersNumber*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_WalersNumber" data-uid="TeklaBillboardAid.ModelParameters.WalersNumber">WalersNumber</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int WalersNumber { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Number of waler beams to add if auto is selected</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_WalkwayClearance_" data-uid="TeklaBillboardAid.ModelParameters.WalkwayClearance*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_WalkwayClearance" data-uid="TeklaBillboardAid.ModelParameters.WalkwayClearance">WalkwayClearance</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double WalkwayClearance { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>Gap between the walkway mesh and B1 beam (mm)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_WalkwayLengthTop_" data-uid="TeklaBillboardAid.ModelParameters.WalkwayLengthTop*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_WalkwayLengthTop" data-uid="TeklaBillboardAid.ModelParameters.WalkwayLengthTop">WalkwayLengthTop</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double WalkwayLengthTop { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_WalkwayWidth_" data-uid="TeklaBillboardAid.ModelParameters.WalkwayWidth*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_WalkwayWidth" data-uid="TeklaBillboardAid.ModelParameters.WalkwayWidth">WalkwayWidth</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double WalkwayWidth { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>Width of the walkway mesh (mm)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_WeldOffset_" data-uid="TeklaBillboardAid.ModelParameters.WeldOffset*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_WeldOffset" data-uid="TeklaBillboardAid.ModelParameters.WeldOffset">WeldOffset</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double WeldOffset { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>Welding offset to include for all beam connections (mm)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_XCoordinates_" data-uid="TeklaBillboardAid.ModelParameters.XCoordinates*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_XCoordinates" data-uid="TeklaBillboardAid.ModelParameters.XCoordinates">XCoordinates</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;double&gt; XCoordinates { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.Double</span>&gt;</td>
+        <td><p>Relative x coordinates dividing the cabinets vertically (mm)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_XSplits_" data-uid="TeklaBillboardAid.ModelParameters.XSplits*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_XSplits" data-uid="TeklaBillboardAid.ModelParameters.XSplits">XSplits</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;int&gt; XSplits { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_ZBracketProfile_" data-uid="TeklaBillboardAid.ModelParameters.ZBracketProfile*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_ZBracketProfile" data-uid="TeklaBillboardAid.ModelParameters.ZBracketProfile">ZBracketProfile</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string ZBracketProfile { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Profile for the Z-bracket</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_ZBracketThickness_" data-uid="TeklaBillboardAid.ModelParameters.ZBracketThickness*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_ZBracketThickness" data-uid="TeklaBillboardAid.ModelParameters.ZBracketThickness">ZBracketThickness</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double ZBracketThickness { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>Thickness of the Z-bracket (mm)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_ZBracketWidth_" data-uid="TeklaBillboardAid.ModelParameters.ZBracketWidth*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_ZBracketWidth" data-uid="TeklaBillboardAid.ModelParameters.ZBracketWidth">ZBracketWidth</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double ZBracketWidth { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>Width of the Z-bracket (mm)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_ZCoordinates_" data-uid="TeklaBillboardAid.ModelParameters.ZCoordinates*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_ZCoordinates" data-uid="TeklaBillboardAid.ModelParameters.ZCoordinates">ZCoordinates</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;double&gt; ZCoordinates { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.Double</span>&gt;</td>
+        <td><p>Relative z coordinates dividing the cabinets horizontally (mm)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_ZSplits_" data-uid="TeklaBillboardAid.ModelParameters.ZSplits*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_ZSplits" data-uid="TeklaBillboardAid.ModelParameters.ZSplits">ZSplits</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;int&gt; ZSplits { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_BeamDimensions_" data-uid="TeklaBillboardAid.ModelParameters.BeamDimensions*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_BeamDimensions_System_String_" data-uid="TeklaBillboardAid.ModelParameters.BeamDimensions(System.String)">BeamDimensions(String)</h4>
+  <div class="markdown level1 summary"><p>Converts a beam profile string into dimensions. </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double[] BeamDimensions(string dimensionString)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">dimensionString</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span>[]</td>
+        <td><p>array of beam dimensions [depth, width, thickness] </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_UpdateHeight_" data-uid="TeklaBillboardAid.ModelParameters.UpdateHeight*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_UpdateHeight" data-uid="TeklaBillboardAid.ModelParameters.UpdateHeight">UpdateHeight()</h4>
+  <div class="markdown level1 summary"><p>Updates the billboard model&apos;s height</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UpdateHeight()</code></pre>
+  </div>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_UpdateLength_" data-uid="TeklaBillboardAid.ModelParameters.UpdateLength*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_UpdateLength" data-uid="TeklaBillboardAid.ModelParameters.UpdateLength">UpdateLength()</h4>
+  <div class="markdown level1 summary"><p>Updates the billboard model&apos;s length</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UpdateLength()</code></pre>
+  </div>
+  
+  
+  <a id="TeklaBillboardAid_ModelParameters_ValidateInputs_" data-uid="TeklaBillboardAid.ModelParameters.ValidateInputs*"></a>
+  <h4 id="TeklaBillboardAid_ModelParameters_ValidateInputs" data-uid="TeklaBillboardAid.ModelParameters.ValidateInputs">ValidateInputs()</h4>
+  <div class="markdown level1 summary"><p>Validates the model can be built based on current model parameters.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ValidateInputs()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if all user inputs are valid, False otherwise </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

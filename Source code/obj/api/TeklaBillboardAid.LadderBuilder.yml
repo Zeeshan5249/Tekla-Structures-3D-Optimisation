@@ -1,0 +1,589 @@
+### YamlMime:ManagedReference
+items:
+- uid: TeklaBillboardAid.LadderBuilder
+  commentId: T:TeklaBillboardAid.LadderBuilder
+  id: LadderBuilder
+  parent: TeklaBillboardAid
+  children:
+  - TeklaBillboardAid.LadderBuilder.#ctor(TeklaBillboardAid.ModelParameters)
+  - TeklaBillboardAid.LadderBuilder.BuildLadder(Tekla.Structures.Geometry3d.Point,Tekla.Structures.Geometry3d.Point,System.Collections.Generic.List{System.Double})
+  langs:
+  - csharp
+  - vb
+  name: LadderBuilder
+  nameWithType: LadderBuilder
+  fullName: TeklaBillboardAid.LadderBuilder
+  type: Class
+  source:
+    remote:
+      path: LadderBuilder.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: LadderBuilder
+    path: LadderBuilder.cs
+    startLine: 10
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  syntax:
+    content: public class LadderBuilder
+    content.vb: Public Class LadderBuilder
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: TeklaBillboardAid.LadderBuilder.#ctor(TeklaBillboardAid.ModelParameters)
+  commentId: M:TeklaBillboardAid.LadderBuilder.#ctor(TeklaBillboardAid.ModelParameters)
+  id: '#ctor(TeklaBillboardAid.ModelParameters)'
+  parent: TeklaBillboardAid.LadderBuilder
+  langs:
+  - csharp
+  - vb
+  name: LadderBuilder(ModelParameters)
+  nameWithType: LadderBuilder.LadderBuilder(ModelParameters)
+  fullName: TeklaBillboardAid.LadderBuilder.LadderBuilder(TeklaBillboardAid.ModelParameters)
+  type: Constructor
+  source:
+    remote:
+      path: LadderBuilder.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: .ctor
+    path: LadderBuilder.cs
+    startLine: 21
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  summary: "\nConstructor for the LadderBuilder class that takes ModelParameters as a parameter.\n"
+  example: []
+  syntax:
+    content: public LadderBuilder(ModelParameters modelparameter)
+    parameters:
+    - id: modelparameter
+      type: TeklaBillboardAid.ModelParameters
+      description: The ModelParameters object containing necessary data for ladder construction.
+    content.vb: Public Sub New(modelparameter As ModelParameters)
+  overload: TeklaBillboardAid.LadderBuilder.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TeklaBillboardAid.LadderBuilder.BuildLadder(Tekla.Structures.Geometry3d.Point,Tekla.Structures.Geometry3d.Point,System.Collections.Generic.List{System.Double})
+  commentId: M:TeklaBillboardAid.LadderBuilder.BuildLadder(Tekla.Structures.Geometry3d.Point,Tekla.Structures.Geometry3d.Point,System.Collections.Generic.List{System.Double})
+  id: BuildLadder(Tekla.Structures.Geometry3d.Point,Tekla.Structures.Geometry3d.Point,System.Collections.Generic.List{System.Double})
+  parent: TeklaBillboardAid.LadderBuilder
+  langs:
+  - csharp
+  - vb
+  name: BuildLadder(Point, Point, List<Double>)
+  nameWithType: LadderBuilder.BuildLadder(Point, Point, List<Double>)
+  fullName: TeklaBillboardAid.LadderBuilder.BuildLadder(Tekla.Structures.Geometry3d.Point, Tekla.Structures.Geometry3d.Point, System.Collections.Generic.List<System.Double>)
+  type: Method
+  source:
+    remote:
+      path: LadderBuilder.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: BuildLadder
+    path: LadderBuilder.cs
+    startLine: 33
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  summary: "\nBuilds a ladder based on the provided start and end points and a list of railing heights.\n"
+  example: []
+  syntax:
+    content: public List<Part> BuildLadder(Point startpoint, Point endpoint, List<double> RailingHeights)
+    parameters:
+    - id: startpoint
+      type: Tekla.Structures.Geometry3d.Point
+      description: The starting point of the ladder.
+    - id: endpoint
+      type: Tekla.Structures.Geometry3d.Point
+      description: The ending point of the ladder.
+    - id: RailingHeights
+      type: System.Collections.Generic.List{System.Double}
+      description: A list containing the heights of each railing for the construction of connection plate.
+    return:
+      type: System.Collections.Generic.List{Tekla.Structures.Model.Part}
+    content.vb: Public Function BuildLadder(startpoint As Point, endpoint As Point, RailingHeights As List(Of Double)) As List(Of Part)
+  overload: TeklaBillboardAid.LadderBuilder.BuildLadder*
+  nameWithType.vb: LadderBuilder.BuildLadder(Point, Point, List(Of Double))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: TeklaBillboardAid.LadderBuilder.BuildLadder(Tekla.Structures.Geometry3d.Point, Tekla.Structures.Geometry3d.Point, System.Collections.Generic.List(Of System.Double))
+  name.vb: BuildLadder(Point, Point, List(Of Double))
+references:
+- uid: TeklaBillboardAid
+  commentId: N:TeklaBillboardAid
+  name: TeklaBillboardAid
+  nameWithType: TeklaBillboardAid
+  fullName: TeklaBillboardAid
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TeklaBillboardAid.LadderBuilder.#ctor*
+  commentId: Overload:TeklaBillboardAid.LadderBuilder.#ctor
+  name: LadderBuilder
+  nameWithType: LadderBuilder.LadderBuilder
+  fullName: TeklaBillboardAid.LadderBuilder.LadderBuilder
+- uid: TeklaBillboardAid.ModelParameters
+  commentId: T:TeklaBillboardAid.ModelParameters
+  parent: TeklaBillboardAid
+  name: ModelParameters
+  nameWithType: ModelParameters
+  fullName: TeklaBillboardAid.ModelParameters
+- uid: TeklaBillboardAid.LadderBuilder.BuildLadder*
+  commentId: Overload:TeklaBillboardAid.LadderBuilder.BuildLadder
+  name: BuildLadder
+  nameWithType: LadderBuilder.BuildLadder
+  fullName: TeklaBillboardAid.LadderBuilder.BuildLadder
+- uid: Tekla.Structures.Geometry3d.Point
+  commentId: T:Tekla.Structures.Geometry3d.Point
+  parent: Tekla.Structures.Geometry3d
+  isExternal: true
+  name: Point
+  nameWithType: Point
+  fullName: Tekla.Structures.Geometry3d.Point
+- uid: System.Collections.Generic.List{System.Double}
+  commentId: T:System.Collections.Generic.List{System.Double}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Double>
+  nameWithType: List<Double>
+  fullName: System.Collections.Generic.List<System.Double>
+  nameWithType.vb: List(Of Double)
+  fullName.vb: System.Collections.Generic.List(Of System.Double)
+  name.vb: List(Of Double)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List{Tekla.Structures.Model.Part}
+  commentId: T:System.Collections.Generic.List{Tekla.Structures.Model.Part}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Part>
+  nameWithType: List<Part>
+  fullName: System.Collections.Generic.List<Tekla.Structures.Model.Part>
+  nameWithType.vb: List(Of Part)
+  fullName.vb: System.Collections.Generic.List(Of Tekla.Structures.Model.Part)
+  name.vb: List(Of Part)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Tekla.Structures.Model.Part
+    name: Part
+    nameWithType: Part
+    fullName: Tekla.Structures.Model.Part
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Tekla.Structures.Model.Part
+    name: Part
+    nameWithType: Part
+    fullName: Tekla.Structures.Model.Part
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Tekla.Structures.Geometry3d
+  commentId: N:Tekla.Structures.Geometry3d
+  isExternal: true
+  name: Tekla.Structures.Geometry3d
+  nameWithType: Tekla.Structures.Geometry3d
+  fullName: Tekla.Structures.Geometry3d
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic

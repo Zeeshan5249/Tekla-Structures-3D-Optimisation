@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeklaBillboardAid", "TeklaBillboardAid.csproj", "{6819BA54-1AD2-463F-9A23-9AD9A513D91F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1DFF16D5-9C44-4DE0-B5FE-5483AA33DCED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6819BA54-1AD2-463F-9A23-9AD9A513D91F}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{6819BA54-1AD2-463F-9A23-9AD9A513D91F}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{6819BA54-1AD2-463F-9A23-9AD9A513D91F}.Debug|x64.ActiveCfg = Debug|x64
+		{6819BA54-1AD2-463F-9A23-9AD9A513D91F}.Debug|x64.Build.0 = Debug|x64
+		{6819BA54-1AD2-463F-9A23-9AD9A513D91F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6819BA54-1AD2-463F-9A23-9AD9A513D91F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6819BA54-1AD2-463F-9A23-9AD9A513D91F}.Release|x64.ActiveCfg = Release|Any CPU
+		{6819BA54-1AD2-463F-9A23-9AD9A513D91F}.Release|x64.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {61A3B944-87E9-452F-A726-531D626BE27F}
+	EndGlobalSection
+EndGlobal

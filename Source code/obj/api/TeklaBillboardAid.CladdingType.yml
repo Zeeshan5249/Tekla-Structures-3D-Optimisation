@@ -1,0 +1,293 @@
+### YamlMime:ManagedReference
+items:
+- uid: TeklaBillboardAid.CladdingType
+  commentId: T:TeklaBillboardAid.CladdingType
+  id: CladdingType
+  parent: TeklaBillboardAid
+  children:
+  - TeklaBillboardAid.CladdingType.ACM
+  - TeklaBillboardAid.CladdingType.MiniOrb42
+  - TeklaBillboardAid.CladdingType.MiniOrb48
+  - TeklaBillboardAid.CladdingType.None
+  - TeklaBillboardAid.CladdingType.PanelRib35
+  - TeklaBillboardAid.CladdingType.PanelRib42
+  - TeklaBillboardAid.CladdingType.PerfSheet
+  langs:
+  - csharp
+  - vb
+  name: CladdingType
+  nameWithType: CladdingType
+  fullName: TeklaBillboardAid.CladdingType
+  type: Enum
+  source:
+    remote:
+      path: Cladding.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: CladdingType
+    path: Cladding.cs
+    startLine: 12
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  summary: "\nEnumeration to support different cladding material profiles on Tekla Structures.\n"
+  example: []
+  syntax:
+    content: public enum CladdingType
+    content.vb: Public Enum CladdingType
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: TeklaBillboardAid.CladdingType.MiniOrb42
+  commentId: F:TeklaBillboardAid.CladdingType.MiniOrb42
+  id: MiniOrb42
+  parent: TeklaBillboardAid.CladdingType
+  langs:
+  - csharp
+  - vb
+  name: MiniOrb42
+  nameWithType: CladdingType.MiniOrb42
+  fullName: TeklaBillboardAid.CladdingType.MiniOrb42
+  type: Field
+  source:
+    remote:
+      path: Cladding.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: MiniOrb42
+    path: Cladding.cs
+    startLine: 17
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  summary: "\nMINIORB042\n"
+  example: []
+  syntax:
+    content: MiniOrb42 = 0
+    return:
+      type: TeklaBillboardAid.CladdingType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TeklaBillboardAid.CladdingType.MiniOrb48
+  commentId: F:TeklaBillboardAid.CladdingType.MiniOrb48
+  id: MiniOrb48
+  parent: TeklaBillboardAid.CladdingType
+  langs:
+  - csharp
+  - vb
+  name: MiniOrb48
+  nameWithType: CladdingType.MiniOrb48
+  fullName: TeklaBillboardAid.CladdingType.MiniOrb48
+  type: Field
+  source:
+    remote:
+      path: Cladding.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: MiniOrb48
+    path: Cladding.cs
+    startLine: 22
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  summary: "\nMINIORB048\n"
+  example: []
+  syntax:
+    content: MiniOrb48 = 1
+    return:
+      type: TeklaBillboardAid.CladdingType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TeklaBillboardAid.CladdingType.PanelRib35
+  commentId: F:TeklaBillboardAid.CladdingType.PanelRib35
+  id: PanelRib35
+  parent: TeklaBillboardAid.CladdingType
+  langs:
+  - csharp
+  - vb
+  name: PanelRib35
+  nameWithType: CladdingType.PanelRib35
+  fullName: TeklaBillboardAid.CladdingType.PanelRib35
+  type: Field
+  source:
+    remote:
+      path: Cladding.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: PanelRib35
+    path: Cladding.cs
+    startLine: 27
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  summary: "\nPANELRIB035\n"
+  example: []
+  syntax:
+    content: PanelRib35 = 2
+    return:
+      type: TeklaBillboardAid.CladdingType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TeklaBillboardAid.CladdingType.PanelRib42
+  commentId: F:TeklaBillboardAid.CladdingType.PanelRib42
+  id: PanelRib42
+  parent: TeklaBillboardAid.CladdingType
+  langs:
+  - csharp
+  - vb
+  name: PanelRib42
+  nameWithType: CladdingType.PanelRib42
+  fullName: TeklaBillboardAid.CladdingType.PanelRib42
+  type: Field
+  source:
+    remote:
+      path: Cladding.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: PanelRib42
+    path: Cladding.cs
+    startLine: 32
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  summary: "\nPANELRIB042\n"
+  example: []
+  syntax:
+    content: PanelRib42 = 3
+    return:
+      type: TeklaBillboardAid.CladdingType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TeklaBillboardAid.CladdingType.PerfSheet
+  commentId: F:TeklaBillboardAid.CladdingType.PerfSheet
+  id: PerfSheet
+  parent: TeklaBillboardAid.CladdingType
+  langs:
+  - csharp
+  - vb
+  name: PerfSheet
+  nameWithType: CladdingType.PerfSheet
+  fullName: TeklaBillboardAid.CladdingType.PerfSheet
+  type: Field
+  source:
+    remote:
+      path: Cladding.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: PerfSheet
+    path: Cladding.cs
+    startLine: 37
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  summary: "\nPerforated Sheet\n"
+  example: []
+  syntax:
+    content: PerfSheet = 4
+    return:
+      type: TeklaBillboardAid.CladdingType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TeklaBillboardAid.CladdingType.ACM
+  commentId: F:TeklaBillboardAid.CladdingType.ACM
+  id: ACM
+  parent: TeklaBillboardAid.CladdingType
+  langs:
+  - csharp
+  - vb
+  name: ACM
+  nameWithType: CladdingType.ACM
+  fullName: TeklaBillboardAid.CladdingType.ACM
+  type: Field
+  source:
+    remote:
+      path: Cladding.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: ACM
+    path: Cladding.cs
+    startLine: 42
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  summary: "\nAluminium Composite Panel\n"
+  example: []
+  syntax:
+    content: ACM = 5
+    return:
+      type: TeklaBillboardAid.CladdingType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TeklaBillboardAid.CladdingType.None
+  commentId: F:TeklaBillboardAid.CladdingType.None
+  id: None
+  parent: TeklaBillboardAid.CladdingType
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: CladdingType.None
+  fullName: TeklaBillboardAid.CladdingType.None
+  type: Field
+  source:
+    remote:
+      path: Cladding.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: None
+    path: Cladding.cs
+    startLine: 47
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  summary: "\nNo cladding.\n"
+  example: []
+  syntax:
+    content: None = 6
+    return:
+      type: TeklaBillboardAid.CladdingType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: TeklaBillboardAid
+  commentId: N:TeklaBillboardAid
+  name: TeklaBillboardAid
+  nameWithType: TeklaBillboardAid
+  fullName: TeklaBillboardAid
+- uid: TeklaBillboardAid.CladdingType
+  commentId: T:TeklaBillboardAid.CladdingType
+  parent: TeklaBillboardAid
+  name: CladdingType
+  nameWithType: CladdingType
+  fullName: TeklaBillboardAid.CladdingType

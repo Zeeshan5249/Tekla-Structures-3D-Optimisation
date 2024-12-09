@@ -1,0 +1,223 @@
+### YamlMime:ManagedReference
+items:
+- uid: TeklaBillboardAid.BillboardSide
+  commentId: T:TeklaBillboardAid.BillboardSide
+  id: BillboardSide
+  parent: TeklaBillboardAid
+  children:
+  - TeklaBillboardAid.BillboardSide.Back
+  - TeklaBillboardAid.BillboardSide.Bottom
+  - TeklaBillboardAid.BillboardSide.Left
+  - TeklaBillboardAid.BillboardSide.Right
+  - TeklaBillboardAid.BillboardSide.Top
+  langs:
+  - csharp
+  - vb
+  name: BillboardSide
+  nameWithType: BillboardSide
+  fullName: TeklaBillboardAid.BillboardSide
+  type: Enum
+  source:
+    remote:
+      path: Cladding.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: BillboardSide
+    path: Cladding.cs
+    startLine: 53
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  summary: "\nEnumeration to specify which side(s) of the billboard to place cladding and/or flashings on.\n"
+  example: []
+  syntax:
+    content: public enum BillboardSide
+    content.vb: Public Enum BillboardSide
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: TeklaBillboardAid.BillboardSide.Back
+  commentId: F:TeklaBillboardAid.BillboardSide.Back
+  id: Back
+  parent: TeklaBillboardAid.BillboardSide
+  langs:
+  - csharp
+  - vb
+  name: Back
+  nameWithType: BillboardSide.Back
+  fullName: TeklaBillboardAid.BillboardSide.Back
+  type: Field
+  source:
+    remote:
+      path: Cladding.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: Back
+    path: Cladding.cs
+    startLine: 58
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  summary: "\nBack of the billboard (opposite the LED panels).\n"
+  example: []
+  syntax:
+    content: Back = 0
+    return:
+      type: TeklaBillboardAid.BillboardSide
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TeklaBillboardAid.BillboardSide.Left
+  commentId: F:TeklaBillboardAid.BillboardSide.Left
+  id: Left
+  parent: TeklaBillboardAid.BillboardSide
+  langs:
+  - csharp
+  - vb
+  name: Left
+  nameWithType: BillboardSide.Left
+  fullName: TeklaBillboardAid.BillboardSide.Left
+  type: Field
+  source:
+    remote:
+      path: Cladding.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: Left
+    path: Cladding.cs
+    startLine: 63
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  summary: "\nLeft side of the billboard.\n"
+  example: []
+  syntax:
+    content: Left = 1
+    return:
+      type: TeklaBillboardAid.BillboardSide
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TeklaBillboardAid.BillboardSide.Right
+  commentId: F:TeklaBillboardAid.BillboardSide.Right
+  id: Right
+  parent: TeklaBillboardAid.BillboardSide
+  langs:
+  - csharp
+  - vb
+  name: Right
+  nameWithType: BillboardSide.Right
+  fullName: TeklaBillboardAid.BillboardSide.Right
+  type: Field
+  source:
+    remote:
+      path: Cladding.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: Right
+    path: Cladding.cs
+    startLine: 68
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  summary: "\nRight side of the billboard.\n"
+  example: []
+  syntax:
+    content: Right = 2
+    return:
+      type: TeklaBillboardAid.BillboardSide
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TeklaBillboardAid.BillboardSide.Top
+  commentId: F:TeklaBillboardAid.BillboardSide.Top
+  id: Top
+  parent: TeklaBillboardAid.BillboardSide
+  langs:
+  - csharp
+  - vb
+  name: Top
+  nameWithType: BillboardSide.Top
+  fullName: TeklaBillboardAid.BillboardSide.Top
+  type: Field
+  source:
+    remote:
+      path: Cladding.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: Top
+    path: Cladding.cs
+    startLine: 73
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  summary: "\nTop of the billboard.\n"
+  example: []
+  syntax:
+    content: Top = 3
+    return:
+      type: TeklaBillboardAid.BillboardSide
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TeklaBillboardAid.BillboardSide.Bottom
+  commentId: F:TeklaBillboardAid.BillboardSide.Bottom
+  id: Bottom
+  parent: TeklaBillboardAid.BillboardSide
+  langs:
+  - csharp
+  - vb
+  name: Bottom
+  nameWithType: BillboardSide.Bottom
+  fullName: TeklaBillboardAid.BillboardSide.Bottom
+  type: Field
+  source:
+    remote:
+      path: Cladding.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: Bottom
+    path: Cladding.cs
+    startLine: 78
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  summary: "\nBottom of the billboard.\n"
+  example: []
+  syntax:
+    content: Bottom = 4
+    return:
+      type: TeklaBillboardAid.BillboardSide
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: TeklaBillboardAid
+  commentId: N:TeklaBillboardAid
+  name: TeklaBillboardAid
+  nameWithType: TeklaBillboardAid
+  fullName: TeklaBillboardAid
+- uid: TeklaBillboardAid.BillboardSide
+  commentId: T:TeklaBillboardAid.BillboardSide
+  parent: TeklaBillboardAid
+  name: BillboardSide
+  nameWithType: BillboardSide
+  fullName: TeklaBillboardAid.BillboardSide

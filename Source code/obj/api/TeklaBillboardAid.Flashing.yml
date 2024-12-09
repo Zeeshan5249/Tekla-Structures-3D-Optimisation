@@ -1,0 +1,722 @@
+### YamlMime:ManagedReference
+items:
+- uid: TeklaBillboardAid.Flashing
+  commentId: T:TeklaBillboardAid.Flashing
+  id: Flashing
+  parent: TeklaBillboardAid
+  children:
+  - TeklaBillboardAid.Flashing.#ctor(TeklaBillboardAid.BillboardSide[],TeklaBillboardAid.ModelParameters)
+  - TeklaBillboardAid.Flashing.Colour
+  - TeklaBillboardAid.Flashing.Dimensions
+  - TeklaBillboardAid.Flashing.PolyBeams
+  - TeklaBillboardAid.Flashing.Thickness
+  langs:
+  - csharp
+  - vb
+  name: Flashing
+  nameWithType: Flashing
+  fullName: TeklaBillboardAid.Flashing
+  type: Class
+  source:
+    remote:
+      path: Flashing.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: Flashing
+    path: Flashing.cs
+    startLine: 10
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  summary: "\nClass which contains methods and constructors for creating the flashings.\n"
+  example: []
+  syntax:
+    content: public class Flashing
+    content.vb: Public Class Flashing
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: TeklaBillboardAid.Flashing.PolyBeams
+  commentId: P:TeklaBillboardAid.Flashing.PolyBeams
+  id: PolyBeams
+  parent: TeklaBillboardAid.Flashing
+  langs:
+  - csharp
+  - vb
+  name: PolyBeams
+  nameWithType: Flashing.PolyBeams
+  fullName: TeklaBillboardAid.Flashing.PolyBeams
+  type: Property
+  source:
+    remote:
+      path: Flashing.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: PolyBeams
+    path: Flashing.cs
+    startLine: 15
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  example: []
+  syntax:
+    content: public List<PolyBeam> PolyBeams { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{Tekla.Structures.Model.PolyBeam}
+      description: "\nList of Tekla Structures parts containing the flashing(s). \n"
+    content.vb: Public Property PolyBeams As List(Of PolyBeam)
+  overload: TeklaBillboardAid.Flashing.PolyBeams*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TeklaBillboardAid.Flashing.Colour
+  commentId: P:TeklaBillboardAid.Flashing.Colour
+  id: Colour
+  parent: TeklaBillboardAid.Flashing
+  langs:
+  - csharp
+  - vb
+  name: Colour
+  nameWithType: Flashing.Colour
+  fullName: TeklaBillboardAid.Flashing.Colour
+  type: Property
+  source:
+    remote:
+      path: Flashing.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: Colour
+    path: Flashing.cs
+    startLine: 20
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  example: []
+  syntax:
+    content: public Colour Colour { get; set; }
+    parameters: []
+    return:
+      type: TeklaBillboardAid.Colour
+      description: "\nColour of the flashing(s).\n"
+    content.vb: Public Property Colour As Colour
+  overload: TeklaBillboardAid.Flashing.Colour*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TeklaBillboardAid.Flashing.Thickness
+  commentId: P:TeklaBillboardAid.Flashing.Thickness
+  id: Thickness
+  parent: TeklaBillboardAid.Flashing
+  langs:
+  - csharp
+  - vb
+  name: Thickness
+  nameWithType: Flashing.Thickness
+  fullName: TeklaBillboardAid.Flashing.Thickness
+  type: Property
+  source:
+    remote:
+      path: Flashing.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: Thickness
+    path: Flashing.cs
+    startLine: 25
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  example: []
+  syntax:
+    content: public double Thickness { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+      description: "\nThickness of the flashing(s).\n"
+    content.vb: Public Property Thickness As Double
+  overload: TeklaBillboardAid.Flashing.Thickness*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TeklaBillboardAid.Flashing.Dimensions
+  commentId: P:TeklaBillboardAid.Flashing.Dimensions
+  id: Dimensions
+  parent: TeklaBillboardAid.Flashing
+  langs:
+  - csharp
+  - vb
+  name: Dimensions
+  nameWithType: Flashing.Dimensions
+  fullName: TeklaBillboardAid.Flashing.Dimensions
+  type: Property
+  source:
+    remote:
+      path: Flashing.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: Dimensions
+    path: Flashing.cs
+    startLine: 33
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  example: []
+  syntax:
+    content: public double[] Dimensions { get; set; }
+    parameters: []
+    return:
+      type: System.Double[]
+      description: "\nDimensions of the flashing(s). See Technical Documentation for the corresponding schematics.\nOrdered as follows: BC (top), CD (top), DE (top), BC (sides), CD (sides), DE (sides), CD (bottom), DE (bottom),\nAB = BC (sides), AB (top), alpha (top), EF (top), beta (top), AB (sides), alpha (sides), EF (sides), beta (sides),\nEF (bottom), gamma.\n"
+    content.vb: Public Property Dimensions As Double()
+  overload: TeklaBillboardAid.Flashing.Dimensions*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TeklaBillboardAid.Flashing.#ctor(TeklaBillboardAid.BillboardSide[],TeklaBillboardAid.ModelParameters)
+  commentId: M:TeklaBillboardAid.Flashing.#ctor(TeklaBillboardAid.BillboardSide[],TeklaBillboardAid.ModelParameters)
+  id: '#ctor(TeklaBillboardAid.BillboardSide[],TeklaBillboardAid.ModelParameters)'
+  parent: TeklaBillboardAid.Flashing
+  langs:
+  - csharp
+  - vb
+  name: Flashing(BillboardSide[], ModelParameters)
+  nameWithType: Flashing.Flashing(BillboardSide[], ModelParameters)
+  fullName: TeklaBillboardAid.Flashing.Flashing(TeklaBillboardAid.BillboardSide[], TeklaBillboardAid.ModelParameters)
+  type: Constructor
+  source:
+    remote:
+      path: Flashing.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: .ctor
+    path: Flashing.cs
+    startLine: 40
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  summary: "\nConstructor to build flashings in Tekla Structures.\n"
+  example: []
+  syntax:
+    content: public Flashing(BillboardSide[] sides, ModelParameters modelParameters)
+    parameters:
+    - id: sides
+      type: TeklaBillboardAid.BillboardSide[]
+      description: 'List of billboard sides to include flashings '
+    - id: modelParameters
+      type: TeklaBillboardAid.ModelParameters
+      description: 'The model data store '
+    content.vb: Public Sub New(sides As BillboardSide(), modelParameters As ModelParameters)
+  overload: TeklaBillboardAid.Flashing.#ctor*
+  nameWithType.vb: Flashing.Flashing(BillboardSide(), ModelParameters)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: TeklaBillboardAid.Flashing.Flashing(TeklaBillboardAid.BillboardSide(), TeklaBillboardAid.ModelParameters)
+  name.vb: Flashing(BillboardSide(), ModelParameters)
+references:
+- uid: TeklaBillboardAid
+  commentId: N:TeklaBillboardAid
+  name: TeklaBillboardAid
+  nameWithType: TeklaBillboardAid
+  fullName: TeklaBillboardAid
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TeklaBillboardAid.Flashing.PolyBeams*
+  commentId: Overload:TeklaBillboardAid.Flashing.PolyBeams
+  name: PolyBeams
+  nameWithType: Flashing.PolyBeams
+  fullName: TeklaBillboardAid.Flashing.PolyBeams
+- uid: System.Collections.Generic.List{Tekla.Structures.Model.PolyBeam}
+  commentId: T:System.Collections.Generic.List{Tekla.Structures.Model.PolyBeam}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<PolyBeam>
+  nameWithType: List<PolyBeam>
+  fullName: System.Collections.Generic.List<Tekla.Structures.Model.PolyBeam>
+  nameWithType.vb: List(Of PolyBeam)
+  fullName.vb: System.Collections.Generic.List(Of Tekla.Structures.Model.PolyBeam)
+  name.vb: List(Of PolyBeam)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Tekla.Structures.Model.PolyBeam
+    name: PolyBeam
+    nameWithType: PolyBeam
+    fullName: Tekla.Structures.Model.PolyBeam
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Tekla.Structures.Model.PolyBeam
+    name: PolyBeam
+    nameWithType: PolyBeam
+    fullName: Tekla.Structures.Model.PolyBeam
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: TeklaBillboardAid.Flashing.Colour*
+  commentId: Overload:TeklaBillboardAid.Flashing.Colour
+  name: Colour
+  nameWithType: Flashing.Colour
+  fullName: TeklaBillboardAid.Flashing.Colour
+- uid: TeklaBillboardAid.Colour
+  commentId: T:TeklaBillboardAid.Colour
+  parent: TeklaBillboardAid
+  name: Colour
+  nameWithType: Colour
+  fullName: TeklaBillboardAid.Colour
+- uid: TeklaBillboardAid.Flashing.Thickness*
+  commentId: Overload:TeklaBillboardAid.Flashing.Thickness
+  name: Thickness
+  nameWithType: Flashing.Thickness
+  fullName: TeklaBillboardAid.Flashing.Thickness
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: TeklaBillboardAid.Flashing.Dimensions*
+  commentId: Overload:TeklaBillboardAid.Flashing.Dimensions
+  name: Dimensions
+  nameWithType: Flashing.Dimensions
+  fullName: TeklaBillboardAid.Flashing.Dimensions
+- uid: System.Double[]
+  isExternal: true
+  name: Double[]
+  nameWithType: Double[]
+  fullName: System.Double[]
+  nameWithType.vb: Double()
+  fullName.vb: System.Double()
+  name.vb: Double()
+  spec.csharp:
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: TeklaBillboardAid.Flashing.#ctor*
+  commentId: Overload:TeklaBillboardAid.Flashing.#ctor
+  name: Flashing
+  nameWithType: Flashing.Flashing
+  fullName: TeklaBillboardAid.Flashing.Flashing
+- uid: TeklaBillboardAid.BillboardSide[]
+  isExternal: true
+  name: BillboardSide[]
+  nameWithType: BillboardSide[]
+  fullName: TeklaBillboardAid.BillboardSide[]
+  nameWithType.vb: BillboardSide()
+  fullName.vb: TeklaBillboardAid.BillboardSide()
+  name.vb: BillboardSide()
+  spec.csharp:
+  - uid: TeklaBillboardAid.BillboardSide
+    name: BillboardSide
+    nameWithType: BillboardSide
+    fullName: TeklaBillboardAid.BillboardSide
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: TeklaBillboardAid.BillboardSide
+    name: BillboardSide
+    nameWithType: BillboardSide
+    fullName: TeklaBillboardAid.BillboardSide
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: TeklaBillboardAid.ModelParameters
+  commentId: T:TeklaBillboardAid.ModelParameters
+  parent: TeklaBillboardAid
+  name: ModelParameters
+  nameWithType: ModelParameters
+  fullName: TeklaBillboardAid.ModelParameters

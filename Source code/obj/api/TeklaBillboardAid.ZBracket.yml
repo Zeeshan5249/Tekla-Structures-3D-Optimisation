@@ -1,0 +1,882 @@
+### YamlMime:ManagedReference
+items:
+- uid: TeklaBillboardAid.ZBracket
+  commentId: T:TeklaBillboardAid.ZBracket
+  id: ZBracket
+  parent: TeklaBillboardAid
+  children:
+  - TeklaBillboardAid.ZBracket.CreatePolyBeam(System.Collections.Generic.List{Tekla.Structures.Model.ContourPoint},System.String,System.String,System.Int32[],System.Double[],System.String,System.String)
+  - TeklaBillboardAid.ZBracket.ZBrackets(System.Collections.Generic.List{System.Double},Tekla.Structures.Geometry3d.Point,System.Collections.Generic.List{TeklaBillboardAid.Frame},System.Collections.Generic.List{System.Double},TeklaBillboardAid.ModelParameters)
+  - TeklaBillboardAid.ZBracket.ZBracketsCurve(System.Collections.Generic.List{System.Double},Tekla.Structures.Geometry3d.Point,System.Collections.Generic.List{TeklaBillboardAid.Curve_Frame},System.Collections.Generic.List{System.Double},TeklaBillboardAid.ModelParameters)
+  langs:
+  - csharp
+  - vb
+  name: ZBracket
+  nameWithType: ZBracket
+  fullName: TeklaBillboardAid.ZBracket
+  type: Class
+  source:
+    remote:
+      path: Z Bracket.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: ZBracket
+    path: Z Bracket.cs
+    startLine: 11
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  summary: "\nClass to support modelling of Z-brackets on Tekla Structures.\n"
+  example: []
+  syntax:
+    content: public class ZBracket
+    content.vb: Public Class ZBracket
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: TeklaBillboardAid.ZBracket.ZBrackets(System.Collections.Generic.List{System.Double},Tekla.Structures.Geometry3d.Point,System.Collections.Generic.List{TeklaBillboardAid.Frame},System.Collections.Generic.List{System.Double},TeklaBillboardAid.ModelParameters)
+  commentId: M:TeklaBillboardAid.ZBracket.ZBrackets(System.Collections.Generic.List{System.Double},Tekla.Structures.Geometry3d.Point,System.Collections.Generic.List{TeklaBillboardAid.Frame},System.Collections.Generic.List{System.Double},TeklaBillboardAid.ModelParameters)
+  id: ZBrackets(System.Collections.Generic.List{System.Double},Tekla.Structures.Geometry3d.Point,System.Collections.Generic.List{TeklaBillboardAid.Frame},System.Collections.Generic.List{System.Double},TeklaBillboardAid.ModelParameters)
+  parent: TeklaBillboardAid.ZBracket
+  langs:
+  - csharp
+  - vb
+  name: ZBrackets(List<Double>, Point, List<Frame>, List<Double>, ModelParameters)
+  nameWithType: ZBracket.ZBrackets(List<Double>, Point, List<Frame>, List<Double>, ModelParameters)
+  fullName: TeklaBillboardAid.ZBracket.ZBrackets(System.Collections.Generic.List<System.Double>, Tekla.Structures.Geometry3d.Point, System.Collections.Generic.List<TeklaBillboardAid.Frame>, System.Collections.Generic.List<System.Double>, TeklaBillboardAid.ModelParameters)
+  type: Method
+  source:
+    remote:
+      path: Z Bracket.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: ZBrackets
+    path: Z Bracket.cs
+    startLine: 21
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  summary: "\nPopulates the billboard model with Z-brackets at given z-coordinates.\n"
+  example: []
+  syntax:
+    content: public static List<Part> ZBrackets(List<double> xSubCoordinates, Point OriginOffset, List<Frame> planes, List<double> zCoordinatesForZBrackets, ModelParameters modelParameters)
+    parameters:
+    - id: xSubCoordinates
+      type: System.Collections.Generic.List{System.Double}
+    - id: OriginOffset
+      type: Tekla.Structures.Geometry3d.Point
+    - id: planes
+      type: System.Collections.Generic.List{TeklaBillboardAid.Frame}
+      description: 'List of frames sorted by x-coordinates to insert the Z-brackets behind '
+    - id: zCoordinatesForZBrackets
+      type: System.Collections.Generic.List{System.Double}
+      description: 'List of z-coordinates to insert the Z-brackets along (mm) '
+    - id: modelParameters
+      type: TeklaBillboardAid.ModelParameters
+      description: 'The model&apos;s data store '
+    return:
+      type: System.Collections.Generic.List{Tekla.Structures.Model.Part}
+    content.vb: Public Shared Function ZBrackets(xSubCoordinates As List(Of Double), OriginOffset As Point, planes As List(Of Frame), zCoordinatesForZBrackets As List(Of Double), modelParameters As ModelParameters) As List(Of Part)
+  overload: TeklaBillboardAid.ZBracket.ZBrackets*
+  nameWithType.vb: ZBracket.ZBrackets(List(Of Double), Point, List(Of Frame), List(Of Double), ModelParameters)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: TeklaBillboardAid.ZBracket.ZBrackets(System.Collections.Generic.List(Of System.Double), Tekla.Structures.Geometry3d.Point, System.Collections.Generic.List(Of TeklaBillboardAid.Frame), System.Collections.Generic.List(Of System.Double), TeklaBillboardAid.ModelParameters)
+  name.vb: ZBrackets(List(Of Double), Point, List(Of Frame), List(Of Double), ModelParameters)
+- uid: TeklaBillboardAid.ZBracket.ZBracketsCurve(System.Collections.Generic.List{System.Double},Tekla.Structures.Geometry3d.Point,System.Collections.Generic.List{TeklaBillboardAid.Curve_Frame},System.Collections.Generic.List{System.Double},TeklaBillboardAid.ModelParameters)
+  commentId: M:TeklaBillboardAid.ZBracket.ZBracketsCurve(System.Collections.Generic.List{System.Double},Tekla.Structures.Geometry3d.Point,System.Collections.Generic.List{TeklaBillboardAid.Curve_Frame},System.Collections.Generic.List{System.Double},TeklaBillboardAid.ModelParameters)
+  id: ZBracketsCurve(System.Collections.Generic.List{System.Double},Tekla.Structures.Geometry3d.Point,System.Collections.Generic.List{TeklaBillboardAid.Curve_Frame},System.Collections.Generic.List{System.Double},TeklaBillboardAid.ModelParameters)
+  parent: TeklaBillboardAid.ZBracket
+  langs:
+  - csharp
+  - vb
+  name: ZBracketsCurve(List<Double>, Point, List<Curve_Frame>, List<Double>, ModelParameters)
+  nameWithType: ZBracket.ZBracketsCurve(List<Double>, Point, List<Curve_Frame>, List<Double>, ModelParameters)
+  fullName: TeklaBillboardAid.ZBracket.ZBracketsCurve(System.Collections.Generic.List<System.Double>, Tekla.Structures.Geometry3d.Point, System.Collections.Generic.List<TeklaBillboardAid.Curve_Frame>, System.Collections.Generic.List<System.Double>, TeklaBillboardAid.ModelParameters)
+  type: Method
+  source:
+    remote:
+      path: Z Bracket.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: ZBracketsCurve
+    path: Z Bracket.cs
+    startLine: 911
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  summary: "\nPopulates the curve billboard model with Z-brackets at given z-coordinates.\n"
+  example: []
+  syntax:
+    content: public static List<Part> ZBracketsCurve(List<double> xSubCoordinates, Point OriginOffset, List<Curve_Frame> planes, List<double> zCoordinatesForZBrackets, ModelParameters modelParameters)
+    parameters:
+    - id: xSubCoordinates
+      type: System.Collections.Generic.List{System.Double}
+    - id: OriginOffset
+      type: Tekla.Structures.Geometry3d.Point
+    - id: planes
+      type: System.Collections.Generic.List{TeklaBillboardAid.Curve_Frame}
+      description: 'List of frames sorted by x-coordinates to insert the Z-brackets behind '
+    - id: zCoordinatesForZBrackets
+      type: System.Collections.Generic.List{System.Double}
+      description: 'List of z-coordinates to insert the Z-brackets along (mm) '
+    - id: modelParameters
+      type: TeklaBillboardAid.ModelParameters
+      description: 'The model&apos;s data store '
+    return:
+      type: System.Collections.Generic.List{Tekla.Structures.Model.Part}
+    content.vb: Public Shared Function ZBracketsCurve(xSubCoordinates As List(Of Double), OriginOffset As Point, planes As List(Of Curve_Frame), zCoordinatesForZBrackets As List(Of Double), modelParameters As ModelParameters) As List(Of Part)
+  overload: TeklaBillboardAid.ZBracket.ZBracketsCurve*
+  nameWithType.vb: ZBracket.ZBracketsCurve(List(Of Double), Point, List(Of Curve_Frame), List(Of Double), ModelParameters)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: TeklaBillboardAid.ZBracket.ZBracketsCurve(System.Collections.Generic.List(Of System.Double), Tekla.Structures.Geometry3d.Point, System.Collections.Generic.List(Of TeklaBillboardAid.Curve_Frame), System.Collections.Generic.List(Of System.Double), TeklaBillboardAid.ModelParameters)
+  name.vb: ZBracketsCurve(List(Of Double), Point, List(Of Curve_Frame), List(Of Double), ModelParameters)
+- uid: TeklaBillboardAid.ZBracket.CreatePolyBeam(System.Collections.Generic.List{Tekla.Structures.Model.ContourPoint},System.String,System.String,System.Int32[],System.Double[],System.String,System.String)
+  commentId: M:TeklaBillboardAid.ZBracket.CreatePolyBeam(System.Collections.Generic.List{Tekla.Structures.Model.ContourPoint},System.String,System.String,System.Int32[],System.Double[],System.String,System.String)
+  id: CreatePolyBeam(System.Collections.Generic.List{Tekla.Structures.Model.ContourPoint},System.String,System.String,System.Int32[],System.Double[],System.String,System.String)
+  parent: TeklaBillboardAid.ZBracket
+  langs:
+  - csharp
+  - vb
+  name: CreatePolyBeam(List<ContourPoint>, String, String, Int32[], Double[], String, String)
+  nameWithType: ZBracket.CreatePolyBeam(List<ContourPoint>, String, String, Int32[], Double[], String, String)
+  fullName: TeklaBillboardAid.ZBracket.CreatePolyBeam(System.Collections.Generic.List<Tekla.Structures.Model.ContourPoint>, System.String, System.String, System.Int32[], System.Double[], System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: Z Bracket.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: CreatePolyBeam
+    path: Z Bracket.cs
+    startLine: 1223
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  summary: "\nMethod to create a PolyBeam model on Tekla Structures.\n"
+  example: []
+  syntax:
+    content: public static PolyBeam CreatePolyBeam(List<ContourPoint> points, string profile, string material, int[] bracketEnums, double[] bracketOffsets, string beamClass, string beamFinish = "")
+    parameters:
+    - id: points
+      type: System.Collections.Generic.List{Tekla.Structures.Model.ContourPoint}
+      description: List of ContourPoints in clockwise or counterclockwise order in the beam&apos;s cross section (mm)
+    - id: profile
+      type: System.String
+      description: 'The beam&apos;s profile '
+    - id: material
+      type: System.String
+      description: 'The beam&apos;s material '
+    - id: bracketEnums
+      type: System.Int32[]
+      description: 'Array in the form [Position.DepthEnum, Position.PlaneEnum, Position.RotationEnum] '
+    - id: bracketOffsets
+      type: System.Double[]
+      description: 'Offsets in the form [depthOffset, planeOffset, rotationOffset] '
+    - id: beamClass
+      type: System.String
+      description: 'The beam&apos;s class e.g. beamClass : &quot;1&quot; '
+    - id: beamFinish
+      type: System.String
+      description: 'Finish field of the part '
+    return:
+      type: Tekla.Structures.Model.PolyBeam
+      description: 'Part in Tekla Structures. '
+    content.vb: Public Shared Function CreatePolyBeam(points As List(Of ContourPoint), profile As String, material As String, bracketEnums As Integer(), bracketOffsets As Double(), beamClass As String, beamFinish As String = "") As PolyBeam
+  overload: TeklaBillboardAid.ZBracket.CreatePolyBeam*
+  nameWithType.vb: ZBracket.CreatePolyBeam(List(Of ContourPoint), String, String, Int32(), Double(), String, String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: TeklaBillboardAid.ZBracket.CreatePolyBeam(System.Collections.Generic.List(Of Tekla.Structures.Model.ContourPoint), System.String, System.String, System.Int32(), System.Double(), System.String, System.String)
+  name.vb: CreatePolyBeam(List(Of ContourPoint), String, String, Int32(), Double(), String, String)
+references:
+- uid: TeklaBillboardAid
+  commentId: N:TeklaBillboardAid
+  name: TeklaBillboardAid
+  nameWithType: TeklaBillboardAid
+  fullName: TeklaBillboardAid
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TeklaBillboardAid.ZBracket.ZBrackets*
+  commentId: Overload:TeklaBillboardAid.ZBracket.ZBrackets
+  name: ZBrackets
+  nameWithType: ZBracket.ZBrackets
+  fullName: TeklaBillboardAid.ZBracket.ZBrackets
+- uid: System.Collections.Generic.List{System.Double}
+  commentId: T:System.Collections.Generic.List{System.Double}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Double>
+  nameWithType: List<Double>
+  fullName: System.Collections.Generic.List<System.Double>
+  nameWithType.vb: List(Of Double)
+  fullName.vb: System.Collections.Generic.List(Of System.Double)
+  name.vb: List(Of Double)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Tekla.Structures.Geometry3d.Point
+  commentId: T:Tekla.Structures.Geometry3d.Point
+  parent: Tekla.Structures.Geometry3d
+  isExternal: true
+  name: Point
+  nameWithType: Point
+  fullName: Tekla.Structures.Geometry3d.Point
+- uid: System.Collections.Generic.List{TeklaBillboardAid.Frame}
+  commentId: T:System.Collections.Generic.List{TeklaBillboardAid.Frame}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Frame>
+  nameWithType: List<Frame>
+  fullName: System.Collections.Generic.List<TeklaBillboardAid.Frame>
+  nameWithType.vb: List(Of Frame)
+  fullName.vb: System.Collections.Generic.List(Of TeklaBillboardAid.Frame)
+  name.vb: List(Of Frame)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TeklaBillboardAid.Frame
+    name: Frame
+    nameWithType: Frame
+    fullName: TeklaBillboardAid.Frame
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TeklaBillboardAid.Frame
+    name: Frame
+    nameWithType: Frame
+    fullName: TeklaBillboardAid.Frame
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TeklaBillboardAid.ModelParameters
+  commentId: T:TeklaBillboardAid.ModelParameters
+  parent: TeklaBillboardAid
+  name: ModelParameters
+  nameWithType: ModelParameters
+  fullName: TeklaBillboardAid.ModelParameters
+- uid: System.Collections.Generic.List{Tekla.Structures.Model.Part}
+  commentId: T:System.Collections.Generic.List{Tekla.Structures.Model.Part}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Part>
+  nameWithType: List<Part>
+  fullName: System.Collections.Generic.List<Tekla.Structures.Model.Part>
+  nameWithType.vb: List(Of Part)
+  fullName.vb: System.Collections.Generic.List(Of Tekla.Structures.Model.Part)
+  name.vb: List(Of Part)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Tekla.Structures.Model.Part
+    name: Part
+    nameWithType: Part
+    fullName: Tekla.Structures.Model.Part
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Tekla.Structures.Model.Part
+    name: Part
+    nameWithType: Part
+    fullName: Tekla.Structures.Model.Part
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Tekla.Structures.Geometry3d
+  commentId: N:Tekla.Structures.Geometry3d
+  isExternal: true
+  name: Tekla.Structures.Geometry3d
+  nameWithType: Tekla.Structures.Geometry3d
+  fullName: Tekla.Structures.Geometry3d
+- uid: TeklaBillboardAid.ZBracket.ZBracketsCurve*
+  commentId: Overload:TeklaBillboardAid.ZBracket.ZBracketsCurve
+  name: ZBracketsCurve
+  nameWithType: ZBracket.ZBracketsCurve
+  fullName: TeklaBillboardAid.ZBracket.ZBracketsCurve
+- uid: System.Collections.Generic.List{TeklaBillboardAid.Curve_Frame}
+  commentId: T:System.Collections.Generic.List{TeklaBillboardAid.Curve_Frame}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Curve_Frame>
+  nameWithType: List<Curve_Frame>
+  fullName: System.Collections.Generic.List<TeklaBillboardAid.Curve_Frame>
+  nameWithType.vb: List(Of Curve_Frame)
+  fullName.vb: System.Collections.Generic.List(Of TeklaBillboardAid.Curve_Frame)
+  name.vb: List(Of Curve_Frame)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TeklaBillboardAid.Curve_Frame
+    name: Curve_Frame
+    nameWithType: Curve_Frame
+    fullName: TeklaBillboardAid.Curve_Frame
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TeklaBillboardAid.Curve_Frame
+    name: Curve_Frame
+    nameWithType: Curve_Frame
+    fullName: TeklaBillboardAid.Curve_Frame
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TeklaBillboardAid.ZBracket.CreatePolyBeam*
+  commentId: Overload:TeklaBillboardAid.ZBracket.CreatePolyBeam
+  name: CreatePolyBeam
+  nameWithType: ZBracket.CreatePolyBeam
+  fullName: TeklaBillboardAid.ZBracket.CreatePolyBeam
+- uid: System.Collections.Generic.List{Tekla.Structures.Model.ContourPoint}
+  commentId: T:System.Collections.Generic.List{Tekla.Structures.Model.ContourPoint}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<ContourPoint>
+  nameWithType: List<ContourPoint>
+  fullName: System.Collections.Generic.List<Tekla.Structures.Model.ContourPoint>
+  nameWithType.vb: List(Of ContourPoint)
+  fullName.vb: System.Collections.Generic.List(Of Tekla.Structures.Model.ContourPoint)
+  name.vb: List(Of ContourPoint)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Tekla.Structures.Model.ContourPoint
+    name: ContourPoint
+    nameWithType: ContourPoint
+    fullName: Tekla.Structures.Model.ContourPoint
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Tekla.Structures.Model.ContourPoint
+    name: ContourPoint
+    nameWithType: ContourPoint
+    fullName: Tekla.Structures.Model.ContourPoint
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Double[]
+  isExternal: true
+  name: Double[]
+  nameWithType: Double[]
+  fullName: System.Double[]
+  nameWithType.vb: Double()
+  fullName.vb: System.Double()
+  name.vb: Double()
+  spec.csharp:
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Tekla.Structures.Model.PolyBeam
+  commentId: T:Tekla.Structures.Model.PolyBeam
+  parent: Tekla.Structures.Model
+  isExternal: true
+  name: PolyBeam
+  nameWithType: PolyBeam
+  fullName: Tekla.Structures.Model.PolyBeam
+- uid: Tekla.Structures.Model
+  commentId: N:Tekla.Structures.Model
+  isExternal: true
+  name: Tekla.Structures.Model
+  nameWithType: Tekla.Structures.Model
+  fullName: Tekla.Structures.Model

@@ -1,0 +1,722 @@
+### YamlMime:ManagedReference
+items:
+- uid: TeklaBillboardAid.LiftPoint
+  commentId: T:TeklaBillboardAid.LiftPoint
+  id: LiftPoint
+  parent: TeklaBillboardAid
+  children:
+  - TeklaBillboardAid.LiftPoint.#ctor(Tekla.Structures.Model.Beam,Tekla.Structures.Geometry3d.Point,System.Double,System.Boolean,System.String,System.String,System.Double,System.String)
+  - TeklaBillboardAid.LiftPoint.EyeBolt
+  - TeklaBillboardAid.LiftPoint.IsTop
+  - TeklaBillboardAid.LiftPoint.Material
+  - TeklaBillboardAid.LiftPoint.Plate
+  - TeklaBillboardAid.LiftPoint.Profile
+  - TeklaBillboardAid.LiftPoint.ValidateLiftPoint(System.Double,System.Double,System.Boolean,System.Collections.IList,System.Collections.IList,System.Double)
+  langs:
+  - csharp
+  - vb
+  name: LiftPoint
+  nameWithType: LiftPoint
+  fullName: TeklaBillboardAid.LiftPoint
+  type: Class
+  source:
+    remote:
+      path: LiftPoint.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: LiftPoint
+    path: LiftPoint.cs
+    startLine: 11
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  summary: "\nClass to support modeling of lifting points for billboard frames in Tekla Structures.\n"
+  example: []
+  syntax:
+    content: public class LiftPoint
+    content.vb: Public Class LiftPoint
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: TeklaBillboardAid.LiftPoint.Plate
+  commentId: F:TeklaBillboardAid.LiftPoint.Plate
+  id: Plate
+  parent: TeklaBillboardAid.LiftPoint
+  langs:
+  - csharp
+  - vb
+  name: Plate
+  nameWithType: LiftPoint.Plate
+  fullName: TeklaBillboardAid.LiftPoint.Plate
+  type: Field
+  source:
+    remote:
+      path: LiftPoint.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: Plate
+    path: LiftPoint.cs
+    startLine: 17
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  example: []
+  syntax:
+    content: public Plate Plate
+    return:
+      type: TeklaBillboardAid.Plate
+      description: "\nModeled as a 75 x 75 x 10 mm plate as per the engineering drawing.\n"
+    content.vb: Public Plate As Plate
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TeklaBillboardAid.LiftPoint.EyeBolt
+  commentId: F:TeklaBillboardAid.LiftPoint.EyeBolt
+  id: EyeBolt
+  parent: TeklaBillboardAid.LiftPoint
+  langs:
+  - csharp
+  - vb
+  name: EyeBolt
+  nameWithType: LiftPoint.EyeBolt
+  fullName: TeklaBillboardAid.LiftPoint.EyeBolt
+  type: Field
+  source:
+    remote:
+      path: LiftPoint.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: EyeBolt
+    path: LiftPoint.cs
+    startLine: 22
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  example: []
+  syntax:
+    content: public BoltArray EyeBolt
+    return:
+      type: Tekla.Structures.Model.BoltArray
+      description: "\nModeled as a 24 mm standard bolt. Placeholder only.\n"
+    content.vb: Public EyeBolt As BoltArray
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TeklaBillboardAid.LiftPoint.Profile
+  commentId: P:TeklaBillboardAid.LiftPoint.Profile
+  id: Profile
+  parent: TeklaBillboardAid.LiftPoint
+  langs:
+  - csharp
+  - vb
+  name: Profile
+  nameWithType: LiftPoint.Profile
+  fullName: TeklaBillboardAid.LiftPoint.Profile
+  type: Property
+  source:
+    remote:
+      path: LiftPoint.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: Profile
+    path: LiftPoint.cs
+    startLine: 27
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  example: []
+  syntax:
+    content: public string Profile { get; set; }
+    parameters: []
+    return:
+      type: System.String
+      description: "\nThe profile of the lifting point plate.\n"
+    content.vb: Public Property Profile As String
+  overload: TeklaBillboardAid.LiftPoint.Profile*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TeklaBillboardAid.LiftPoint.Material
+  commentId: P:TeklaBillboardAid.LiftPoint.Material
+  id: Material
+  parent: TeklaBillboardAid.LiftPoint
+  langs:
+  - csharp
+  - vb
+  name: Material
+  nameWithType: LiftPoint.Material
+  fullName: TeklaBillboardAid.LiftPoint.Material
+  type: Property
+  source:
+    remote:
+      path: LiftPoint.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: Material
+    path: LiftPoint.cs
+    startLine: 32
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  example: []
+  syntax:
+    content: public string Material { get; set; }
+    parameters: []
+    return:
+      type: System.String
+      description: "\nThe material of the lifting point plate.\n"
+    content.vb: Public Property Material As String
+  overload: TeklaBillboardAid.LiftPoint.Material*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TeklaBillboardAid.LiftPoint.IsTop
+  commentId: F:TeklaBillboardAid.LiftPoint.IsTop
+  id: IsTop
+  parent: TeklaBillboardAid.LiftPoint
+  langs:
+  - csharp
+  - vb
+  name: IsTop
+  nameWithType: LiftPoint.IsTop
+  fullName: TeklaBillboardAid.LiftPoint.IsTop
+  type: Field
+  source:
+    remote:
+      path: LiftPoint.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: IsTop
+    path: LiftPoint.cs
+    startLine: 37
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  example: []
+  syntax:
+    content: public bool IsTop
+    return:
+      type: System.Boolean
+      description: "\nWhether the lifting point is on the top or bottom B1 member.\n"
+    content.vb: Public IsTop As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TeklaBillboardAid.LiftPoint.#ctor(Tekla.Structures.Model.Beam,Tekla.Structures.Geometry3d.Point,System.Double,System.Boolean,System.String,System.String,System.Double,System.String)
+  commentId: M:TeklaBillboardAid.LiftPoint.#ctor(Tekla.Structures.Model.Beam,Tekla.Structures.Geometry3d.Point,System.Double,System.Boolean,System.String,System.String,System.Double,System.String)
+  id: '#ctor(Tekla.Structures.Model.Beam,Tekla.Structures.Geometry3d.Point,System.Double,System.Boolean,System.String,System.String,System.Double,System.String)'
+  parent: TeklaBillboardAid.LiftPoint
+  langs:
+  - csharp
+  - vb
+  name: LiftPoint(Beam, Point, Double, Boolean, String, String, Double, String)
+  nameWithType: LiftPoint.LiftPoint(Beam, Point, Double, Boolean, String, String, Double, String)
+  fullName: TeklaBillboardAid.LiftPoint.LiftPoint(Tekla.Structures.Model.Beam, Tekla.Structures.Geometry3d.Point, System.Double, System.Boolean, System.String, System.String, System.Double, System.String)
+  type: Constructor
+  source:
+    remote:
+      path: LiftPoint.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: .ctor
+    path: LiftPoint.cs
+    startLine: 50
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  summary: "\nConstructor for a single lifting point.\n<param name=\"beam\"> B1 member to insert the lifting point on </param>\n<param name=\"position\"> 3D coordinates of the point to insert the lifting point </param>\n<param name=\"isTop\"> True if beam refers to the top B1 member, False otherwise </param>\n<param name=\"width\" />\n<param name=\"profile\" />\n<param name=\"material\" />\n<param name=\"heightOffset\" />\n<param name=\"boltStandard\" />\n"
+  example: []
+  syntax:
+    content: public LiftPoint(Beam beam, Point position, double width, bool isTop, string profile, string material, double heightOffset, string boltStandard)
+    parameters:
+    - id: beam
+      type: Tekla.Structures.Model.Beam
+    - id: position
+      type: Tekla.Structures.Geometry3d.Point
+    - id: width
+      type: System.Double
+    - id: isTop
+      type: System.Boolean
+    - id: profile
+      type: System.String
+    - id: material
+      type: System.String
+    - id: heightOffset
+      type: System.Double
+    - id: boltStandard
+      type: System.String
+    content.vb: Public Sub New(beam As Beam, position As Point, width As Double, isTop As Boolean, profile As String, material As String, heightOffset As Double, boltStandard As String)
+  overload: TeklaBillboardAid.LiftPoint.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TeklaBillboardAid.LiftPoint.ValidateLiftPoint(System.Double,System.Double,System.Boolean,System.Collections.IList,System.Collections.IList,System.Double)
+  commentId: M:TeklaBillboardAid.LiftPoint.ValidateLiftPoint(System.Double,System.Double,System.Boolean,System.Collections.IList,System.Collections.IList,System.Double)
+  id: ValidateLiftPoint(System.Double,System.Double,System.Boolean,System.Collections.IList,System.Collections.IList,System.Double)
+  parent: TeklaBillboardAid.LiftPoint
+  langs:
+  - csharp
+  - vb
+  name: ValidateLiftPoint(Double, Double, Boolean, IList, IList, Double)
+  nameWithType: LiftPoint.ValidateLiftPoint(Double, Double, Boolean, IList, IList, Double)
+  fullName: TeklaBillboardAid.LiftPoint.ValidateLiftPoint(System.Double, System.Double, System.Boolean, System.Collections.IList, System.Collections.IList, System.Double)
+  type: Method
+  source:
+    remote:
+      path: LiftPoint.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: ValidateLiftPoint
+    path: LiftPoint.cs
+    startLine: 157
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  summary: "\nVerifies the lifting point can be inserted at a valid point without collisions\n"
+  example: []
+  syntax:
+    content: public static bool ValidateLiftPoint(double x, double colWidth, bool isTop, IList killMe, IList liftList, double xOld = 0)
+    parameters:
+    - id: x
+      type: System.Double
+      description: x coordinate to insert the new lifting point at
+    - id: colWidth
+      type: System.Double
+      description: ''
+    - id: isTop
+      type: System.Boolean
+      description: True if the parent is the top B1 member, false otherwise
+    - id: killMe
+      type: System.Collections.IList
+      description: 'List of (relative) column x coordinates (mm) '
+    - id: liftList
+      type: System.Collections.IList
+      description: 'List of (absolute) x coordinates of existing lifting points (mm) '
+    - id: xOld
+      type: System.Double
+      description: 'The old x value of the lifting point if &apos;Edit&apos; is selected (mm) '
+    return:
+      type: System.Boolean
+      description: True if insertion is possible, false otherwise
+    content.vb: Public Shared Function ValidateLiftPoint(x As Double, colWidth As Double, isTop As Boolean, killMe As IList, liftList As IList, xOld As Double = 0) As Boolean
+  overload: TeklaBillboardAid.LiftPoint.ValidateLiftPoint*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: TeklaBillboardAid
+  commentId: N:TeklaBillboardAid
+  name: TeklaBillboardAid
+  nameWithType: TeklaBillboardAid
+  fullName: TeklaBillboardAid
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TeklaBillboardAid.Plate
+  commentId: T:TeklaBillboardAid.Plate
+  parent: TeklaBillboardAid
+  name: Plate
+  nameWithType: Plate
+  fullName: TeklaBillboardAid.Plate
+- uid: Tekla.Structures.Model.BoltArray
+  commentId: T:Tekla.Structures.Model.BoltArray
+  parent: Tekla.Structures.Model
+  isExternal: true
+  name: BoltArray
+  nameWithType: BoltArray
+  fullName: Tekla.Structures.Model.BoltArray
+- uid: Tekla.Structures.Model
+  commentId: N:Tekla.Structures.Model
+  isExternal: true
+  name: Tekla.Structures.Model
+  nameWithType: Tekla.Structures.Model
+  fullName: Tekla.Structures.Model
+- uid: TeklaBillboardAid.LiftPoint.Profile*
+  commentId: Overload:TeklaBillboardAid.LiftPoint.Profile
+  name: Profile
+  nameWithType: LiftPoint.Profile
+  fullName: TeklaBillboardAid.LiftPoint.Profile
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: TeklaBillboardAid.LiftPoint.Material*
+  commentId: Overload:TeklaBillboardAid.LiftPoint.Material
+  name: Material
+  nameWithType: LiftPoint.Material
+  fullName: TeklaBillboardAid.LiftPoint.Material
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: TeklaBillboardAid.LiftPoint.#ctor*
+  commentId: Overload:TeklaBillboardAid.LiftPoint.#ctor
+  name: LiftPoint
+  nameWithType: LiftPoint.LiftPoint
+  fullName: TeklaBillboardAid.LiftPoint.LiftPoint
+- uid: Tekla.Structures.Model.Beam
+  commentId: T:Tekla.Structures.Model.Beam
+  parent: Tekla.Structures.Model
+  isExternal: true
+  name: Beam
+  nameWithType: Beam
+  fullName: Tekla.Structures.Model.Beam
+- uid: Tekla.Structures.Geometry3d.Point
+  commentId: T:Tekla.Structures.Geometry3d.Point
+  parent: Tekla.Structures.Geometry3d
+  isExternal: true
+  name: Point
+  nameWithType: Point
+  fullName: Tekla.Structures.Geometry3d.Point
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: Tekla.Structures.Geometry3d
+  commentId: N:Tekla.Structures.Geometry3d
+  isExternal: true
+  name: Tekla.Structures.Geometry3d
+  nameWithType: Tekla.Structures.Geometry3d
+  fullName: Tekla.Structures.Geometry3d
+- uid: TeklaBillboardAid.LiftPoint.ValidateLiftPoint*
+  commentId: Overload:TeklaBillboardAid.LiftPoint.ValidateLiftPoint
+  name: ValidateLiftPoint
+  nameWithType: LiftPoint.ValidateLiftPoint
+  fullName: TeklaBillboardAid.LiftPoint.ValidateLiftPoint
+- uid: System.Collections.IList
+  commentId: T:System.Collections.IList
+  parent: System.Collections
+  isExternal: true
+  name: IList
+  nameWithType: IList
+  fullName: System.Collections.IList
+- uid: System.Collections
+  commentId: N:System.Collections
+  isExternal: true
+  name: System.Collections
+  nameWithType: System.Collections
+  fullName: System.Collections

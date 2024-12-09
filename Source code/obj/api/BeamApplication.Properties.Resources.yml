@@ -1,0 +1,705 @@
+### YamlMime:ManagedReference
+items:
+- uid: BeamApplication.Properties.Resources
+  commentId: T:BeamApplication.Properties.Resources
+  id: Resources
+  parent: BeamApplication.Properties
+  children:
+  - BeamApplication.Properties.Resources.Culture
+  - BeamApplication.Properties.Resources.Flashings_drawio
+  - BeamApplication.Properties.Resources.Flashings_drawio__1_
+  - BeamApplication.Properties.Resources.Flashings1
+  - BeamApplication.Properties.Resources.GH_image
+  - BeamApplication.Properties.Resources.hanlonLinkedin__002_
+  - BeamApplication.Properties.Resources.ResourceManager
+  langs:
+  - csharp
+  - vb
+  name: Resources
+  nameWithType: Resources
+  fullName: BeamApplication.Properties.Resources
+  type: Class
+  source:
+    remote:
+      path: Properties/Resources.Designer.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: Resources
+    path: Properties/Resources.Designer.cs
+    startLine: 21
+  assemblies:
+  - BeamApplication
+  namespace: BeamApplication.Properties
+  summary: "\nA strongly-typed resource class, for looking up localized strings, etc.\n"
+  example: []
+  syntax:
+    content: public class Resources
+    content.vb: Public Class Resources
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: BeamApplication.Properties.Resources.ResourceManager
+  commentId: P:BeamApplication.Properties.Resources.ResourceManager
+  id: ResourceManager
+  parent: BeamApplication.Properties.Resources
+  langs:
+  - csharp
+  - vb
+  name: ResourceManager
+  nameWithType: Resources.ResourceManager
+  fullName: BeamApplication.Properties.Resources.ResourceManager
+  type: Property
+  source:
+    remote:
+      path: Properties/Resources.Designer.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: ResourceManager
+    path: Properties/Resources.Designer.cs
+    startLine: 37
+  assemblies:
+  - BeamApplication
+  namespace: BeamApplication.Properties
+  summary: "\nReturns the cached ResourceManager instance used by this class.\n"
+  example: []
+  syntax:
+    content: public static ResourceManager ResourceManager { get; }
+    parameters: []
+    return:
+      type: System.Resources.ResourceManager
+    content.vb: Public Shared ReadOnly Property ResourceManager As ResourceManager
+  overload: BeamApplication.Properties.Resources.ResourceManager*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: BeamApplication.Properties.Resources.Culture
+  commentId: P:BeamApplication.Properties.Resources.Culture
+  id: Culture
+  parent: BeamApplication.Properties.Resources
+  langs:
+  - csharp
+  - vb
+  name: Culture
+  nameWithType: Resources.Culture
+  fullName: BeamApplication.Properties.Resources.Culture
+  type: Property
+  source:
+    remote:
+      path: Properties/Resources.Designer.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: Culture
+    path: Properties/Resources.Designer.cs
+    startLine: 52
+  assemblies:
+  - BeamApplication
+  namespace: BeamApplication.Properties
+  summary: "\nOverrides the current thread&apos;s CurrentUICulture property for all\nresource lookups using this strongly typed resource class.\n"
+  example: []
+  syntax:
+    content: public static CultureInfo Culture { get; set; }
+    parameters: []
+    return:
+      type: System.Globalization.CultureInfo
+    content.vb: Public Shared Property Culture As CultureInfo
+  overload: BeamApplication.Properties.Resources.Culture*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BeamApplication.Properties.Resources.Flashings_drawio
+  commentId: P:BeamApplication.Properties.Resources.Flashings_drawio
+  id: Flashings_drawio
+  parent: BeamApplication.Properties.Resources
+  langs:
+  - csharp
+  - vb
+  name: Flashings_drawio
+  nameWithType: Resources.Flashings_drawio
+  fullName: BeamApplication.Properties.Resources.Flashings_drawio
+  type: Property
+  source:
+    remote:
+      path: Properties/Resources.Designer.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: Flashings_drawio
+    path: Properties/Resources.Designer.cs
+    startLine: 65
+  assemblies:
+  - BeamApplication
+  namespace: BeamApplication.Properties
+  summary: "\nLooks up a localized resource of type System.Drawing.Bitmap.\n"
+  example: []
+  syntax:
+    content: public static Bitmap Flashings_drawio { get; }
+    parameters: []
+    return:
+      type: System.Drawing.Bitmap
+    content.vb: Public Shared ReadOnly Property Flashings_drawio As Bitmap
+  overload: BeamApplication.Properties.Resources.Flashings_drawio*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: BeamApplication.Properties.Resources.Flashings_drawio__1_
+  commentId: P:BeamApplication.Properties.Resources.Flashings_drawio__1_
+  id: Flashings_drawio__1_
+  parent: BeamApplication.Properties.Resources
+  langs:
+  - csharp
+  - vb
+  name: Flashings_drawio__1_
+  nameWithType: Resources.Flashings_drawio__1_
+  fullName: BeamApplication.Properties.Resources.Flashings_drawio__1_
+  type: Property
+  source:
+    remote:
+      path: Properties/Resources.Designer.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: Flashings_drawio__1_
+    path: Properties/Resources.Designer.cs
+    startLine: 75
+  assemblies:
+  - BeamApplication
+  namespace: BeamApplication.Properties
+  summary: "\nLooks up a localized resource of type System.Drawing.Bitmap.\n"
+  example: []
+  syntax:
+    content: public static Bitmap Flashings_drawio__1_ { get; }
+    parameters: []
+    return:
+      type: System.Drawing.Bitmap
+    content.vb: Public Shared ReadOnly Property Flashings_drawio__1_ As Bitmap
+  overload: BeamApplication.Properties.Resources.Flashings_drawio__1_*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: BeamApplication.Properties.Resources.Flashings1
+  commentId: P:BeamApplication.Properties.Resources.Flashings1
+  id: Flashings1
+  parent: BeamApplication.Properties.Resources
+  langs:
+  - csharp
+  - vb
+  name: Flashings1
+  nameWithType: Resources.Flashings1
+  fullName: BeamApplication.Properties.Resources.Flashings1
+  type: Property
+  source:
+    remote:
+      path: Properties/Resources.Designer.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: Flashings1
+    path: Properties/Resources.Designer.cs
+    startLine: 85
+  assemblies:
+  - BeamApplication
+  namespace: BeamApplication.Properties
+  summary: "\nLooks up a localized resource of type System.Drawing.Bitmap.\n"
+  example: []
+  syntax:
+    content: public static Bitmap Flashings1 { get; }
+    parameters: []
+    return:
+      type: System.Drawing.Bitmap
+    content.vb: Public Shared ReadOnly Property Flashings1 As Bitmap
+  overload: BeamApplication.Properties.Resources.Flashings1*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: BeamApplication.Properties.Resources.GH_image
+  commentId: P:BeamApplication.Properties.Resources.GH_image
+  id: GH_image
+  parent: BeamApplication.Properties.Resources
+  langs:
+  - csharp
+  - vb
+  name: GH_image
+  nameWithType: Resources.GH_image
+  fullName: BeamApplication.Properties.Resources.GH_image
+  type: Property
+  source:
+    remote:
+      path: Properties/Resources.Designer.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: GH_image
+    path: Properties/Resources.Designer.cs
+    startLine: 95
+  assemblies:
+  - BeamApplication
+  namespace: BeamApplication.Properties
+  summary: "\nLooks up a localized resource of type System.Drawing.Bitmap.\n"
+  example: []
+  syntax:
+    content: public static Bitmap GH_image { get; }
+    parameters: []
+    return:
+      type: System.Drawing.Bitmap
+    content.vb: Public Shared ReadOnly Property GH_image As Bitmap
+  overload: BeamApplication.Properties.Resources.GH_image*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: BeamApplication.Properties.Resources.hanlonLinkedin__002_
+  commentId: P:BeamApplication.Properties.Resources.hanlonLinkedin__002_
+  id: hanlonLinkedin__002_
+  parent: BeamApplication.Properties.Resources
+  langs:
+  - csharp
+  - vb
+  name: hanlonLinkedin__002_
+  nameWithType: Resources.hanlonLinkedin__002_
+  fullName: BeamApplication.Properties.Resources.hanlonLinkedin__002_
+  type: Property
+  source:
+    remote:
+      path: Properties/Resources.Designer.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: hanlonLinkedin__002_
+    path: Properties/Resources.Designer.cs
+    startLine: 105
+  assemblies:
+  - BeamApplication
+  namespace: BeamApplication.Properties
+  summary: "\nLooks up a localized resource of type System.Drawing.Icon similar to (Icon).\n"
+  example: []
+  syntax:
+    content: public static Icon hanlonLinkedin__002_ { get; }
+    parameters: []
+    return:
+      type: System.Drawing.Icon
+    content.vb: Public Shared ReadOnly Property hanlonLinkedin__002_ As Icon
+  overload: BeamApplication.Properties.Resources.hanlonLinkedin__002_*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+references:
+- uid: BeamApplication.Properties
+  commentId: N:BeamApplication.Properties
+  name: BeamApplication.Properties
+  nameWithType: BeamApplication.Properties
+  fullName: BeamApplication.Properties
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: BeamApplication.Properties.Resources.ResourceManager*
+  commentId: Overload:BeamApplication.Properties.Resources.ResourceManager
+  name: ResourceManager
+  nameWithType: Resources.ResourceManager
+  fullName: BeamApplication.Properties.Resources.ResourceManager
+- uid: System.Resources.ResourceManager
+  commentId: T:System.Resources.ResourceManager
+  parent: System.Resources
+  isExternal: true
+  name: ResourceManager
+  nameWithType: ResourceManager
+  fullName: System.Resources.ResourceManager
+- uid: System.Resources
+  commentId: N:System.Resources
+  isExternal: true
+  name: System.Resources
+  nameWithType: System.Resources
+  fullName: System.Resources
+- uid: BeamApplication.Properties.Resources.Culture*
+  commentId: Overload:BeamApplication.Properties.Resources.Culture
+  name: Culture
+  nameWithType: Resources.Culture
+  fullName: BeamApplication.Properties.Resources.Culture
+- uid: System.Globalization.CultureInfo
+  commentId: T:System.Globalization.CultureInfo
+  parent: System.Globalization
+  isExternal: true
+  name: CultureInfo
+  nameWithType: CultureInfo
+  fullName: System.Globalization.CultureInfo
+- uid: System.Globalization
+  commentId: N:System.Globalization
+  isExternal: true
+  name: System.Globalization
+  nameWithType: System.Globalization
+  fullName: System.Globalization
+- uid: BeamApplication.Properties.Resources.Flashings_drawio*
+  commentId: Overload:BeamApplication.Properties.Resources.Flashings_drawio
+  name: Flashings_drawio
+  nameWithType: Resources.Flashings_drawio
+  fullName: BeamApplication.Properties.Resources.Flashings_drawio
+- uid: System.Drawing.Bitmap
+  commentId: T:System.Drawing.Bitmap
+  parent: System.Drawing
+  isExternal: true
+  name: Bitmap
+  nameWithType: Bitmap
+  fullName: System.Drawing.Bitmap
+- uid: System.Drawing
+  commentId: N:System.Drawing
+  isExternal: true
+  name: System.Drawing
+  nameWithType: System.Drawing
+  fullName: System.Drawing
+- uid: BeamApplication.Properties.Resources.Flashings_drawio__1_*
+  commentId: Overload:BeamApplication.Properties.Resources.Flashings_drawio__1_
+  name: Flashings_drawio__1_
+  nameWithType: Resources.Flashings_drawio__1_
+  fullName: BeamApplication.Properties.Resources.Flashings_drawio__1_
+- uid: BeamApplication.Properties.Resources.Flashings1*
+  commentId: Overload:BeamApplication.Properties.Resources.Flashings1
+  name: Flashings1
+  nameWithType: Resources.Flashings1
+  fullName: BeamApplication.Properties.Resources.Flashings1
+- uid: BeamApplication.Properties.Resources.GH_image*
+  commentId: Overload:BeamApplication.Properties.Resources.GH_image
+  name: GH_image
+  nameWithType: Resources.GH_image
+  fullName: BeamApplication.Properties.Resources.GH_image
+- uid: BeamApplication.Properties.Resources.hanlonLinkedin__002_*
+  commentId: Overload:BeamApplication.Properties.Resources.hanlonLinkedin__002_
+  name: hanlonLinkedin__002_
+  nameWithType: Resources.hanlonLinkedin__002_
+  fullName: BeamApplication.Properties.Resources.hanlonLinkedin__002_
+- uid: System.Drawing.Icon
+  commentId: T:System.Drawing.Icon
+  parent: System.Drawing
+  isExternal: true
+  name: Icon
+  nameWithType: Icon
+  fullName: System.Drawing.Icon

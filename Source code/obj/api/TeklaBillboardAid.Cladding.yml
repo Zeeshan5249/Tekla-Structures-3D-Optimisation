@@ -1,0 +1,1051 @@
+### YamlMime:ManagedReference
+items:
+- uid: TeklaBillboardAid.Cladding
+  commentId: T:TeklaBillboardAid.Cladding
+  id: Cladding
+  parent: TeklaBillboardAid
+  children:
+  - TeklaBillboardAid.Cladding.#ctor(TeklaBillboardAid.CladdingType,TeklaBillboardAid.ModelParameters,TeklaBillboardAid.BillboardSide,TeklaBillboardAid.Colour,System.Double,System.Double)
+  - TeklaBillboardAid.Cladding.Beams
+  - TeklaBillboardAid.Cladding.Colour
+  - TeklaBillboardAid.Cladding.ColourToClass(TeklaBillboardAid.Colour)
+  - TeklaBillboardAid.Cladding.ColourToFinish(TeklaBillboardAid.Colour)
+  - TeklaBillboardAid.Cladding.Material
+  - TeklaBillboardAid.Cladding.PercentOpenArea
+  - TeklaBillboardAid.Cladding.Plates
+  - TeklaBillboardAid.Cladding.Profile
+  - TeklaBillboardAid.Cladding.Side
+  - TeklaBillboardAid.Cladding.Thickness
+  - TeklaBillboardAid.Cladding.Type
+  langs:
+  - csharp
+  - vb
+  name: Cladding
+  nameWithType: Cladding
+  fullName: TeklaBillboardAid.Cladding
+  type: Class
+  source:
+    remote:
+      path: Cladding.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: Cladding
+    path: Cladding.cs
+    startLine: 160
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  summary: "\nClass to support modeling of cladding on the exteriors of the billboard.\n"
+  example: []
+  syntax:
+    content: public class Cladding
+    content.vb: Public Class Cladding
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: TeklaBillboardAid.Cladding.Profile
+  commentId: P:TeklaBillboardAid.Cladding.Profile
+  id: Profile
+  parent: TeklaBillboardAid.Cladding
+  langs:
+  - csharp
+  - vb
+  name: Profile
+  nameWithType: Cladding.Profile
+  fullName: TeklaBillboardAid.Cladding.Profile
+  type: Property
+  source:
+    remote:
+      path: Cladding.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: Profile
+    path: Cladding.cs
+    startLine: 165
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  example: []
+  syntax:
+    content: public string Profile { get; set; }
+    parameters: []
+    return:
+      type: System.String
+      description: "\nProfile of Beam based on cladding material.\n"
+    content.vb: Public Property Profile As String
+  overload: TeklaBillboardAid.Cladding.Profile*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TeklaBillboardAid.Cladding.Material
+  commentId: P:TeklaBillboardAid.Cladding.Material
+  id: Material
+  parent: TeklaBillboardAid.Cladding
+  langs:
+  - csharp
+  - vb
+  name: Material
+  nameWithType: Cladding.Material
+  fullName: TeklaBillboardAid.Cladding.Material
+  type: Property
+  source:
+    remote:
+      path: Cladding.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: Material
+    path: Cladding.cs
+    startLine: 170
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  example: []
+  syntax:
+    content: public string Material { get; set; }
+    parameters: []
+    return:
+      type: System.String
+      description: "\nMaterial of Beam.\n"
+    content.vb: Public Property Material As String
+  overload: TeklaBillboardAid.Cladding.Material*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TeklaBillboardAid.Cladding.Type
+  commentId: P:TeklaBillboardAid.Cladding.Type
+  id: Type
+  parent: TeklaBillboardAid.Cladding
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: Cladding.Type
+  fullName: TeklaBillboardAid.Cladding.Type
+  type: Property
+  source:
+    remote:
+      path: Cladding.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: Type
+    path: Cladding.cs
+    startLine: 175
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  summary: "\nIndicates the cladding type currently being used\n"
+  example: []
+  syntax:
+    content: public CladdingType Type { get; set; }
+    parameters: []
+    return:
+      type: TeklaBillboardAid.CladdingType
+    content.vb: Public Property Type As CladdingType
+  overload: TeklaBillboardAid.Cladding.Type*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TeklaBillboardAid.Cladding.Colour
+  commentId: P:TeklaBillboardAid.Cladding.Colour
+  id: Colour
+  parent: TeklaBillboardAid.Cladding
+  langs:
+  - csharp
+  - vb
+  name: Colour
+  nameWithType: Cladding.Colour
+  fullName: TeklaBillboardAid.Cladding.Colour
+  type: Property
+  source:
+    remote:
+      path: Cladding.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: Colour
+    path: Cladding.cs
+    startLine: 180
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  example: []
+  syntax:
+    content: public Colour Colour { get; set; }
+    parameters: []
+    return:
+      type: TeklaBillboardAid.Colour
+      description: "\nColour of cladding sheet.\n"
+    content.vb: Public Property Colour As Colour
+  overload: TeklaBillboardAid.Cladding.Colour*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TeklaBillboardAid.Cladding.PercentOpenArea
+  commentId: P:TeklaBillboardAid.Cladding.PercentOpenArea
+  id: PercentOpenArea
+  parent: TeklaBillboardAid.Cladding
+  langs:
+  - csharp
+  - vb
+  name: PercentOpenArea
+  nameWithType: Cladding.PercentOpenArea
+  fullName: TeklaBillboardAid.Cladding.PercentOpenArea
+  type: Property
+  source:
+    remote:
+      path: Cladding.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: PercentOpenArea
+    path: Cladding.cs
+    startLine: 185
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  example: []
+  syntax:
+    content: public double PercentOpenArea { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+      description: "\nIndicates the user input of open area for perforated sheet profiles\n"
+    content.vb: Public Property PercentOpenArea As Double
+  overload: TeklaBillboardAid.Cladding.PercentOpenArea*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TeklaBillboardAid.Cladding.Thickness
+  commentId: P:TeklaBillboardAid.Cladding.Thickness
+  id: Thickness
+  parent: TeklaBillboardAid.Cladding
+  langs:
+  - csharp
+  - vb
+  name: Thickness
+  nameWithType: Cladding.Thickness
+  fullName: TeklaBillboardAid.Cladding.Thickness
+  type: Property
+  source:
+    remote:
+      path: Cladding.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: Thickness
+    path: Cladding.cs
+    startLine: 190
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  example: []
+  syntax:
+    content: public double Thickness { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+      description: "\nIndicates the thickness of the cladding\n"
+    content.vb: Public Property Thickness As Double
+  overload: TeklaBillboardAid.Cladding.Thickness*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TeklaBillboardAid.Cladding.Side
+  commentId: P:TeklaBillboardAid.Cladding.Side
+  id: Side
+  parent: TeklaBillboardAid.Cladding
+  langs:
+  - csharp
+  - vb
+  name: Side
+  nameWithType: Cladding.Side
+  fullName: TeklaBillboardAid.Cladding.Side
+  type: Property
+  source:
+    remote:
+      path: Cladding.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: Side
+    path: Cladding.cs
+    startLine: 195
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  example: []
+  syntax:
+    content: public BillboardSide Side { get; set; }
+    parameters: []
+    return:
+      type: TeklaBillboardAid.BillboardSide
+      description: "\nIndicates which side of the billboard has cladding being applied\n"
+    content.vb: Public Property Side As BillboardSide
+  overload: TeklaBillboardAid.Cladding.Side*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TeklaBillboardAid.Cladding.Beams
+  commentId: P:TeklaBillboardAid.Cladding.Beams
+  id: Beams
+  parent: TeklaBillboardAid.Cladding
+  langs:
+  - csharp
+  - vb
+  name: Beams
+  nameWithType: Cladding.Beams
+  fullName: TeklaBillboardAid.Cladding.Beams
+  type: Property
+  source:
+    remote:
+      path: Cladding.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: Beams
+    path: Cladding.cs
+    startLine: 200
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  example: []
+  syntax:
+    content: public List<Beam> Beams { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{Tekla.Structures.Model.Beam}
+      description: "\nA list of beams being inserted to represent MiniOrb and PanelRib claddings\n"
+    content.vb: Public Property Beams As List(Of Beam)
+  overload: TeklaBillboardAid.Cladding.Beams*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TeklaBillboardAid.Cladding.Plates
+  commentId: P:TeklaBillboardAid.Cladding.Plates
+  id: Plates
+  parent: TeklaBillboardAid.Cladding
+  langs:
+  - csharp
+  - vb
+  name: Plates
+  nameWithType: Cladding.Plates
+  fullName: TeklaBillboardAid.Cladding.Plates
+  type: Property
+  source:
+    remote:
+      path: Cladding.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: Plates
+    path: Cladding.cs
+    startLine: 205
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  example: []
+  syntax:
+    content: public List<Plate> Plates { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{TeklaBillboardAid.Plate}
+      description: "\nA list of plates being inserted to represent ACM and PerfSheet claddings\n"
+    content.vb: Public Property Plates As List(Of Plate)
+  overload: TeklaBillboardAid.Cladding.Plates*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TeklaBillboardAid.Cladding.ColourToClass(TeklaBillboardAid.Colour)
+  commentId: M:TeklaBillboardAid.Cladding.ColourToClass(TeklaBillboardAid.Colour)
+  id: ColourToClass(TeklaBillboardAid.Colour)
+  parent: TeklaBillboardAid.Cladding
+  langs:
+  - csharp
+  - vb
+  name: ColourToClass(Colour)
+  nameWithType: Cladding.ColourToClass(Colour)
+  fullName: TeklaBillboardAid.Cladding.ColourToClass(TeklaBillboardAid.Colour)
+  type: Method
+  source:
+    remote:
+      path: Cladding.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: ColourToClass
+    path: Cladding.cs
+    startLine: 212
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  summary: "\nA method to convert a provided colour into a string to be used to represent the cladding profile colour\n"
+  example: []
+  syntax:
+    content: public static string ColourToClass(Colour colour)
+    parameters:
+    - id: colour
+      type: TeklaBillboardAid.Colour
+      description: Indicates the colour to be converted to a numerical string
+    return:
+      type: System.String
+      description: A string containing an integer
+    content.vb: Public Shared Function ColourToClass(colour As Colour) As String
+  overload: TeklaBillboardAid.Cladding.ColourToClass*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TeklaBillboardAid.Cladding.ColourToFinish(TeklaBillboardAid.Colour)
+  commentId: M:TeklaBillboardAid.Cladding.ColourToFinish(TeklaBillboardAid.Colour)
+  id: ColourToFinish(TeklaBillboardAid.Colour)
+  parent: TeklaBillboardAid.Cladding
+  langs:
+  - csharp
+  - vb
+  name: ColourToFinish(Colour)
+  nameWithType: Cladding.ColourToFinish(Colour)
+  fullName: TeklaBillboardAid.Cladding.ColourToFinish(TeklaBillboardAid.Colour)
+  type: Method
+  source:
+    remote:
+      path: Cladding.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: ColourToFinish
+    path: Cladding.cs
+    startLine: 244
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  summary: "\nA method to convert a provided finish into a string to be used to represent the cladding profile finish\n"
+  example: []
+  syntax:
+    content: public static string ColourToFinish(Colour colour)
+    parameters:
+    - id: colour
+      type: TeklaBillboardAid.Colour
+      description: 'Indicates the finish to be converted '
+    return:
+      type: System.String
+      description: A string containing a colour option
+    content.vb: Public Shared Function ColourToFinish(colour As Colour) As String
+  overload: TeklaBillboardAid.Cladding.ColourToFinish*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TeklaBillboardAid.Cladding.#ctor(TeklaBillboardAid.CladdingType,TeklaBillboardAid.ModelParameters,TeklaBillboardAid.BillboardSide,TeklaBillboardAid.Colour,System.Double,System.Double)
+  commentId: M:TeklaBillboardAid.Cladding.#ctor(TeklaBillboardAid.CladdingType,TeklaBillboardAid.ModelParameters,TeklaBillboardAid.BillboardSide,TeklaBillboardAid.Colour,System.Double,System.Double)
+  id: '#ctor(TeklaBillboardAid.CladdingType,TeklaBillboardAid.ModelParameters,TeklaBillboardAid.BillboardSide,TeklaBillboardAid.Colour,System.Double,System.Double)'
+  parent: TeklaBillboardAid.Cladding
+  langs:
+  - csharp
+  - vb
+  name: Cladding(CladdingType, ModelParameters, BillboardSide, Colour, Double, Double)
+  nameWithType: Cladding.Cladding(CladdingType, ModelParameters, BillboardSide, Colour, Double, Double)
+  fullName: TeklaBillboardAid.Cladding.Cladding(TeklaBillboardAid.CladdingType, TeklaBillboardAid.ModelParameters, TeklaBillboardAid.BillboardSide, TeklaBillboardAid.Colour, System.Double, System.Double)
+  type: Constructor
+  source:
+    remote:
+      path: Cladding.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: .ctor
+    path: Cladding.cs
+    startLine: 465
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  summary: "\nThe constructor for the cladding. Upon creating an instance, the program will generate the cladding for the model.\n"
+  example: []
+  syntax:
+    content: public Cladding(CladdingType type, ModelParameters modelParameters, BillboardSide side, Colour colour, double openArea, double thickness)
+    parameters:
+    - id: type
+      type: TeklaBillboardAid.CladdingType
+      description: Indicates which type of cladding is to be created
+    - id: modelParameters
+      type: TeklaBillboardAid.ModelParameters
+      description: The parameters of the model
+    - id: side
+      type: TeklaBillboardAid.BillboardSide
+      description: Indicates which side the cladding is being inserted
+    - id: colour
+      type: TeklaBillboardAid.Colour
+      description: Indicates the colour of the cladding
+    - id: openArea
+      type: System.Double
+      description: Indicates the open area for the profile
+    - id: thickness
+      type: System.Double
+      description: Indicates the thickness of the cladding
+    content.vb: Public Sub New(type As CladdingType, modelParameters As ModelParameters, side As BillboardSide, colour As Colour, openArea As Double, thickness As Double)
+  overload: TeklaBillboardAid.Cladding.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: TeklaBillboardAid
+  commentId: N:TeklaBillboardAid
+  name: TeklaBillboardAid
+  nameWithType: TeklaBillboardAid
+  fullName: TeklaBillboardAid
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TeklaBillboardAid.Cladding.Profile*
+  commentId: Overload:TeklaBillboardAid.Cladding.Profile
+  name: Profile
+  nameWithType: Cladding.Profile
+  fullName: TeklaBillboardAid.Cladding.Profile
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: TeklaBillboardAid.Cladding.Material*
+  commentId: Overload:TeklaBillboardAid.Cladding.Material
+  name: Material
+  nameWithType: Cladding.Material
+  fullName: TeklaBillboardAid.Cladding.Material
+- uid: TeklaBillboardAid.Cladding.Type*
+  commentId: Overload:TeklaBillboardAid.Cladding.Type
+  name: Type
+  nameWithType: Cladding.Type
+  fullName: TeklaBillboardAid.Cladding.Type
+- uid: TeklaBillboardAid.CladdingType
+  commentId: T:TeklaBillboardAid.CladdingType
+  parent: TeklaBillboardAid
+  name: CladdingType
+  nameWithType: CladdingType
+  fullName: TeklaBillboardAid.CladdingType
+- uid: TeklaBillboardAid.Cladding.Colour*
+  commentId: Overload:TeklaBillboardAid.Cladding.Colour
+  name: Colour
+  nameWithType: Cladding.Colour
+  fullName: TeklaBillboardAid.Cladding.Colour
+- uid: TeklaBillboardAid.Colour
+  commentId: T:TeklaBillboardAid.Colour
+  parent: TeklaBillboardAid
+  name: Colour
+  nameWithType: Colour
+  fullName: TeklaBillboardAid.Colour
+- uid: TeklaBillboardAid.Cladding.PercentOpenArea*
+  commentId: Overload:TeklaBillboardAid.Cladding.PercentOpenArea
+  name: PercentOpenArea
+  nameWithType: Cladding.PercentOpenArea
+  fullName: TeklaBillboardAid.Cladding.PercentOpenArea
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: TeklaBillboardAid.Cladding.Thickness*
+  commentId: Overload:TeklaBillboardAid.Cladding.Thickness
+  name: Thickness
+  nameWithType: Cladding.Thickness
+  fullName: TeklaBillboardAid.Cladding.Thickness
+- uid: TeklaBillboardAid.Cladding.Side*
+  commentId: Overload:TeklaBillboardAid.Cladding.Side
+  name: Side
+  nameWithType: Cladding.Side
+  fullName: TeklaBillboardAid.Cladding.Side
+- uid: TeklaBillboardAid.BillboardSide
+  commentId: T:TeklaBillboardAid.BillboardSide
+  parent: TeklaBillboardAid
+  name: BillboardSide
+  nameWithType: BillboardSide
+  fullName: TeklaBillboardAid.BillboardSide
+- uid: TeklaBillboardAid.Cladding.Beams*
+  commentId: Overload:TeklaBillboardAid.Cladding.Beams
+  name: Beams
+  nameWithType: Cladding.Beams
+  fullName: TeklaBillboardAid.Cladding.Beams
+- uid: System.Collections.Generic.List{Tekla.Structures.Model.Beam}
+  commentId: T:System.Collections.Generic.List{Tekla.Structures.Model.Beam}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Beam>
+  nameWithType: List<Beam>
+  fullName: System.Collections.Generic.List<Tekla.Structures.Model.Beam>
+  nameWithType.vb: List(Of Beam)
+  fullName.vb: System.Collections.Generic.List(Of Tekla.Structures.Model.Beam)
+  name.vb: List(Of Beam)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Tekla.Structures.Model.Beam
+    name: Beam
+    nameWithType: Beam
+    fullName: Tekla.Structures.Model.Beam
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Tekla.Structures.Model.Beam
+    name: Beam
+    nameWithType: Beam
+    fullName: Tekla.Structures.Model.Beam
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: TeklaBillboardAid.Cladding.Plates*
+  commentId: Overload:TeklaBillboardAid.Cladding.Plates
+  name: Plates
+  nameWithType: Cladding.Plates
+  fullName: TeklaBillboardAid.Cladding.Plates
+- uid: System.Collections.Generic.List{TeklaBillboardAid.Plate}
+  commentId: T:System.Collections.Generic.List{TeklaBillboardAid.Plate}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Plate>
+  nameWithType: List<Plate>
+  fullName: System.Collections.Generic.List<TeklaBillboardAid.Plate>
+  nameWithType.vb: List(Of Plate)
+  fullName.vb: System.Collections.Generic.List(Of TeklaBillboardAid.Plate)
+  name.vb: List(Of Plate)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TeklaBillboardAid.Plate
+    name: Plate
+    nameWithType: Plate
+    fullName: TeklaBillboardAid.Plate
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TeklaBillboardAid.Plate
+    name: Plate
+    nameWithType: Plate
+    fullName: TeklaBillboardAid.Plate
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TeklaBillboardAid.Cladding.ColourToClass*
+  commentId: Overload:TeklaBillboardAid.Cladding.ColourToClass
+  name: ColourToClass
+  nameWithType: Cladding.ColourToClass
+  fullName: TeklaBillboardAid.Cladding.ColourToClass
+- uid: TeklaBillboardAid.Cladding.ColourToFinish*
+  commentId: Overload:TeklaBillboardAid.Cladding.ColourToFinish
+  name: ColourToFinish
+  nameWithType: Cladding.ColourToFinish
+  fullName: TeklaBillboardAid.Cladding.ColourToFinish
+- uid: TeklaBillboardAid.Cladding.#ctor*
+  commentId: Overload:TeklaBillboardAid.Cladding.#ctor
+  name: Cladding
+  nameWithType: Cladding.Cladding
+  fullName: TeklaBillboardAid.Cladding.Cladding
+- uid: TeklaBillboardAid.ModelParameters
+  commentId: T:TeklaBillboardAid.ModelParameters
+  parent: TeklaBillboardAid
+  name: ModelParameters
+  nameWithType: ModelParameters
+  fullName: TeklaBillboardAid.ModelParameters

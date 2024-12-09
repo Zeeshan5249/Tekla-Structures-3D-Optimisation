@@ -1,0 +1,1005 @@
+### YamlMime:ManagedReference
+items:
+- uid: TeklaBillboardAid.CurveSupport
+  commentId: T:TeklaBillboardAid.CurveSupport
+  id: CurveSupport
+  parent: TeklaBillboardAid
+  children:
+  - TeklaBillboardAid.CurveSupport.Circle_Xcoord(System.Double,System.Double,TeklaBillboardAid.ModelParameters)
+  - TeklaBillboardAid.CurveSupport.Circle_Ycoord(System.Double,System.Double,TeklaBillboardAid.ModelParameters)
+  - TeklaBillboardAid.CurveSupport.CurveBeam(System.String,System.String,System.String,Tekla.Structures.Model.ContourPoint,Tekla.Structures.Model.ContourPoint,Tekla.Structures.Model.ContourPoint,System.String,System.String,System.String,System.Int32[],System.Double[])
+  - TeklaBillboardAid.CurveSupport.GetCumulativeSum(System.Collections.Generic.List{System.Double})
+  - TeklaBillboardAid.CurveSupport.HorizontalRailings_Points(TeklaBillboardAid.ModelParameters)
+  - TeklaBillboardAid.CurveSupport.IndividualRailings_PointsPair(TeklaBillboardAid.ModelParameters)
+  - TeklaBillboardAid.CurveSupport.StraightBeam(System.String,System.String,System.String,Tekla.Structures.Geometry3d.Point,Tekla.Structures.Geometry3d.Point,System.String,System.String,System.String,System.Int32[],System.Double[])
+  langs:
+  - csharp
+  - vb
+  name: CurveSupport
+  nameWithType: CurveSupport
+  fullName: TeklaBillboardAid.CurveSupport
+  type: Class
+  source:
+    remote:
+      path: CurveSupport.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: CurveSupport
+    path: CurveSupport.cs
+    startLine: 7
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  syntax:
+    content: public class CurveSupport
+    content.vb: Public Class CurveSupport
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: TeklaBillboardAid.CurveSupport.StraightBeam(System.String,System.String,System.String,Tekla.Structures.Geometry3d.Point,Tekla.Structures.Geometry3d.Point,System.String,System.String,System.String,System.Int32[],System.Double[])
+  commentId: M:TeklaBillboardAid.CurveSupport.StraightBeam(System.String,System.String,System.String,Tekla.Structures.Geometry3d.Point,Tekla.Structures.Geometry3d.Point,System.String,System.String,System.String,System.Int32[],System.Double[])
+  id: StraightBeam(System.String,System.String,System.String,Tekla.Structures.Geometry3d.Point,Tekla.Structures.Geometry3d.Point,System.String,System.String,System.String,System.Int32[],System.Double[])
+  parent: TeklaBillboardAid.CurveSupport
+  langs:
+  - csharp
+  - vb
+  name: StraightBeam(String, String, String, Point, Point, String, String, String, Int32[], Double[])
+  nameWithType: CurveSupport.StraightBeam(String, String, String, Point, Point, String, String, String, Int32[], Double[])
+  fullName: TeklaBillboardAid.CurveSupport.StraightBeam(System.String, System.String, System.String, Tekla.Structures.Geometry3d.Point, Tekla.Structures.Geometry3d.Point, System.String, System.String, System.String, System.Int32[], System.Double[])
+  type: Method
+  source:
+    remote:
+      path: CurveSupport.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: StraightBeam
+    path: CurveSupport.cs
+    startLine: 23
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  syntax:
+    content: public static Beam StraightBeam(string partprefix, string assprefix, string name, Point startPos, Point endPos, string material, string profile, string beamClass, int[] enums, double[] offsets)
+    parameters:
+    - id: partprefix
+      type: System.String
+    - id: assprefix
+      type: System.String
+    - id: name
+      type: System.String
+    - id: startPos
+      type: Tekla.Structures.Geometry3d.Point
+    - id: endPos
+      type: Tekla.Structures.Geometry3d.Point
+    - id: material
+      type: System.String
+    - id: profile
+      type: System.String
+    - id: beamClass
+      type: System.String
+    - id: enums
+      type: System.Int32[]
+    - id: offsets
+      type: System.Double[]
+    return:
+      type: Tekla.Structures.Model.Beam
+    content.vb: Public Shared Function StraightBeam(partprefix As String, assprefix As String, name As String, startPos As Point, endPos As Point, material As String, profile As String, beamClass As String, enums As Integer(), offsets As Double()) As Beam
+  overload: TeklaBillboardAid.CurveSupport.StraightBeam*
+  nameWithType.vb: CurveSupport.StraightBeam(String, String, String, Point, Point, String, String, String, Int32(), Double())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: TeklaBillboardAid.CurveSupport.StraightBeam(System.String, System.String, System.String, Tekla.Structures.Geometry3d.Point, Tekla.Structures.Geometry3d.Point, System.String, System.String, System.String, System.Int32(), System.Double())
+  name.vb: StraightBeam(String, String, String, Point, Point, String, String, String, Int32(), Double())
+- uid: TeklaBillboardAid.CurveSupport.CurveBeam(System.String,System.String,System.String,Tekla.Structures.Model.ContourPoint,Tekla.Structures.Model.ContourPoint,Tekla.Structures.Model.ContourPoint,System.String,System.String,System.String,System.Int32[],System.Double[])
+  commentId: M:TeklaBillboardAid.CurveSupport.CurveBeam(System.String,System.String,System.String,Tekla.Structures.Model.ContourPoint,Tekla.Structures.Model.ContourPoint,Tekla.Structures.Model.ContourPoint,System.String,System.String,System.String,System.Int32[],System.Double[])
+  id: CurveBeam(System.String,System.String,System.String,Tekla.Structures.Model.ContourPoint,Tekla.Structures.Model.ContourPoint,Tekla.Structures.Model.ContourPoint,System.String,System.String,System.String,System.Int32[],System.Double[])
+  parent: TeklaBillboardAid.CurveSupport
+  langs:
+  - csharp
+  - vb
+  name: CurveBeam(String, String, String, ContourPoint, ContourPoint, ContourPoint, String, String, String, Int32[], Double[])
+  nameWithType: CurveSupport.CurveBeam(String, String, String, ContourPoint, ContourPoint, ContourPoint, String, String, String, Int32[], Double[])
+  fullName: TeklaBillboardAid.CurveSupport.CurveBeam(System.String, System.String, System.String, Tekla.Structures.Model.ContourPoint, Tekla.Structures.Model.ContourPoint, Tekla.Structures.Model.ContourPoint, System.String, System.String, System.String, System.Int32[], System.Double[])
+  type: Method
+  source:
+    remote:
+      path: CurveSupport.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: CurveBeam
+    path: CurveSupport.cs
+    startLine: 68
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  syntax:
+    content: public static PolyBeam CurveBeam(string partprefix, string assprefix, string name, ContourPoint startPos, ContourPoint midPos, ContourPoint endPos, string material, string profile, string beamClass, int[] enums, double[] offsets)
+    parameters:
+    - id: partprefix
+      type: System.String
+    - id: assprefix
+      type: System.String
+    - id: name
+      type: System.String
+    - id: startPos
+      type: Tekla.Structures.Model.ContourPoint
+    - id: midPos
+      type: Tekla.Structures.Model.ContourPoint
+    - id: endPos
+      type: Tekla.Structures.Model.ContourPoint
+    - id: material
+      type: System.String
+    - id: profile
+      type: System.String
+    - id: beamClass
+      type: System.String
+    - id: enums
+      type: System.Int32[]
+    - id: offsets
+      type: System.Double[]
+    return:
+      type: Tekla.Structures.Model.PolyBeam
+    content.vb: Public Shared Function CurveBeam(partprefix As String, assprefix As String, name As String, startPos As ContourPoint, midPos As ContourPoint, endPos As ContourPoint, material As String, profile As String, beamClass As String, enums As Integer(), offsets As Double()) As PolyBeam
+  overload: TeklaBillboardAid.CurveSupport.CurveBeam*
+  nameWithType.vb: CurveSupport.CurveBeam(String, String, String, ContourPoint, ContourPoint, ContourPoint, String, String, String, Int32(), Double())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: TeklaBillboardAid.CurveSupport.CurveBeam(System.String, System.String, System.String, Tekla.Structures.Model.ContourPoint, Tekla.Structures.Model.ContourPoint, Tekla.Structures.Model.ContourPoint, System.String, System.String, System.String, System.Int32(), System.Double())
+  name.vb: CurveBeam(String, String, String, ContourPoint, ContourPoint, ContourPoint, String, String, String, Int32(), Double())
+- uid: TeklaBillboardAid.CurveSupport.Circle_Ycoord(System.Double,System.Double,TeklaBillboardAid.ModelParameters)
+  commentId: M:TeklaBillboardAid.CurveSupport.Circle_Ycoord(System.Double,System.Double,TeklaBillboardAid.ModelParameters)
+  id: Circle_Ycoord(System.Double,System.Double,TeklaBillboardAid.ModelParameters)
+  parent: TeklaBillboardAid.CurveSupport
+  langs:
+  - csharp
+  - vb
+  name: Circle_Ycoord(Double, Double, ModelParameters)
+  nameWithType: CurveSupport.Circle_Ycoord(Double, Double, ModelParameters)
+  fullName: TeklaBillboardAid.CurveSupport.Circle_Ycoord(System.Double, System.Double, TeklaBillboardAid.ModelParameters)
+  type: Method
+  source:
+    remote:
+      path: CurveSupport.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: Circle_Ycoord
+    path: CurveSupport.cs
+    startLine: 109
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  summary: "\nA function to calculate y coordinate of a point on a circle\n"
+  example: []
+  syntax:
+    content: public static double Circle_Ycoord(double X_coord, double Circle_Radius, ModelParameters modelParameters)
+    parameters:
+    - id: X_coord
+      type: System.Double
+      description: A double indicating the x coordinate of the point
+    - id: Circle_Radius
+      type: System.Double
+      description: A double indicating the radius of the circle
+    - id: modelParameters
+      type: TeklaBillboardAid.ModelParameters
+      description: A class storing the parameters of the model
+    return:
+      type: System.Double
+      description: a double indicating the y coodinate of the point on a circle
+    content.vb: Public Shared Function Circle_Ycoord(X_coord As Double, Circle_Radius As Double, modelParameters As ModelParameters) As Double
+  overload: TeklaBillboardAid.CurveSupport.Circle_Ycoord*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TeklaBillboardAid.CurveSupport.Circle_Xcoord(System.Double,System.Double,TeklaBillboardAid.ModelParameters)
+  commentId: M:TeklaBillboardAid.CurveSupport.Circle_Xcoord(System.Double,System.Double,TeklaBillboardAid.ModelParameters)
+  id: Circle_Xcoord(System.Double,System.Double,TeklaBillboardAid.ModelParameters)
+  parent: TeklaBillboardAid.CurveSupport
+  langs:
+  - csharp
+  - vb
+  name: Circle_Xcoord(Double, Double, ModelParameters)
+  nameWithType: CurveSupport.Circle_Xcoord(Double, Double, ModelParameters)
+  fullName: TeklaBillboardAid.CurveSupport.Circle_Xcoord(System.Double, System.Double, TeklaBillboardAid.ModelParameters)
+  type: Method
+  source:
+    remote:
+      path: CurveSupport.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: Circle_Xcoord
+    path: CurveSupport.cs
+    startLine: 126
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  summary: "\nA function to calculate x coordinate of a point on a circle that previously exist on a straight line\n"
+  example: []
+  syntax:
+    content: public static double Circle_Xcoord(double X_coord, double Circle_Radius, ModelParameters modelParameters)
+    parameters:
+    - id: X_coord
+      type: System.Double
+      description: A double indicating the x coordinate of the point previously on a line
+    - id: Circle_Radius
+      type: System.Double
+      description: A double indicating the radius of the circle
+    - id: modelParameters
+      type: TeklaBillboardAid.ModelParameters
+      description: A class storing the parameters of the model
+    return:
+      type: System.Double
+      description: a double indicating the x coodinate of the point on a circle
+    content.vb: Public Shared Function Circle_Xcoord(X_coord As Double, Circle_Radius As Double, modelParameters As ModelParameters) As Double
+  overload: TeklaBillboardAid.CurveSupport.Circle_Xcoord*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TeklaBillboardAid.CurveSupport.GetCumulativeSum(System.Collections.Generic.List{System.Double})
+  commentId: M:TeklaBillboardAid.CurveSupport.GetCumulativeSum(System.Collections.Generic.List{System.Double})
+  id: GetCumulativeSum(System.Collections.Generic.List{System.Double})
+  parent: TeklaBillboardAid.CurveSupport
+  langs:
+  - csharp
+  - vb
+  name: GetCumulativeSum(List<Double>)
+  nameWithType: CurveSupport.GetCumulativeSum(List<Double>)
+  fullName: TeklaBillboardAid.CurveSupport.GetCumulativeSum(System.Collections.Generic.List<System.Double>)
+  type: Method
+  source:
+    remote:
+      path: CurveSupport.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: GetCumulativeSum
+    path: CurveSupport.cs
+    startLine: 142
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  summary: "\nA function to calculate cumulative sum from individual list of seperate value \n"
+  example: []
+  syntax:
+    content: public static List<double> GetCumulativeSum(List<double> List)
+    parameters:
+    - id: List
+      type: System.Collections.Generic.List{System.Double}
+      description: A list of individual values
+    return:
+      type: System.Collections.Generic.List{System.Double}
+      description: a list of cumulative sum of all individual value
+    content.vb: Public Shared Function GetCumulativeSum(List As List(Of Double)) As List(Of Double)
+  overload: TeklaBillboardAid.CurveSupport.GetCumulativeSum*
+  nameWithType.vb: CurveSupport.GetCumulativeSum(List(Of Double))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: TeklaBillboardAid.CurveSupport.GetCumulativeSum(System.Collections.Generic.List(Of System.Double))
+  name.vb: GetCumulativeSum(List(Of Double))
+- uid: TeklaBillboardAid.CurveSupport.HorizontalRailings_Points(TeklaBillboardAid.ModelParameters)
+  commentId: M:TeklaBillboardAid.CurveSupport.HorizontalRailings_Points(TeklaBillboardAid.ModelParameters)
+  id: HorizontalRailings_Points(TeklaBillboardAid.ModelParameters)
+  parent: TeklaBillboardAid.CurveSupport
+  langs:
+  - csharp
+  - vb
+  name: HorizontalRailings_Points(ModelParameters)
+  nameWithType: CurveSupport.HorizontalRailings_Points(ModelParameters)
+  fullName: TeklaBillboardAid.CurveSupport.HorizontalRailings_Points(TeklaBillboardAid.ModelParameters)
+  type: Method
+  source:
+    remote:
+      path: CurveSupport.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: HorizontalRailings_Points
+    path: CurveSupport.cs
+    startLine: 161
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  summary: "\nA function to create a list of points where the horizontal railings should be created.\n"
+  example: []
+  syntax:
+    content: public static List<double> HorizontalRailings_Points(ModelParameters modelParameters)
+    parameters:
+    - id: modelParameters
+      type: TeklaBillboardAid.ModelParameters
+      description: A class storing the parameters of the model
+    return:
+      type: System.Collections.Generic.List{System.Double}
+      description: a list of z coordinates for the horizontal railings
+    content.vb: Public Shared Function HorizontalRailings_Points(modelParameters As ModelParameters) As List(Of Double)
+  overload: TeklaBillboardAid.CurveSupport.HorizontalRailings_Points*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TeklaBillboardAid.CurveSupport.IndividualRailings_PointsPair(TeklaBillboardAid.ModelParameters)
+  commentId: M:TeklaBillboardAid.CurveSupport.IndividualRailings_PointsPair(TeklaBillboardAid.ModelParameters)
+  id: IndividualRailings_PointsPair(TeklaBillboardAid.ModelParameters)
+  parent: TeklaBillboardAid.CurveSupport
+  langs:
+  - csharp
+  - vb
+  name: IndividualRailings_PointsPair(ModelParameters)
+  nameWithType: CurveSupport.IndividualRailings_PointsPair(ModelParameters)
+  fullName: TeklaBillboardAid.CurveSupport.IndividualRailings_PointsPair(TeklaBillboardAid.ModelParameters)
+  type: Method
+  source:
+    remote:
+      path: CurveSupport.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: IndividualRailings_PointsPair
+    path: CurveSupport.cs
+    startLine: 192
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  summary: "\nA function to calculate pair of x coordinates for a horizontal railing\n"
+  example: []
+  syntax:
+    content: public static List<(double, double)> IndividualRailings_PointsPair(ModelParameters modelParameters)
+    parameters:
+    - id: modelParameters
+      type: TeklaBillboardAid.ModelParameters
+      description: A class storing the parameters of the model
+    return:
+      type: System.Collections.Generic.List{System.ValueTuple{System.Double,System.Double}}
+      description: a list consisting of pairs of x coordinates for horizontal railing
+    content.vb: Public Shared Function IndividualRailings_PointsPair(modelParameters As ModelParameters) As List(Of(Double, Double)(Of Double , Double))
+  overload: TeklaBillboardAid.CurveSupport.IndividualRailings_PointsPair*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: TeklaBillboardAid
+  commentId: N:TeklaBillboardAid
+  name: TeklaBillboardAid
+  nameWithType: TeklaBillboardAid
+  fullName: TeklaBillboardAid
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TeklaBillboardAid.CurveSupport.StraightBeam*
+  commentId: Overload:TeklaBillboardAid.CurveSupport.StraightBeam
+  name: StraightBeam
+  nameWithType: CurveSupport.StraightBeam
+  fullName: TeklaBillboardAid.CurveSupport.StraightBeam
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Tekla.Structures.Geometry3d.Point
+  commentId: T:Tekla.Structures.Geometry3d.Point
+  parent: Tekla.Structures.Geometry3d
+  isExternal: true
+  name: Point
+  nameWithType: Point
+  fullName: Tekla.Structures.Geometry3d.Point
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Double[]
+  isExternal: true
+  name: Double[]
+  nameWithType: Double[]
+  fullName: System.Double[]
+  nameWithType.vb: Double()
+  fullName.vb: System.Double()
+  name.vb: Double()
+  spec.csharp:
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Tekla.Structures.Model.Beam
+  commentId: T:Tekla.Structures.Model.Beam
+  parent: Tekla.Structures.Model
+  isExternal: true
+  name: Beam
+  nameWithType: Beam
+  fullName: Tekla.Structures.Model.Beam
+- uid: Tekla.Structures.Geometry3d
+  commentId: N:Tekla.Structures.Geometry3d
+  isExternal: true
+  name: Tekla.Structures.Geometry3d
+  nameWithType: Tekla.Structures.Geometry3d
+  fullName: Tekla.Structures.Geometry3d
+- uid: Tekla.Structures.Model
+  commentId: N:Tekla.Structures.Model
+  isExternal: true
+  name: Tekla.Structures.Model
+  nameWithType: Tekla.Structures.Model
+  fullName: Tekla.Structures.Model
+- uid: TeklaBillboardAid.CurveSupport.CurveBeam*
+  commentId: Overload:TeklaBillboardAid.CurveSupport.CurveBeam
+  name: CurveBeam
+  nameWithType: CurveSupport.CurveBeam
+  fullName: TeklaBillboardAid.CurveSupport.CurveBeam
+- uid: Tekla.Structures.Model.ContourPoint
+  commentId: T:Tekla.Structures.Model.ContourPoint
+  parent: Tekla.Structures.Model
+  isExternal: true
+  name: ContourPoint
+  nameWithType: ContourPoint
+  fullName: Tekla.Structures.Model.ContourPoint
+- uid: Tekla.Structures.Model.PolyBeam
+  commentId: T:Tekla.Structures.Model.PolyBeam
+  parent: Tekla.Structures.Model
+  isExternal: true
+  name: PolyBeam
+  nameWithType: PolyBeam
+  fullName: Tekla.Structures.Model.PolyBeam
+- uid: TeklaBillboardAid.CurveSupport.Circle_Ycoord*
+  commentId: Overload:TeklaBillboardAid.CurveSupport.Circle_Ycoord
+  name: Circle_Ycoord
+  nameWithType: CurveSupport.Circle_Ycoord
+  fullName: TeklaBillboardAid.CurveSupport.Circle_Ycoord
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: TeklaBillboardAid.ModelParameters
+  commentId: T:TeklaBillboardAid.ModelParameters
+  parent: TeklaBillboardAid
+  name: ModelParameters
+  nameWithType: ModelParameters
+  fullName: TeklaBillboardAid.ModelParameters
+- uid: TeklaBillboardAid.CurveSupport.Circle_Xcoord*
+  commentId: Overload:TeklaBillboardAid.CurveSupport.Circle_Xcoord
+  name: Circle_Xcoord
+  nameWithType: CurveSupport.Circle_Xcoord
+  fullName: TeklaBillboardAid.CurveSupport.Circle_Xcoord
+- uid: TeklaBillboardAid.CurveSupport.GetCumulativeSum*
+  commentId: Overload:TeklaBillboardAid.CurveSupport.GetCumulativeSum
+  name: GetCumulativeSum
+  nameWithType: CurveSupport.GetCumulativeSum
+  fullName: TeklaBillboardAid.CurveSupport.GetCumulativeSum
+- uid: System.Collections.Generic.List{System.Double}
+  commentId: T:System.Collections.Generic.List{System.Double}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Double>
+  nameWithType: List<Double>
+  fullName: System.Collections.Generic.List<System.Double>
+  nameWithType.vb: List(Of Double)
+  fullName.vb: System.Collections.Generic.List(Of System.Double)
+  name.vb: List(Of Double)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: TeklaBillboardAid.CurveSupport.HorizontalRailings_Points*
+  commentId: Overload:TeklaBillboardAid.CurveSupport.HorizontalRailings_Points
+  name: HorizontalRailings_Points
+  nameWithType: CurveSupport.HorizontalRailings_Points
+  fullName: TeklaBillboardAid.CurveSupport.HorizontalRailings_Points
+- uid: TeklaBillboardAid.CurveSupport.IndividualRailings_PointsPair*
+  commentId: Overload:TeklaBillboardAid.CurveSupport.IndividualRailings_PointsPair
+  name: IndividualRailings_PointsPair
+  nameWithType: CurveSupport.IndividualRailings_PointsPair
+  fullName: TeklaBillboardAid.CurveSupport.IndividualRailings_PointsPair
+- uid: System.Collections.Generic.List{System.ValueTuple{System.Double,System.Double}}
+  commentId: T:System.Collections.Generic.List{System.ValueTuple{System.Double,System.Double}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<(T1, T2)<Double, Double>>
+  nameWithType: List<(T1, T2)<Double, Double>>
+  fullName: System.Collections.Generic.List<System.ValueTuple<System.Double, System.Double>>
+  nameWithType.vb: List(Of (T1, T2)(Of Double, Double))
+  fullName.vb: System.Collections.Generic.List(Of System.ValueTuple(Of System.Double, System.Double))
+  name.vb: List(Of (T1, T2)(Of Double, Double))
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.ValueTuple`2
+    name: (T1, T2)
+    nameWithType: (T1, T2)
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.ValueTuple`2
+    name: (T1, T2)
+    nameWithType: (T1, T2)
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )

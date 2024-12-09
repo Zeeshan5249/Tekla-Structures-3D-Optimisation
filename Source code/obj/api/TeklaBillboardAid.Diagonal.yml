@@ -1,0 +1,1054 @@
+### YamlMime:ManagedReference
+items:
+- uid: TeklaBillboardAid.Diagonal
+  commentId: T:TeklaBillboardAid.Diagonal
+  id: Diagonal
+  parent: TeklaBillboardAid
+  children:
+  - TeklaBillboardAid.Diagonal.BackShot(TeklaBillboardAid.Box,TeklaBillboardAid.ModelParameters,System.Int32)
+  - TeklaBillboardAid.Diagonal.CameraArm
+  - TeklaBillboardAid.Diagonal.CameraArmLeft
+  - TeklaBillboardAid.Diagonal.CameraArmRight
+  - TeklaBillboardAid.Diagonal.CameraFinder(System.Double,System.Double,Tekla.Structures.Geometry3d.Point,Tekla.Structures.Geometry3d.Point,TeklaBillboardAid.ModelParameters,System.Double,System.Double,Tekla.Structures.Geometry3d.Point,System.Double)
+  - TeklaBillboardAid.Diagonal.CreateDiagonalBeam(Tekla.Structures.Geometry3d.Point,Tekla.Structures.Geometry3d.Point,Tekla.Structures.Geometry3d.Point,TeklaBillboardAid.ModelParameters,System.String,System.String,System.Double,System.Double)
+  - TeklaBillboardAid.Diagonal.DiagonalBracing(System.Collections.Generic.List{System.Double},System.Double,System.Double,Tekla.Structures.Geometry3d.Point,TeklaBillboardAid.ModelParameters,System.Double,System.Double,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
+  - TeklaBillboardAid.Diagonal.InstallSideBracing(System.Collections.Generic.List{Tekla.Structures.Model.Part},TeklaBillboardAid.ModelParameters,System.Double,System.Double,Tekla.Structures.Geometry3d.Point,System.Double,System.Boolean,System.Boolean)
+  langs:
+  - csharp
+  - vb
+  name: Diagonal
+  nameWithType: Diagonal
+  fullName: TeklaBillboardAid.Diagonal
+  type: Class
+  source:
+    remote:
+      path: Diagonal Bracing.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: Diagonal
+    path: Diagonal Bracing.cs
+    startLine: 13
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  summary: "\nClass to support modeling of diagonal bracings in Tekla Structures.\n"
+  example: []
+  syntax:
+    content: public class Diagonal
+    content.vb: Public Class Diagonal
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: TeklaBillboardAid.Diagonal.CameraArmLeft
+  commentId: P:TeklaBillboardAid.Diagonal.CameraArmLeft
+  id: CameraArmLeft
+  parent: TeklaBillboardAid.Diagonal
+  langs:
+  - csharp
+  - vb
+  name: CameraArmLeft
+  nameWithType: Diagonal.CameraArmLeft
+  fullName: TeklaBillboardAid.Diagonal.CameraArmLeft
+  type: Property
+  source:
+    remote:
+      path: Diagonal Bracing.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: CameraArmLeft
+    path: Diagonal Bracing.cs
+    startLine: 18
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  example: []
+  syntax:
+    content: public static Beam CameraArmLeft { get; }
+    parameters: []
+    return:
+      type: Tekla.Structures.Model.Beam
+      description: "\nRefers to the beam left of the camera arm\n"
+    content.vb: Public Shared ReadOnly Property CameraArmLeft As Beam
+  overload: TeklaBillboardAid.Diagonal.CameraArmLeft*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: TeklaBillboardAid.Diagonal.CameraArmRight
+  commentId: P:TeklaBillboardAid.Diagonal.CameraArmRight
+  id: CameraArmRight
+  parent: TeklaBillboardAid.Diagonal
+  langs:
+  - csharp
+  - vb
+  name: CameraArmRight
+  nameWithType: Diagonal.CameraArmRight
+  fullName: TeklaBillboardAid.Diagonal.CameraArmRight
+  type: Property
+  source:
+    remote:
+      path: Diagonal Bracing.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: CameraArmRight
+    path: Diagonal Bracing.cs
+    startLine: 23
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  example: []
+  syntax:
+    content: public static Beam CameraArmRight { get; }
+    parameters: []
+    return:
+      type: Tekla.Structures.Model.Beam
+      description: "\nRefers to the beam right of the camera arm\n"
+    content.vb: Public Shared ReadOnly Property CameraArmRight As Beam
+  overload: TeklaBillboardAid.Diagonal.CameraArmRight*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: TeklaBillboardAid.Diagonal.CameraArm
+  commentId: P:TeklaBillboardAid.Diagonal.CameraArm
+  id: CameraArm
+  parent: TeklaBillboardAid.Diagonal
+  langs:
+  - csharp
+  - vb
+  name: CameraArm
+  nameWithType: Diagonal.CameraArm
+  fullName: TeklaBillboardAid.Diagonal.CameraArm
+  type: Property
+  source:
+    remote:
+      path: Diagonal Bracing.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: CameraArm
+    path: Diagonal Bracing.cs
+    startLine: 28
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  example: []
+  syntax:
+    content: public static CameraArm CameraArm { get; }
+    parameters: []
+    return:
+      type: TeklaBillboardAid.CameraArm
+      description: "\nRefers to the camera arm itself\n"
+    content.vb: Public Shared ReadOnly Property CameraArm As CameraArm
+  overload: TeklaBillboardAid.Diagonal.CameraArm*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: TeklaBillboardAid.Diagonal.DiagonalBracing(System.Collections.Generic.List{System.Double},System.Double,System.Double,Tekla.Structures.Geometry3d.Point,TeklaBillboardAid.ModelParameters,System.Double,System.Double,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
+  commentId: M:TeklaBillboardAid.Diagonal.DiagonalBracing(System.Collections.Generic.List{System.Double},System.Double,System.Double,Tekla.Structures.Geometry3d.Point,TeklaBillboardAid.ModelParameters,System.Double,System.Double,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
+  id: DiagonalBracing(System.Collections.Generic.List{System.Double},System.Double,System.Double,Tekla.Structures.Geometry3d.Point,TeklaBillboardAid.ModelParameters,System.Double,System.Double,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
+  parent: TeklaBillboardAid.Diagonal
+  langs:
+  - csharp
+  - vb
+  name: DiagonalBracing(List<Double>, Double, Double, Point, ModelParameters, Double, Double, Boolean, Boolean, Boolean, Boolean)
+  nameWithType: Diagonal.DiagonalBracing(List<Double>, Double, Double, Point, ModelParameters, Double, Double, Boolean, Boolean, Boolean, Boolean)
+  fullName: TeklaBillboardAid.Diagonal.DiagonalBracing(System.Collections.Generic.List<System.Double>, System.Double, System.Double, Tekla.Structures.Geometry3d.Point, TeklaBillboardAid.ModelParameters, System.Double, System.Double, System.Boolean, System.Boolean, System.Boolean, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Diagonal Bracing.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: DiagonalBracing
+    path: Diagonal Bracing.cs
+    startLine: 46
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  summary: "\nThe constructor for a diagonal bracing, generating a diagonl beam in the model\n"
+  example: []
+  syntax:
+    content: public static List<Beam> DiagonalBracing(List<double> xSubCoordinates, double seperatorBeamWidth, double seperatorSplitBeamWidth, Point OriginOffset, ModelParameters modelParameters, double diagonalOffset, double ZCoordinate, bool side2, bool side4, bool Camera, bool EASupports)
+    parameters:
+    - id: xSubCoordinates
+      type: System.Collections.Generic.List{System.Double}
+      description: A list of doubles, indicating the distances between horizontal beams in the model
+    - id: seperatorBeamWidth
+      type: System.Double
+      description: A double indicating the beam width of a separator
+    - id: seperatorSplitBeamWidth
+      type: System.Double
+      description: A double indicating the the beam width of the separator split
+    - id: OriginOffset
+      type: Tekla.Structures.Geometry3d.Point
+      description: A TSG point indicating the offset of the diagonal member from the origin
+    - id: modelParameters
+      type: TeklaBillboardAid.ModelParameters
+      description: The parameters of the model
+    - id: diagonalOffset
+      type: System.Double
+      description: 'A double offset for the diagonal member '
+    - id: ZCoordinate
+      type: System.Double
+      description: The vertical distance of the beam
+    - id: side2
+      type: System.Boolean
+      description: A boolean indicating if the left side of the billboard is being mentioned
+    - id: side4
+      type: System.Boolean
+      description: A boolean indicating if the right side of the billboard is being mentioned
+    - id: Camera
+      type: System.Boolean
+      description: A boolean indicating if the camera arm is to be inserted
+    - id: EASupports
+      type: System.Boolean
+      description: A boolean indicating if an EA support is to be inserted
+    return:
+      type: System.Collections.Generic.List{Tekla.Structures.Model.Beam}
+      description: 'A list of Beam objects created '
+    content.vb: Public Shared Function DiagonalBracing(xSubCoordinates As List(Of Double), seperatorBeamWidth As Double, seperatorSplitBeamWidth As Double, OriginOffset As Point, modelParameters As ModelParameters, diagonalOffset As Double, ZCoordinate As Double, side2 As Boolean, side4 As Boolean, Camera As Boolean, EASupports As Boolean) As List(Of Beam)
+  overload: TeklaBillboardAid.Diagonal.DiagonalBracing*
+  nameWithType.vb: Diagonal.DiagonalBracing(List(Of Double), Double, Double, Point, ModelParameters, Double, Double, Boolean, Boolean, Boolean, Boolean)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: TeklaBillboardAid.Diagonal.DiagonalBracing(System.Collections.Generic.List(Of System.Double), System.Double, System.Double, Tekla.Structures.Geometry3d.Point, TeklaBillboardAid.ModelParameters, System.Double, System.Double, System.Boolean, System.Boolean, System.Boolean, System.Boolean)
+  name.vb: DiagonalBracing(List(Of Double), Double, Double, Point, ModelParameters, Double, Double, Boolean, Boolean, Boolean, Boolean)
+- uid: TeklaBillboardAid.Diagonal.CreateDiagonalBeam(Tekla.Structures.Geometry3d.Point,Tekla.Structures.Geometry3d.Point,Tekla.Structures.Geometry3d.Point,TeklaBillboardAid.ModelParameters,System.String,System.String,System.Double,System.Double)
+  commentId: M:TeklaBillboardAid.Diagonal.CreateDiagonalBeam(Tekla.Structures.Geometry3d.Point,Tekla.Structures.Geometry3d.Point,Tekla.Structures.Geometry3d.Point,TeklaBillboardAid.ModelParameters,System.String,System.String,System.Double,System.Double)
+  id: CreateDiagonalBeam(Tekla.Structures.Geometry3d.Point,Tekla.Structures.Geometry3d.Point,Tekla.Structures.Geometry3d.Point,TeklaBillboardAid.ModelParameters,System.String,System.String,System.Double,System.Double)
+  parent: TeklaBillboardAid.Diagonal
+  langs:
+  - csharp
+  - vb
+  name: CreateDiagonalBeam(Point, Point, Point, ModelParameters, String, String, Double, Double)
+  nameWithType: Diagonal.CreateDiagonalBeam(Point, Point, Point, ModelParameters, String, String, Double, Double)
+  fullName: TeklaBillboardAid.Diagonal.CreateDiagonalBeam(Tekla.Structures.Geometry3d.Point, Tekla.Structures.Geometry3d.Point, Tekla.Structures.Geometry3d.Point, TeklaBillboardAid.ModelParameters, System.String, System.String, System.Double, System.Double)
+  type: Method
+  source:
+    remote:
+      path: Diagonal Bracing.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: CreateDiagonalBeam
+    path: Diagonal Bracing.cs
+    startLine: 480
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  summary: "\nA standalone method separated from the constructor to create one diagaonal beam.\n"
+  example: []
+  syntax:
+    content: public static Beam CreateDiagonalBeam(Point Start, Point End, Point OriginOffset, ModelParameters modelParameters, string BeamProfile, string BeamMaterial, double BeamDepth, double BeamWidth)
+    parameters:
+    - id: Start
+      type: Tekla.Structures.Geometry3d.Point
+      description: 'Start point '
+    - id: End
+      type: Tekla.Structures.Geometry3d.Point
+      description: 'End point '
+    - id: OriginOffset
+      type: Tekla.Structures.Geometry3d.Point
+      description: 'A TSG point indicating the offset of the diagonal member from the origin '
+    - id: modelParameters
+      type: TeklaBillboardAid.ModelParameters
+      description: 'The parameters of the model '
+    - id: BeamProfile
+      type: System.String
+      description: 'The profile of beam to create '
+    - id: BeamMaterial
+      type: System.String
+      description: 'The material for the beam '
+    - id: BeamDepth
+      type: System.Double
+      description: 'The depth of the beam '
+    - id: BeamWidth
+      type: System.Double
+      description: 'The width of the beam '
+    return:
+      type: Tekla.Structures.Model.Beam
+      description: 'The Beam object created '
+    content.vb: Public Shared Function CreateDiagonalBeam(Start As Point, End As Point, OriginOffset As Point, modelParameters As ModelParameters, BeamProfile As String, BeamMaterial As String, BeamDepth As Double, BeamWidth As Double) As Beam
+  overload: TeklaBillboardAid.Diagonal.CreateDiagonalBeam*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TeklaBillboardAid.Diagonal.CameraFinder(System.Double,System.Double,Tekla.Structures.Geometry3d.Point,Tekla.Structures.Geometry3d.Point,TeklaBillboardAid.ModelParameters,System.Double,System.Double,Tekla.Structures.Geometry3d.Point,System.Double)
+  commentId: M:TeklaBillboardAid.Diagonal.CameraFinder(System.Double,System.Double,Tekla.Structures.Geometry3d.Point,Tekla.Structures.Geometry3d.Point,TeklaBillboardAid.ModelParameters,System.Double,System.Double,Tekla.Structures.Geometry3d.Point,System.Double)
+  id: CameraFinder(System.Double,System.Double,Tekla.Structures.Geometry3d.Point,Tekla.Structures.Geometry3d.Point,TeklaBillboardAid.ModelParameters,System.Double,System.Double,Tekla.Structures.Geometry3d.Point,System.Double)
+  parent: TeklaBillboardAid.Diagonal
+  langs:
+  - csharp
+  - vb
+  name: CameraFinder(Double, Double, Point, Point, ModelParameters, Double, Double, Point, Double)
+  nameWithType: Diagonal.CameraFinder(Double, Double, Point, Point, ModelParameters, Double, Double, Point, Double)
+  fullName: TeklaBillboardAid.Diagonal.CameraFinder(System.Double, System.Double, Tekla.Structures.Geometry3d.Point, Tekla.Structures.Geometry3d.Point, TeklaBillboardAid.ModelParameters, System.Double, System.Double, Tekla.Structures.Geometry3d.Point, System.Double)
+  type: Method
+  source:
+    remote:
+      path: Diagonal Bracing.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: CameraFinder
+    path: Diagonal Bracing.cs
+    startLine: 567
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  summary: "\nFinds appropriate location to build the camera arm based on user-input position offset, then constructs the required support beams around that position\n"
+  example: []
+  syntax:
+    content: public static List<Beam> CameraFinder(double xCurrentPlane, double xNextPlane, Point startPos, Point endPos, ModelParameters modelParameters, double ZCoordinate, double diagonalOffset, Point OriginOffset, double BillboardDepth)
+    parameters:
+    - id: xCurrentPlane
+      type: System.Double
+      description: X-coordinate of the current frame
+    - id: xNextPlane
+      type: System.Double
+      description: X-coordinate of the next frame
+    - id: startPos
+      type: Tekla.Structures.Geometry3d.Point
+      description: Start position of the diagonal bracing beam between current and next frame
+    - id: endPos
+      type: Tekla.Structures.Geometry3d.Point
+      description: End position of the diagonal bracing beam between current and next frame
+    - id: modelParameters
+      type: TeklaBillboardAid.ModelParameters
+      description: Model parameters
+    - id: ZCoordinate
+      type: System.Double
+      description: Current height Z-coordinate
+    - id: diagonalOffset
+      type: System.Double
+      description: Offset for diagonal bracings
+    - id: OriginOffset
+      type: Tekla.Structures.Geometry3d.Point
+      description: Origin point of the current box
+    - id: BillboardDepth
+      type: System.Double
+      description: Depth (Y-length) of the billboard
+    return:
+      type: System.Collections.Generic.List{Tekla.Structures.Model.Beam}
+    content.vb: Public Shared Function CameraFinder(xCurrentPlane As Double, xNextPlane As Double, startPos As Point, endPos As Point, modelParameters As ModelParameters, ZCoordinate As Double, diagonalOffset As Double, OriginOffset As Point, BillboardDepth As Double) As List(Of Beam)
+  overload: TeklaBillboardAid.Diagonal.CameraFinder*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TeklaBillboardAid.Diagonal.InstallSideBracing(System.Collections.Generic.List{Tekla.Structures.Model.Part},TeklaBillboardAid.ModelParameters,System.Double,System.Double,Tekla.Structures.Geometry3d.Point,System.Double,System.Boolean,System.Boolean)
+  commentId: M:TeklaBillboardAid.Diagonal.InstallSideBracing(System.Collections.Generic.List{Tekla.Structures.Model.Part},TeklaBillboardAid.ModelParameters,System.Double,System.Double,Tekla.Structures.Geometry3d.Point,System.Double,System.Boolean,System.Boolean)
+  id: InstallSideBracing(System.Collections.Generic.List{Tekla.Structures.Model.Part},TeklaBillboardAid.ModelParameters,System.Double,System.Double,Tekla.Structures.Geometry3d.Point,System.Double,System.Boolean,System.Boolean)
+  parent: TeklaBillboardAid.Diagonal
+  langs:
+  - csharp
+  - vb
+  name: InstallSideBracing(List<Part>, ModelParameters, Double, Double, Point, Double, Boolean, Boolean)
+  nameWithType: Diagonal.InstallSideBracing(List<Part>, ModelParameters, Double, Double, Point, Double, Boolean, Boolean)
+  fullName: TeklaBillboardAid.Diagonal.InstallSideBracing(System.Collections.Generic.List<Tekla.Structures.Model.Part>, TeklaBillboardAid.ModelParameters, System.Double, System.Double, Tekla.Structures.Geometry3d.Point, System.Double, System.Boolean, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Diagonal Bracing.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: InstallSideBracing
+    path: Diagonal Bracing.cs
+    startLine: 712
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  syntax:
+    content: public static List<Beam> InstallSideBracing(List<Part> HorizontalRailings, ModelParameters modelParameters, double BoxLength, double BoxHeight, Point BoxOriginPos, double SideCoords, bool BottomSplit, bool TopSplit)
+    parameters:
+    - id: HorizontalRailings
+      type: System.Collections.Generic.List{Tekla.Structures.Model.Part}
+    - id: modelParameters
+      type: TeklaBillboardAid.ModelParameters
+    - id: BoxLength
+      type: System.Double
+    - id: BoxHeight
+      type: System.Double
+    - id: BoxOriginPos
+      type: Tekla.Structures.Geometry3d.Point
+    - id: SideCoords
+      type: System.Double
+    - id: BottomSplit
+      type: System.Boolean
+    - id: TopSplit
+      type: System.Boolean
+    return:
+      type: System.Collections.Generic.List{Tekla.Structures.Model.Beam}
+    content.vb: Public Shared Function InstallSideBracing(HorizontalRailings As List(Of Part), modelParameters As ModelParameters, BoxLength As Double, BoxHeight As Double, BoxOriginPos As Point, SideCoords As Double, BottomSplit As Boolean, TopSplit As Boolean) As List(Of Beam)
+  overload: TeklaBillboardAid.Diagonal.InstallSideBracing*
+  nameWithType.vb: Diagonal.InstallSideBracing(List(Of Part), ModelParameters, Double, Double, Point, Double, Boolean, Boolean)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: TeklaBillboardAid.Diagonal.InstallSideBracing(System.Collections.Generic.List(Of Tekla.Structures.Model.Part), TeklaBillboardAid.ModelParameters, System.Double, System.Double, Tekla.Structures.Geometry3d.Point, System.Double, System.Boolean, System.Boolean)
+  name.vb: InstallSideBracing(List(Of Part), ModelParameters, Double, Double, Point, Double, Boolean, Boolean)
+- uid: TeklaBillboardAid.Diagonal.BackShot(TeklaBillboardAid.Box,TeklaBillboardAid.ModelParameters,System.Int32)
+  commentId: M:TeklaBillboardAid.Diagonal.BackShot(TeklaBillboardAid.Box,TeklaBillboardAid.ModelParameters,System.Int32)
+  id: BackShot(TeklaBillboardAid.Box,TeklaBillboardAid.ModelParameters,System.Int32)
+  parent: TeklaBillboardAid.Diagonal
+  langs:
+  - csharp
+  - vb
+  name: BackShot(Box, ModelParameters, Int32)
+  nameWithType: Diagonal.BackShot(Box, ModelParameters, Int32)
+  fullName: TeklaBillboardAid.Diagonal.BackShot(TeklaBillboardAid.Box, TeklaBillboardAid.ModelParameters, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Diagonal Bracing.cs
+      branch: Zeeshan
+      repo: https://github.com/Zeeshan100103/Tekla_3D.git
+    id: BackShot
+    path: Diagonal Bracing.cs
+    startLine: 1047
+  assemblies:
+  - BeamApplication
+  namespace: TeklaBillboardAid
+  summary: "\nInstall back bracing with MASSIVE assupmtion\n"
+  example: []
+  syntax:
+    content: public static void BackShot(Box box, ModelParameters modelParameters, int index)
+    parameters:
+    - id: box
+      type: TeklaBillboardAid.Box
+    - id: modelParameters
+      type: TeklaBillboardAid.ModelParameters
+      description: Model parameters
+    - id: index
+      type: System.Int32
+    content.vb: Public Shared Sub BackShot(box As Box, modelParameters As ModelParameters, index As Integer)
+  overload: TeklaBillboardAid.Diagonal.BackShot*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: TeklaBillboardAid
+  commentId: N:TeklaBillboardAid
+  name: TeklaBillboardAid
+  nameWithType: TeklaBillboardAid
+  fullName: TeklaBillboardAid
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TeklaBillboardAid.Diagonal.CameraArmLeft*
+  commentId: Overload:TeklaBillboardAid.Diagonal.CameraArmLeft
+  name: CameraArmLeft
+  nameWithType: Diagonal.CameraArmLeft
+  fullName: TeklaBillboardAid.Diagonal.CameraArmLeft
+- uid: Tekla.Structures.Model.Beam
+  commentId: T:Tekla.Structures.Model.Beam
+  parent: Tekla.Structures.Model
+  isExternal: true
+  name: Beam
+  nameWithType: Beam
+  fullName: Tekla.Structures.Model.Beam
+- uid: Tekla.Structures.Model
+  commentId: N:Tekla.Structures.Model
+  isExternal: true
+  name: Tekla.Structures.Model
+  nameWithType: Tekla.Structures.Model
+  fullName: Tekla.Structures.Model
+- uid: TeklaBillboardAid.Diagonal.CameraArmRight*
+  commentId: Overload:TeklaBillboardAid.Diagonal.CameraArmRight
+  name: CameraArmRight
+  nameWithType: Diagonal.CameraArmRight
+  fullName: TeklaBillboardAid.Diagonal.CameraArmRight
+- uid: TeklaBillboardAid.Diagonal.CameraArm*
+  commentId: Overload:TeklaBillboardAid.Diagonal.CameraArm
+  name: CameraArm
+  nameWithType: Diagonal.CameraArm
+  fullName: TeklaBillboardAid.Diagonal.CameraArm
+- uid: TeklaBillboardAid.CameraArm
+  commentId: T:TeklaBillboardAid.CameraArm
+  parent: TeklaBillboardAid
+  name: CameraArm
+  nameWithType: CameraArm
+  fullName: TeklaBillboardAid.CameraArm
+- uid: TeklaBillboardAid.Diagonal.DiagonalBracing*
+  commentId: Overload:TeklaBillboardAid.Diagonal.DiagonalBracing
+  name: DiagonalBracing
+  nameWithType: Diagonal.DiagonalBracing
+  fullName: TeklaBillboardAid.Diagonal.DiagonalBracing
+- uid: System.Collections.Generic.List{System.Double}
+  commentId: T:System.Collections.Generic.List{System.Double}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Double>
+  nameWithType: List<Double>
+  fullName: System.Collections.Generic.List<System.Double>
+  nameWithType.vb: List(Of Double)
+  fullName.vb: System.Collections.Generic.List(Of System.Double)
+  name.vb: List(Of Double)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: Tekla.Structures.Geometry3d.Point
+  commentId: T:Tekla.Structures.Geometry3d.Point
+  parent: Tekla.Structures.Geometry3d
+  isExternal: true
+  name: Point
+  nameWithType: Point
+  fullName: Tekla.Structures.Geometry3d.Point
+- uid: TeklaBillboardAid.ModelParameters
+  commentId: T:TeklaBillboardAid.ModelParameters
+  parent: TeklaBillboardAid
+  name: ModelParameters
+  nameWithType: ModelParameters
+  fullName: TeklaBillboardAid.ModelParameters
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Collections.Generic.List{Tekla.Structures.Model.Beam}
+  commentId: T:System.Collections.Generic.List{Tekla.Structures.Model.Beam}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Beam>
+  nameWithType: List<Beam>
+  fullName: System.Collections.Generic.List<Tekla.Structures.Model.Beam>
+  nameWithType.vb: List(Of Beam)
+  fullName.vb: System.Collections.Generic.List(Of Tekla.Structures.Model.Beam)
+  name.vb: List(Of Beam)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Tekla.Structures.Model.Beam
+    name: Beam
+    nameWithType: Beam
+    fullName: Tekla.Structures.Model.Beam
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Tekla.Structures.Model.Beam
+    name: Beam
+    nameWithType: Beam
+    fullName: Tekla.Structures.Model.Beam
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Tekla.Structures.Geometry3d
+  commentId: N:Tekla.Structures.Geometry3d
+  isExternal: true
+  name: Tekla.Structures.Geometry3d
+  nameWithType: Tekla.Structures.Geometry3d
+  fullName: Tekla.Structures.Geometry3d
+- uid: TeklaBillboardAid.Diagonal.CreateDiagonalBeam*
+  commentId: Overload:TeklaBillboardAid.Diagonal.CreateDiagonalBeam
+  name: CreateDiagonalBeam
+  nameWithType: Diagonal.CreateDiagonalBeam
+  fullName: TeklaBillboardAid.Diagonal.CreateDiagonalBeam
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: TeklaBillboardAid.Diagonal.CameraFinder*
+  commentId: Overload:TeklaBillboardAid.Diagonal.CameraFinder
+  name: CameraFinder
+  nameWithType: Diagonal.CameraFinder
+  fullName: TeklaBillboardAid.Diagonal.CameraFinder
+- uid: TeklaBillboardAid.Diagonal.InstallSideBracing*
+  commentId: Overload:TeklaBillboardAid.Diagonal.InstallSideBracing
+  name: InstallSideBracing
+  nameWithType: Diagonal.InstallSideBracing
+  fullName: TeklaBillboardAid.Diagonal.InstallSideBracing
+- uid: System.Collections.Generic.List{Tekla.Structures.Model.Part}
+  commentId: T:System.Collections.Generic.List{Tekla.Structures.Model.Part}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Part>
+  nameWithType: List<Part>
+  fullName: System.Collections.Generic.List<Tekla.Structures.Model.Part>
+  nameWithType.vb: List(Of Part)
+  fullName.vb: System.Collections.Generic.List(Of Tekla.Structures.Model.Part)
+  name.vb: List(Of Part)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Tekla.Structures.Model.Part
+    name: Part
+    nameWithType: Part
+    fullName: Tekla.Structures.Model.Part
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Tekla.Structures.Model.Part
+    name: Part
+    nameWithType: Part
+    fullName: Tekla.Structures.Model.Part
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TeklaBillboardAid.Diagonal.BackShot*
+  commentId: Overload:TeklaBillboardAid.Diagonal.BackShot
+  name: BackShot
+  nameWithType: Diagonal.BackShot
+  fullName: TeklaBillboardAid.Diagonal.BackShot
+- uid: TeklaBillboardAid.Box
+  commentId: T:TeklaBillboardAid.Box
+  parent: TeklaBillboardAid
+  name: Box
+  nameWithType: Box
+  fullName: TeklaBillboardAid.Box
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
