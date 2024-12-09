@@ -64,3 +64,23 @@ For detailed step-by-step instructions and tips, refer to:
 - **Code Refactoring:** Improve modularity, maintainability, and performance.
 - **Extended Functionality:** Support more complex curved billboard designs and additional features.
 - **UI Enhancements:** Further refine the user interface for an even better experience.
+
+## Acknowledgments
+
+We would like to thank the following individuals and organizations for their invaluable contributions and support to the **Tekla Structures 3D Optimization Phase IV** project:
+
+- **Hanlon Industries**: For providing the opportunity to work on this project and their continued support in advancing technology for the billboard manufacturing industry.
+- **Anthony Dumbrell (Supervisor)**: For his expert guidance, strategic advice, and encouragement throughout the project lifecycle.
+- **Dean Talbot (Head of People & Growth at Hanlon Industries)**: For his insights and support in aligning the project with industry needs.
+- **Dustin Popp (Steel Detailing Manager at Hanlon Industries)**: For his technical expertise and detailed feedback, which greatly contributed to the project's success.
+- **Jacaranda Flame Consulting - Group 10**:
+  - **Zeeshan Ansari**
+  - **Mark Sun**
+  - **Josh Ling**
+  - **Terry Wang**
+  - **Ariella Zhao**
+
+  The team's dedication, collaboration, and commitment to excellence were crucial in achieving the project goals.
+
+- **University of Sydney Faculty of Engineering**: For providing resources, mentorship, and a platform to apply advanced engineering principles.
+- **Previous Project Teams (Phases I-III)**: For their foundational work and documentation, which served as a critical starting point for this phase of development.
