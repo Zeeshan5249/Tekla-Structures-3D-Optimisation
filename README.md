@@ -51,14 +51,14 @@ This repository contains the final release and documentation for the **Tekla Str
 5. **Click `Build`** to generate the BIM model within Tekla Structures.
 
 For detailed step-by-step instructions and tips, refer to:  
-- **[User Documentation](./Documentation/User%20Documentation.pdf)**
+- **[User Documentation](./Documentation/User%20Documentation%20Phase%20IV.pdf)**
 
 ## Documentation
 - **[Final Report - Phase IV](./Documentation/Final%20Report%20-%20Phase%20IV.pdf):** Comprehensive project details.
-- **[Technical Documentation](./Documentation/Technical%20Documentation.pdf):** In-depth developer guidance on code structure.
-- **[User Documentation](./Documentation/User%20Documentation.pdf):** Instructions for end-users.
-- **[Project Charter](./Documentation/Project%20Charter.pdf):** Project goals, scope, and objectives.
-- **[Presentation Slides](./Documentation/Presentation%20Slides.pptx):** Summary presentation of the project.
+- **[Technical Documentation](./Documentation/Technical%20Documentation%20-%20Phase%20IV.pdf):** In-depth developer guidance on code structure.
+- **[User Documentation](./Documentation/User%20Documentation%20Phase%20IV.pdf):** Instructions for end-users.
+- **[Project Charter](./Documentation/Project%20Charter%20-%20Hanlon%20(3D)%20Phase%20IV.pdf):** Project goals, scope, and objectives.
+- **[Presentation Slides](./Documentation/Hanlon%203D%20Phase%20IV%20Presentation%20Slides.pptx):** Summary presentation of the project.
 
 ## Future Work
 - **Code Refactoring:** Improve modularity, maintainability, and performance.
